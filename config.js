@@ -3,8 +3,8 @@
 module.exports = {
   url: 'https://lumen.netlify.com',
   pathPrefix: '/',
-  title: 'BII Publications',
-  subtitle: 'Research Publications that involve our researchers.',
+  title: 'Blog by John Doe',
+  subtitle: 'Pellentesque odio nisi, euismod in, pharetra a, ultricies in, diam. Sed arcu.',
   copyright: '© All rights reserved.',
   disqusShortname: '',
   postsPerPage: 4,
@@ -16,24 +16,31 @@ module.exports = {
       path: '/'
     },
     {
-      label: 'BII Website',
-      path: 'http://www.bii.a-star.edu.sg/'
+      label: 'About me',
+      path: '/pages/about'
     },
     {
-      label: 'Contact',
+      label: 'Contact me',
       path: '/pages/contacts'
     }
   ],
   author: {
-    name: 'BII',
+    name: 'John Doe',
     photo: '/photo.jpg',
-    bio: 'Repositary for all publications by our researchers, groups and collaborators.',
+    bio: 'Pellentesque odio nisi, euismod in, pharetra a, ultricies in, diam. Sed arcu.',
     contacts: {
-      email: 'webmaster@bii.a-star.edu.sg',
-      facebook: 'https://www.facebook.com/BIIresearchnews/',
-      twitter: 'https://twitter.com/BIIInterest',
-      linkedin: 'https://sg.linkedin.com/company/bioinformatics-institute-a-star',
-      instagram: '#'
+      email: '',
+      facebook: '#',
+      telegram: '#',
+      twitter: '#',
+      github: '#',
+      rss: '',
+      vkontakte: '',
+      linkedin: '#',
+      instagram: '#',
+      line: '',
+      gitlab: '',
+      weibo: ''
     }
   }
 };
