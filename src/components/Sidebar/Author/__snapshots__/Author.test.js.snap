@@ -10,6 +10,7 @@ exports[`Author renders correctly 1`] = `
     <img
       alt="test"
       className="author__photo"
+      width="100%"
       src="/bii_logo_rgb_use-on-white-or-light-coloured-background.png"
     />
   </a>
