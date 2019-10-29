@@ -3,8 +3,8 @@
 module.exports = {
   url: 'https://lumen.netlify.com',
   pathPrefix: '/',
-  title: 'Blog by John Doe',
-  subtitle: 'Pellentesque odio nisi, euismod in, pharetra a, ultricies in, diam. Sed arcu.',
+  title: 'Bioinformatics Institute Publications',
+  subtitle: 'Repository of all published Science Articles by our Researchers, their Group Members and Collaborators.',
   copyright: '© All rights reserved.',
   disqusShortname: '',
   postsPerPage: 4,
@@ -25,13 +25,13 @@ module.exports = {
     }
   ],
   author: {
-    name: 'John Doe',
+    name: 'Bioinformatics Institute',
     photo: '/photo.jpg',
-    bio: 'Pellentesque odio nisi, euismod in, pharetra a, ultricies in, diam. Sed arcu.',
+    bio: 'Repository of all published Science Articles by our Researchers, their Group Members and Collaborators.',
     contacts: {
       email: '',
       facebook: '#',
-      telegram: '#',
+      telegram: '',
       twitter: '#',
       github: '#',
       rss: '',
