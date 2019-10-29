@@ -26,14 +26,14 @@ module.exports = {
   ],
   author: {
     name: 'Bioinformatics Institute',
-    photo: '/photo.jpg',
+    photo: '/bii_logo_rgb_use-on-white-or-light-coloured-background.png',
     bio: 'Repository of all published Science Articles by our Researchers, their Group Members and Collaborators.',
     contacts: {
       email: '',
       facebook: '#',
       telegram: '',
       twitter: '#',
-      github: '#',
+      github: '',
       rss: '',
       vkontakte: '',
       linkedin: '#',
