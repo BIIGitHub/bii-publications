@@ -33,11 +33,13 @@ export const query = graphql`
       fields {
         slug
         tagSlugs
+        categorySlugs
       }
       frontmatter {
         date
         description
         tags
+        category
         title
         socialImage
       }
