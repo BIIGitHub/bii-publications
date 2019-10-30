@@ -7,7 +7,7 @@ module.exports = {
   subtitle: 'Repository of all published Science Articles by our Researchers, their Group Members and Collaborators.',
   copyright: '© All rights reserved.',
   disqusShortname: '',
-  postsPerPage: 4,
+  postsPerPage: 5,
   googleAnalyticsId: 'UA-73379983-2',
   useKatex: false,
   menu: [
