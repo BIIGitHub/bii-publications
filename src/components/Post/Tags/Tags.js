@@ -12,8 +12,8 @@ const Tags = ({ tags, tagSlugs }: Props) => (
   <div className={styles['tags']}>
     <ul className={styles['tags__list']}>
       {tagSlugs && tagSlugs.map((slug, i) => (
-        <span>Authors: </span><li className={styles['tags__list-item']} key={tags[i]}>
-          <Link to={slug} className={styles['tags__list-item-link']}>
+        <li className={styles['tags__list-item']} key={tags[i]}>
+          <span>Authors: </span><Link to={slug} className={styles['tags__list-item-link']}>
             {tags[i]}
           </Link>
         </li>
