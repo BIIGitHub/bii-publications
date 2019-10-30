@@ -36,10 +36,17 @@ export const query = graphql`
       }
       frontmatter {
         date
+        category
         description
         tags
         title
         socialImage
+        journaltypes
+        journal
+        pubmed
+        url
+        impactfactor
+        dateofacceptance
       }
     }
   }

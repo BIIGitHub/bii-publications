@@ -34,7 +34,13 @@ export type Node = {
     category?: string,
     tags?: string[],
     title: string,
-    socialImage?: string
+    socialImage?: string,
+    journaltypes: string,
+    journal: string,
+    pubmed: string,
+    url: string,
+    impactfactor: string,
+    dateofacceptance: string
   },
   html: string,
   id: string

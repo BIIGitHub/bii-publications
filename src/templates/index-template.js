@@ -64,6 +64,12 @@ export const query = graphql`
             date
             category
             description
+            journaltypes
+            journal
+            pubmed
+            url
+            impactfactor
+            dateofacceptance
           }
         }
       }
