@@ -9,6 +9,14 @@ pubmed: '31443542'
 url: 'https://www.mdpi.com/2073-4409/8/9/958'
 impactfactor: '5.656'
 dateofacceptance: 2019-08-20T08:03:31.827Z
+description: >-
+  Animal studies aimed at understanding influenza virus mutations that change
+  host specificity to adapt to replication in mammalian hosts are necessarily
+  limited in sample numbers due to high cost and safety requirements. As a safe,
+  higher-throughput alternative, we explore the possibility of using readily
+  available passage bias data obtained mostly from seasonal H1 and H3 influenza
+  strains that were differentially grown in mammalian (MDCK) and avian cells
+  (eggs).
 tags:
   - LEE RTC
   - CHANG HH
