@@ -63,7 +63,7 @@ export const query = graphql`
             title
             date
             category
-            body
+            description
           }
         }
       }
