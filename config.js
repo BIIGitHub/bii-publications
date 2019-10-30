@@ -12,15 +12,15 @@ module.exports = {
   useKatex: false,
   menu: [
     {
-      label: 'Articles',
+      label: 'Publications',
       path: '/'
     },
     {
-      label: 'About me',
+      label: 'Bioinformatics Institute Website',
       path: '/pages/about'
     },
     {
-      label: 'Contact me',
+      label: 'Contact Us',
       path: '/pages/contacts'
     }
   ],
