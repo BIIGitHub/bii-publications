@@ -22,7 +22,8 @@ collections:
       - {label: "URL ", name: "url", widget: "string", required: false}
       - {label: "Impact Factor", name: "impactfactor", widget: "string", required: false}
       - {label: "Date of Acceptance", name: "dateofacceptance", widget: "datetime"}
-      - {label: "Abstract", name: "body", widget: "markdown"}
+      - {label: "Description", name: "description", widget: "text"}
+      - {label: "Body", name: "body", widget: "markdown"}
       - {label: "Author", name: "tags", widget: "list"}
       - {label: "Group", name: "category", widget: "list"}
 
