@@ -38,7 +38,7 @@ export const query = graphql`
         date
         category
         description
-        tags
+        tags        
         title
         socialImage
         journaltypes
