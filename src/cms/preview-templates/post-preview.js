@@ -14,7 +14,15 @@ const PostPreview = ({ entry, widgetFor }: Props) => {
   return (
     <div className="post">
       <h1 className="post__title">{title}</h1>
+      <div className="post__body">Journal Type: {journaltypes} <br />
+                                  Journal: {journal} <br />
+                                  Pubmed: {pubmed} <br />
+                                  URL: <a href="#">{url}</a> <br />
+                                  Impact Factor: {impactfactor} <br />
+                                  Date of Acceptance: {dateofacceptance} <br />
+      </div>
       <div className="post__body">{body}</div>
+      
     </div>
   );
 };
