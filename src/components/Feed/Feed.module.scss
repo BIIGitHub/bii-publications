@@ -9,6 +9,27 @@
       @include margin-bottom(.5);
     }
 
+    &-button { 
+      display: block;  
+      max-width: 5.625rem; 
+      height: 35px;
+      padding: 0 1.5rem; 
+      line-height: 2.1875rem; 
+      text-align: center; 
+      color: #222; border: 
+      1px solid #e6e6e6; 
+      border-radius: 1.25rem; 
+      font-size: 1rem; 
+      font-weight: 400;
+
+      &:hover,
+        &:focus {
+          color: #ffffff;
+          border: 1px solid #343a40;
+          background: #343a40;
+        }
+    }
+
     &-title {
       font-size: $typographic-base-font-size * 1.6875;
       @include line-height(1.5);

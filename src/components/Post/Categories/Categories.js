@@ -10,7 +10,7 @@ type Props = {
 
 const Categories = ({ categories, categorySlugs }: Props) => (
   <div className={styles['categories']}>
-    <span styles="font-weight:bold">GROUP: </span>
+    <span className={styles['categories-bold']}>GROUP: </span>
     <ul className={styles['categories__list']}>
        {categorySlugs && categorySlugs.map((slug, i) => (
         <li className={styles['categories__list-item']} key={categories[i]}>
