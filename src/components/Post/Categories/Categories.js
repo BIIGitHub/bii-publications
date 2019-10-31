@@ -9,11 +9,11 @@ type Props = {
 };
 
 const Categories = ({ categories, categorySlugs }: Props) => (
-  <div className={styles['tags']}>
-    <ul className={styles['tags__list']}>
-    <span>Groups: </span> {categorySlugs && categorySlugs.map((slug, i) => (
-        <li className={styles['tags__list-item']} key={categories[i]}>
-         <Link to={slug} className={styles['tags__list-item-link']}>
+  <div className={styles['categories']}>
+    <ul className={styles['categories__list']}>
+    <span>Group: </span> {categorySlugs && categorySlugs.map((slug, i) => (
+        <li className={styles['categories__list-item']} key={categories[i]}>
+         <Link to={slug} className={styles['categories__list-item-link']}>
             {categories[i]}
           </Link>
         </li>
