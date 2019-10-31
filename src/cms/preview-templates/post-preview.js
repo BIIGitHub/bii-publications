@@ -16,8 +16,7 @@ const PostPreview = ({ entry, widgetFor }: Props) => {
   const impactfactor = widgetFor('impactfactor');
   const dateofacceptance = widgetFor('dateofacceptance');
   const author = widgetFor('tag');
-  const category = widgetFor('category');
-  const body = widgetFor('body');
+  const categories = widgetFor('categories');
   const title = entry.getIn(['data', 'title']);
 
   return (
@@ -34,7 +33,7 @@ const PostPreview = ({ entry, widgetFor }: Props) => {
       <div className="post__body">{body}</div>
       <div className="post__body">
           Author: {author} <br />
-          Group: {category} <br />
+          Group: {categories} <br />
       </div>
     </div>
   );
