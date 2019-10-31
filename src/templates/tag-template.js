@@ -46,35 +46,35 @@ const TagTemplate = ({ data, pageContext }: Props) => {
 };
 
 export const query = graphql`
-  query TagPage($tag: String, $postsLimit: Int!, $postsOffset: Int!) {
-    site {
-      siteMetadata {
-        title
-        subtitle
-      }
+query TagPage($tag: String, $postsLimit: Int!, $postsOffset: Int!) {
+  site {
+    siteMetadata {
+      title
+      subtitle
     }
-    allMarkdownRemark(
-        limit: $postsLimit,
-        skip: $postsOffset,
-        filter: { frontmatter: { tags: { in: [$tag] }, template: { eq: "post" }, draft: { ne: true } } },
-        sort: { order: DESC, fields: [frontmatter___date] }
-      ){
-      edges {
-        node {
-          fields {
-            slug
-            categorySlug
-          }
-          frontmatter {
-            title
-            date
-            category
-            description
-          }
+  }
+  allMarkdownRemark(
+      limit: $postsLimit,
+      skip: $postsOffset,
+      filter: { frontmatter: { tags: { in: [$tag] }, template: { eq: "post" }, draft: { ne: true } } },
+      sort: { order: DESC, fields: [frontmatter___date] }
+    ){
+    edges {
+      node {
+        fields {
+          slug
+          
+        }
+        frontmatter {
+          title
+          date
+          categories
+          description
         }
       }
     }
   }
+}
 `;
 
 export default TagTemplate;
