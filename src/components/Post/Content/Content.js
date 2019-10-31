@@ -11,6 +11,7 @@ const Content = ({ body, title }: Props) => (
     <b>Pubmed: </b>&nbsp; <span className={styles['content__body']} dangerouslySetInnerHTML={{ __html: body.pubmed }} /> <br />
     <b>URL:</b>&nbsp; <a href={{ __html: body.url }}><span className={styles['content__body']} dangerouslySetInnerHTML={{ __html: body.url }} /></a> <br />
     <b>Impact Factor: </b>&nbsp; <span className={styles['content__body']} dangerouslySetInnerHTML={{ __html: body.impactfactor }} /> <br /> 
+    <b>Date of Acceptance: </b>&nbsp; <span className={styles['content__body']} dangerouslySetInnerHTML={{ __html: body.dateofacceptance }} /> <br /> 
     <div className={styles['content__body']}>
       <p>{body.description}</p>
     </div>
