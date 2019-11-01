@@ -10,12 +10,13 @@ type Props = {
 const PostPreview = ({ entry, widgetFor }: Props) => {
   const body = widgetFor('body');
   const title = entry.getIn(['data', 'title']);
-  const journaltypes = widgetFor('journaltypes');
-  const journal = widgetFor('journal');
-  const pubmed = widgetFor('pubmed');
-  const url = widgetFor('url');
-  const impactfactor = widgetFor('impactfactor');
+  const journaltypes = entry.getIn(['data', 'journaltypes']);
+  const journal = entry.getIn(['data', 'journal']);
+  const pubmed = entry.getIn(['data', 'pubmed']);
+  const url = entry.getIn(['data', 'url']);
+  const impactfactor = entry.getIn(['data', 'impactfactor']);
   const dateofacceptance = widgetFor('dateofacceptance');
+
 
   return (
     <div className="post">
@@ -56,6 +57,7 @@ const PostPreview = ({ entry, widgetFor }: Props) => {
           <span className="post__title">{dateofacceptance}</span>
         </div>    
       }
+         
       {/* <div className="post__title">Journal Type: {journaltypes}</div> */}
       <div className="post__body">{body}</div>
     </div>

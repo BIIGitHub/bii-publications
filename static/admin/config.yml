@@ -23,7 +23,7 @@ collections:
       - {label: "Impact Factor", name: "impactfactor", widget: "string", required: false}
       - {label: "Date of Acceptance", name: "dateofacceptance", widget: "datetime"}
       - {label: "Description", name: "description", widget: "text"}
-      - {label: "Body", name: "body", widget: "text"}
+      - {label: "Body", name: "body", widget: "markdown"}
       - {label: "Author", name: "tags", widget: "list"}
       - {label: "Group", name: "categories", widget: "list"}
 

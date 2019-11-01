@@ -3,48 +3,46 @@ import React from 'react';
 import styles from './Content.module.scss';
 
 
-const Content = ({ body, title }: Props) => (
+const Content = ({ details, title, body}: Props) => (
   <div className={styles['content']}>
     <h1 className={styles['content__title']}>{title}</h1>
-    {body.journaltypes &&
+    {details.journaltypes &&
       <div>
         <b>Journal Type: </b>&nbsp;
-        <span className={styles['content__body']} dangerouslySetInnerHTML={{ __html: body.journaltypes }} /> <br />
+        <span className={styles['content__body']} dangerouslySetInnerHTML={{ __html: details.journaltypes }} /> <br />
       </div> 
     }
-    {body.journal &&
+    {details.journal &&
       <div>
         <b>Journal: </b>&nbsp;
-        <span className={styles['content__body']} dangerouslySetInnerHTML={{ __html: body.journal }} /> <br />
+        <span className={styles['content__body']} dangerouslySetInnerHTML={{ __html: details.journal }} /> <br />
       </div> 
     }
-    {body.pubmed &&
+    {details.pubmed &&
       <div>
         <b>Pubmed: </b>&nbsp;
-        <span className={styles['content__body']} dangerouslySetInnerHTML={{ __html: body.pubmed }} /> <br />
+        <span className={styles['content__body']} dangerouslySetInnerHTML={{ __html: details.pubmed }} /> <br />
       </div>    
     }
-    {body.url &&
+    {details.url &&
       <div>
         <b>URL: </b>&nbsp;
-        <span className={styles['content__body']} dangerouslySetInnerHTML={{ __html: body.url }} /> <br />
+        <span className={styles['content__body']} dangerouslySetInnerHTML={{ __html: details.url }} /> <br />
       </div>    
     }
-    {body.impactfactor &&
+    {details.impactfactor &&
       <div>
         <b>Impact Factor: </b>&nbsp;
-        <span className={styles['content__body']} dangerouslySetInnerHTML={{ __html: body.impactfactor }} /> <br />
+        <span className={styles['content__body']} dangerouslySetInnerHTML={{ __html: details.impactfactor }} /> <br />
       </div>    
     }
-    {body.dateofacceptance &&
+    {details.dateofacceptance &&
       <div>
         <b>Date of Acceptance: </b>&nbsp;
-        <span className={styles['content__body']} dangerouslySetInnerHTML={{ __html: body.dateofacceptance }} /> <br />
+        <span className={styles['content__body']} dangerouslySetInnerHTML={{ __html: details.dateofacceptance }} /> <br />
       </div>    
     }
-    <div className={styles['content__body']}>
-      <p>{body.description}</p>
-    </div>
+    <div className={styles['content__body']} dangerouslySetInnerHTML={{ __html: body }} />
   </div>
 );
 
