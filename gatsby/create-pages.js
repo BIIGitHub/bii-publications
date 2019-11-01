@@ -17,13 +17,13 @@ const createPages = async ({ graphql, actions }) => {
 
   // Tags list
   createPage({
-    path: '/tags',
+    path: '/authors',
     component: path.resolve('./src/templates/tags-list-template.js')
   });
 
   // Categories list
   createPage({
-    path: '/categories',
+    path: '/groups',
     component: path.resolve('./src/templates/categories-list-template.js')
   });
 

@@ -9,17 +9,17 @@ import { useSiteMetadata, useTagsList } from '../hooks';
 
 const TagsListTemplate = () => {
   const { title, subtitle } = useSiteMetadata();
-  const tags = useTagsList();
+  const authors = useTagsList();
 
   return (
-    <Layout title={`Tags - ${title}`} description={subtitle}>
+    <Layout title={`Authors - ${title}`} description={subtitle}>
       <Sidebar />
-      <Page title="Tags">
+      <Page title="Authors">
         <ul>
-          {tags.map((tag) => (
-            <li key={tag.fieldValue}>
-              <Link to={`/tag/${kebabCase(tag.fieldValue)}/`}>
-                {tag.fieldValue} ({tag.totalCount})
+          {authors.map((author) => (
+            <li key={author.fieldValue}>
+              <Link to={`/author/${kebabCase(author.fieldValue)}/`}>
+                {author.fieldValue} ({author.totalCount})
               </Link>
             </li>
           ))}

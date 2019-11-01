@@ -23,12 +23,12 @@ const onCreateNode = ({ node, actions, getNode }) => {
     }
 
     if (node.frontmatter.tags) {
-      const tagSlugs = node.frontmatter.tags.map((tag) => `/tag/${_.kebabCase(tag)}/`);
+      const tagSlugs = node.frontmatter.tags.map((author) => `/author/${_.kebabCase(author)}/`);
       createNodeField({ node, name: 'tagSlugs', value: tagSlugs });
     }
 
     if (node.frontmatter.categories) {
-      const categorySlugs = node.frontmatter.categories.map((category) => `/category/${_.kebabCase(category)}/`);
+      const categorySlugs = node.frontmatter.categories.map((group) => `/group/${_.kebabCase(group)}/`);
       createNodeField({ node, name: 'categorySlugs', value: categorySlugs });
     }
   }

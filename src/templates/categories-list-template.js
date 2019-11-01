@@ -9,17 +9,17 @@ import { useSiteMetadata, useCategoriesList } from '../hooks';
 
 const CategoriesListTemplate = () => {
   const { title, subtitle } = useSiteMetadata();
-  const categories = useCategoriesList();
+  const groups = useCategoriesList();
 
   return (
-    <Layout title={`Categories - ${title}`} description={subtitle}>
+    <Layout title={`Groups - ${title}`} description={subtitle}>
       <Sidebar />
-      <Page title="Categories">
+      <Page title="Groups">
         <ul>
-          {categories.map((category) => (
-            <li key={category.fieldValue}>
-              <Link to={`/category/${kebabCase(category.fieldValue)}/`}>
-                {category.fieldValue} ({category.totalCount})
+          {groups.map((group) => (
+            <li key={group.fieldValue}>
+              <Link to={`/group/${kebabCase(group.fieldValue)}/`}>
+                {group.fieldValue} ({group.totalCount})
               </Link>
             </li>
           ))}
