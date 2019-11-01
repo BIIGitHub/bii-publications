@@ -1,7 +1,7 @@
 ---
 template: page
-title: Author
-slug: author
+title: Authors
+slug: authors
 draft: false
 ---
 A complete list of all Authors.
