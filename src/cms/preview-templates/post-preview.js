@@ -10,10 +10,53 @@ type Props = {
 const PostPreview = ({ entry, widgetFor }: Props) => {
   const body = widgetFor('body');
   const title = entry.getIn(['data', 'title']);
+  const journaltypes = widgetFor('journaltypes');
+  const journal = widgetFor('journal');
+  const pubmed = widgetFor('pubmed');
+  const url = widgetFor('url');
+  const impactfactor = widgetFor('impactfactor');
+  const dateofacceptance = widgetFor('dateofacceptance');
 
   return (
     <div className="post">
       <h1 className="post__title">{title}</h1>
+      {journaltypes &&
+        <div>
+          <b>Journal Type: </b>&nbsp;
+          <span className="post__title">{journaltypes}</span>
+        </div>    
+      }
+      {journal &&
+        <div>
+          <b>Journal: </b>&nbsp;
+          <span className="post__title">{journal}</span>
+        </div>    
+      }
+      {pubmed &&
+        <div>
+          <b>Pubmed: </b>&nbsp;
+          <span className="post__title">{pubmed}</span>
+        </div>    
+      }
+      {url &&
+        <div>
+          <b>URL: </b>&nbsp;
+          <span className="post__title">{url}</span>
+        </div>    
+      }
+      {impactfactor &&
+        <div>
+          <b>Impact Factor: </b>&nbsp;
+          <span className="post__title">{impactfactor}</span>
+        </div>    
+      }
+      {dateofacceptance &&
+        <div>
+          <b>Date of Acceptance: </b>&nbsp;
+          <span className="post__title">{dateofacceptance}</span>
+        </div>    
+      }
+      {/* <div className="post__title">Journal Type: {journaltypes}</div> */}
       <div className="post__body">{body}</div>
     </div>
   );
