@@ -19,6 +19,7 @@ description: >-
   from the Genome Aggregation Database (gnomAD) to result in the loss of an
   existing peroxisomal targeting signal 1 (PTS1) or gain of a novel PTS1 leading
   to mistargeting of cytosolic proteins to peroxisomes.
+file: /media/uploads/pdf.pdf
 tags:
   - CHONG CS
   - KUNZE M
