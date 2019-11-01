@@ -32,6 +32,20 @@ module.exports = {
     {
       resolve: 'gatsby-source-filesystem',
       options: {
+        path: `${__dirname}/static/media/images`,
+        name: 'media'
+      }
+    },
+    {
+      resolve: 'gatsby-source-filesystem',
+      options: {
+        path: `${__dirname}/static/media/uploads`,
+        name: 'media'
+      }
+    },
+    {
+      resolve: 'gatsby-source-filesystem',
+      options: {
         name: 'css',
         path: `${__dirname}/static/css`
       }
@@ -186,7 +200,7 @@ module.exports = {
         background_color: '#FFF',
         theme_color: '#F7A046',
         display: 'standalone',
-        icon: 'static/bii_logo_favicon.png'
+        icon: 'static/media/images/bii_logo_favicon.png'
       },
     },
     'gatsby-plugin-offline',

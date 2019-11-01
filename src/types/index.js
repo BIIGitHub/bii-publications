@@ -34,7 +34,7 @@ export type Node = {
     categories?: string[],
     tags?: string[],
     title: string,
-    socialImage?: string,
+    uploadfile?: string,
     journaltypes: string,
     journal: string,
     pubmed: string,

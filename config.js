@@ -26,7 +26,7 @@ module.exports = {
   ],
   author: {
     name: 'Bioinformatics Institute',
-    photo: '/bii_logo_rgb_use-on-white-or-light-coloured-background.png',
+    photo: '/media/images/bii_logo_rgb_use-on-white-or-light-coloured-background.png',
     bio: 'Repository of all published Science Articles by our Researchers, their Group Members and Collaborators.',
     contacts: {
       email: '',
