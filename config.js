@@ -14,14 +14,6 @@ module.exports = {
     {
       label: 'Publications',
       path: '/'
-    },
-    {
-      label: 'Bioinformatics Institute Website',
-      path: '/pages/about'
-    },
-    {
-      label: 'Contact Us',
-      path: '/pages/contacts'
     }
   ],
   author: {

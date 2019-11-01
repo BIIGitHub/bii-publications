@@ -27,7 +27,7 @@ const Content = ({ details, title, body}: Props) => (
     {details.url &&
       <div>
         <b>URL: </b>&nbsp;
-        <a href={details.url} dangerouslySetInnerHTML={{ __html: details.url }} /> <br />
+        <a target="_blank" href={details.url}><span className={styles['content__body']} dangerouslySetInnerHTML={{ __html: details.url }} /></a> <br />
       </div>    
     }
     {details.impactfactor &&

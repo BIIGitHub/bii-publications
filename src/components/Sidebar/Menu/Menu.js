@@ -25,6 +25,9 @@ const Menu = ({ menu }: Props) => (
         </li>
       ))}
       <li className="Menu-module--menu__list-item--1lJ6B">
+        <a className="Menu-module--menu__list-item-link--10Ush" target='_blank' href="http://www.bii.a-star.edu.sg/">Bioinformatics Institute Website</a>
+      </li>
+      <li className="Menu-module--menu__list-item--1lJ6B">
         <a className="Menu-module--menu__list-item-link--10Ush" href="/authors">Authors</a>
       </li>
       <li className="Menu-module--menu__list-item--1lJ6B">
