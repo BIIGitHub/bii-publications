@@ -12,7 +12,6 @@ journal: >-
 url: 'https://www.ncbi.nlm.nih.gov/pubmed/31557750'
 impactfactor: '2.165'
 dateofacceptance: 2019-09-26T09:08:56.704Z
-uploadfile: ''
 description: >-
   Viscosity sensitive fluorophores termed 'molecular rotors' represent a
   convenient and quantitative tool for measuring intracellular viscosity via
@@ -30,6 +29,7 @@ description: >-
   behaviour of a fluorescent probe and therefore its thorough characterisation
   in the protein bound form is essential prior to any in vitro and in cellulo
   applications.
+uploadfile: /media/uploads/pdf.pdf
 tags:
   - KUBANKOVA M
   - CHAMBERS J

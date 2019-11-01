@@ -12,7 +12,6 @@ pubmed: '31533369'
 url: 'https://www.mdpi.com/1422-0067/20/18/4609'
 impactfactor: '4.183'
 dateofacceptance: 2019-09-14T08:44:34.368Z
-uploadfile: ''
 description: >-
   Single nucleotide variants (SNVs) resulting in amino acid substitutions (i.e.,
   missense variants) can affect protein localization by changing or creating new

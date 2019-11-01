@@ -42,7 +42,13 @@ const Content = ({ details, title, body}: Props) => (
         <span className={styles['content__body']} dangerouslySetInnerHTML={{ __html: details.dateofacceptance }} /> <br />
       </div>    
     }
+    {details.uploadfile &&
+      <div>
+        <a href={details.uploadfile}> <img src="/media/images/pdf_icon.jpg"/> </a> <br />
+      </div>    
+    }
     <div className={styles['content__body']} dangerouslySetInnerHTML={{ __html: body }} />
+    
   </div>
 );
 

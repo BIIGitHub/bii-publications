@@ -24,11 +24,11 @@ const Menu = ({ menu }: Props) => (
           </Link>
         </li>
       ))}
-      <li class="Menu-module--menu__list-item--1lJ6B">
-        <a class="Menu-module--menu__list-item-link--10Ush" href="/authors">Authors</a>
+      <li className="Menu-module--menu__list-item--1lJ6B">
+        <a className="Menu-module--menu__list-item-link--10Ush" href="/authors">Authors</a>
       </li>
-      <li class="Menu-module--menu__list-item--1lJ6B">
-        <a class="Menu-module--menu__list-item-link--10Ush" href="/groups">Groups</a>
+      <li className="Menu-module--menu__list-item--1lJ6B">
+        <a className="Menu-module--menu__list-item-link--10Ush" href="/groups">Groups</a>
       </li>
     </ul>
   </nav>
