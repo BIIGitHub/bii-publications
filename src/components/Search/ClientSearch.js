@@ -136,20 +136,20 @@ class ClientSearch extends Component {
           <form onSubmit={this.handleSubmit}>
             <div style={{ margin: "0 auto" }}>
               <label htmlFor="Search" style={{ paddingRight: "10px" }}>
-                Enter your search here
+                Search: 
               </label>
               <input
                 id="Search"
                 value={searchQuery}
                 onChange={this.searchData}
-                placeholder="Enter your search here"
+                placeholder="Title, Author or Group Name"
                 style={{ margin: "0 auto", width: "400px" }}
               />
             </div>
           </form>
           <div>
-            Number of items:
-            {queryResults.length}
+            {/* Number of items:
+            {queryResults.length} */}
 
             {queryResults.length > 0 &&
               <table

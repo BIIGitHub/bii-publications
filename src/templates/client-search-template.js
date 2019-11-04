@@ -15,7 +15,7 @@ const SearchTemplate = props => {
   return (
     <Layout title={`BII Publications - ${title}`} description={subtitle}>
       <Sidebar />
-        <Page title="Search BII Publications Archive">
+        <Page title="Search Publications">
           <ClientSearch publications={allPublications.edges} engine={options} />
         </Page>
     </Layout>

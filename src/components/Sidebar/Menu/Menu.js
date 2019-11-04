@@ -33,6 +33,9 @@ const Menu = ({ menu }: Props) => (
       <li className="Menu-module--menu__list-item--1lJ6B">
         <a className="Menu-module--menu__list-item-link--10Ush" href="/groups">Groups</a>
       </li>
+      <li className="Menu-module--menu__list-item--1lJ6B">
+        <a className="Menu-module--menu__list-item-link--10Ush" href="/search">Search</a>
+      </li>
     </ul>
   </nav>
 );
