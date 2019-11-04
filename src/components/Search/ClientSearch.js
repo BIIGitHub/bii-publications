@@ -14,7 +14,7 @@ class ClientSearch extends Component {
     indexByGroups: false,
     indexBy: false,
     termFrequency: true,
-    removeStopWords: false,
+    removeStopWords: true,
     searchQuery: "",
     selectedStrategy: "",
     selectedSanitizer: "",
@@ -58,22 +58,15 @@ class ClientSearch extends Component {
 
     if (removeStopWords) {
       dataToSearch.tokenizer = new JsSearch.StopWordsTokenizer(
-        dataToSearch.tokenizer
+        new JsSearch.SimpleTokenizer()
       )
     }
+
     /**
      * defines an indexing strategy for the data
      * read more about it here https://github.com/bvaughn/js-search#configuring-the-index-strategy
      */
-    if (selectedStrategy === "All") {
       dataToSearch.indexStrategy = new JsSearch.AllSubstringsIndexStrategy()
-    }
-    if (selectedStrategy === "Exact match") {
-      dataToSearch.indexStrategy = new JsSearch.ExactWordIndexStrategy()
-    }
-    if (selectedStrategy === "Prefix match") {
-      dataToSearch.indexStrategy = new JsSearch.PrefixIndexStrategy()
-    }
 
     /**
      * defines the sanitizer for the search
