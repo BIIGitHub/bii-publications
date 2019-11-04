@@ -69,6 +69,7 @@
     "gatsby-transformer-remark": "^2.6.30",
     "gatsby-transformer-sharp": "^2.3.0",
     "invariant": "^2.2.4",
+    "js-search": "^1.4.3",
     "katex": "^0.11.1",
     "lodash": "^4.17.15",
     "moment": "^2.24.0",

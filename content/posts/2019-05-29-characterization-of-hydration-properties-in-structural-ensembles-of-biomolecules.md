@@ -24,7 +24,7 @@ description: >-
   to rapidly compute buried waters in an MD trajectory and a new method to compute multiwater 
   bridges around a solute. We demonstrate the utility of the package by probing the hydration 
   characteristics of the tumor suppressor protein p53 and the translation initiation factor eif4E.
- "JAL" is hosted online and can be accessed for free at http://mspc.bii.a-star.edu.sg/minhn/jal.html .
+  "JAL" is hosted online and can be accessed for free at http://mspc.bii.a-star.edu.sg/minhn/jal.html .
 tags:
   - PRADHAN MR 
   - NGUYEN MN
