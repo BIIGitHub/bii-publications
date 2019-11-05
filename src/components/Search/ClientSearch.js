@@ -2,6 +2,9 @@ import React, { Component } from "react"
 import * as JsSearch from "js-search"
 import { StaticQuery, graphql } from 'gatsby';
 
+// get our fontawesome imports
+import { faSearch } from "@fortawesome/free-solid-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 export class ClientSearch extends Component {
   state = {
@@ -107,25 +110,25 @@ export class ClientSearch extends Component {
     return (
       <div>
         <div className="awesomplete" style={{ margin: "0 auto" }}>
-              <label htmlFor="Search" style={{ paddingRight: "10px" }}>
-                Search: 
-              </label>
-              <input
-                id="Search"
-                value={searchQuery}
-                onChange={this.searchData}
-                className="awesomplete" 
-                data-list="#mylist" 
-                placeholder="Title, Author or Group Name"
-                style={{ margin: "0 auto" }}
-              />
+        <span className="awesomplete" style={{ position: "relative", display: "inline-block", direction: "ltr"}}>
+          <FontAwesomeIcon icon={faSearch} /> Search:
+                <input
+                  id="Search"
+                  value={searchQuery}
+                  onChange={this.searchData}
+                  className="awesomplete" 
+                  data-list="#mylist" 
+                  placeholder="Title, Author or Group Name"
+                  style={{ margin: "0 auto" }}
+                />
+        </span>
             
             {queryResults.length > 0 &&
               <ul id="mylist">
                 {queryResults.map(item => {
                     return (
-                      <li key={`row_${item.title}`}> 
-                        <a href={`${item.slug}`}>{item.title}</a>
+                      <li key={`row_${item.title}`} style={{ borderBottom:"1px dotted #cbced4"}}>
+                        Article Title: {" "}<a href={`${item.slug}`}>{item.title}</a>
                       </li>
                     )
                   })}
