@@ -4,6 +4,10 @@ import { Link } from 'gatsby';
 import styles from './Menu.module.scss';
 import ClientSearch from '../../Search/ClientSearch';
 
+// get our fontawesome imports
+import { faExternalLinkAlt } from "@fortawesome/free-solid-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+
 type Props = {
   menu: {
     label: string,
@@ -15,7 +19,7 @@ const Menu = ({ menu }: Props) => (
   
   <nav className={styles['menu']}>
     <ul className={styles['menu__list']}>
-    <li className={styles['menu__list-item','smallfont']}>
+    <li className={styles['menu__list-item','smallfont','hoverDetails']}>
         <ClientSearch />
       </li>
       {menu.map((item) => (
@@ -30,7 +34,7 @@ const Menu = ({ menu }: Props) => (
         </li>
       ))}
       <li className={styles['menu__list-item']}>
-        <a className={styles['menu__list-item-link']} target='_blank' href="http://www.bii.a-star.edu.sg/">Bioinformatics Institute Website</a>
+        <a className={styles['menu__list-item-link']} target='_blank' href="http://www.bii.a-star.edu.sg/">Bioinformatics Institute Website <FontAwesomeIcon style={{ width:"0.8em"}} icon={faExternalLinkAlt} /></a>
       </li>
       <li className={styles['menu__list-item']}>
         <Link
