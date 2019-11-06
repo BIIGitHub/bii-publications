@@ -60,6 +60,7 @@ export class ClientSearch extends Component {
     dataToSearch.addIndex("title");
     dataToSearch.addIndex("groups");
     dataToSearch.addIndex("authors");
+    dataToSearch.addIndex("description");
     
     let searchPublications = [];
     if (publications != null) {
@@ -136,7 +137,7 @@ export class ClientSearch extends Component {
                                 </Badge>
                               )  
                             })
-                          }<br/> <br/>
+                          }<br/><br />
 
                           <span className="label-author-group">Groups:</span><br />
                           {
