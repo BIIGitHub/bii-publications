@@ -1,8 +1,10 @@
 import React, { Component } from "react"
 import * as JsSearch from "js-search"
 import { StaticQuery, graphql } from 'gatsby';
+import Badge from 'react-bootstrap/Badge';
 
 // get our fontawesome imports
+import 'bootstrap/dist/css/bootstrap.min.css';
 import { faSearch } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
@@ -58,12 +60,7 @@ export class ClientSearch extends Component {
     dataToSearch.addIndex("title");
     dataToSearch.addIndex("groups");
     dataToSearch.addIndex("authors");
-    dataToSearch.addIndex("pubmed");
-    dataToSearch.addIndex("journal");
-    dataToSearch.addIndex("journaltypes");
-    dataToSearch.addIndex("impactfactor");
     
-
     let searchPublications = [];
     if (publications != null) {
       publications.forEach((publication) => {
@@ -127,9 +124,33 @@ export class ClientSearch extends Component {
               <ul id="mylist">
                 {queryResults.map(item => {
                     return (
-                      <li key={`row_${item.title}`} style={{ borderBottom:"1px dotted #cbced4"}}>
-                        Article Title: {" "}<a href={`${item.slug}`}>{item.title}</a>
-                      </li>
+                      <a href={`${item.slug}`}>
+                        <li key={`row_${item.title}`} style={{ borderBottom:"1px dotted #cbced4"}}>
+                          <span className="search-title">{item.title}</span> <br/> <br/>
+                          <span className="label-author-group">Authors:</span><br />
+                          {
+                            (item.authors).map(author => {
+                              return(
+                                <Badge className="badge-author-group" pill variant="primary">
+                                  {author} 
+                                </Badge>
+                              )  
+                            })
+                          }<br/> <br/>
+
+                          <span className="label-author-group">Groups:</span><br />
+                          {
+                            (item.groups).map(group => {
+                              return(
+                                <Badge className="badge-author-group" pill variant="danger">
+                                  {group} 
+                                </Badge>
+                              )  
+                            })
+                          }
+                        </li>
+                      </a>
+                      
                     )
                   })}
               </ul>

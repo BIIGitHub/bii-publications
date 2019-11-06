@@ -39,7 +39,7 @@
     min-width: 100%;
     box-sizing: border-box;
 	list-style: none;
-	min-width: 400px;
+	min-width: 600px;
     padding: 0;
     margin: 0;
     background: #fff;
@@ -48,6 +48,7 @@
 .awesomplete > ul li {
 	margin-bottom: 0rem !important;
 }
+
 
 .awesomplete > ul:empty {
     display: none;
@@ -61,6 +62,21 @@
 	border: 1px solid rgba(0,0,0,.3);
 	box-shadow: .05em .2em .6em rgba(0,0,0,.2);
 	text-shadow: none;
+}
+
+.search-title {
+	color: #003399 !important;
+	font-weight: 1000;
+}
+
+.label-author-group {
+	color: black !important;
+	font-weight: bold;
+	font-size: 14px;
+}
+
+.badge-author-group {
+	margin-left: 0.5rem;
 }
 
 @supports (transform: scale(0)) {
@@ -94,14 +110,14 @@
 		transform: rotate(45deg);
 	}
 
-	.awesomplete > ul > li {
+	.awesomplete > ul > a > li {
 		position: relative;
 		padding: .8rem .8rem;
 		cursor: pointer;
 		background:rgba(255,255,255,0.8);
 	}
 	
-	.awesomplete > ul > li:hover {
+	.awesomplete > ul > a > li:hover {
 		background: hsl(220, 17%, 87%);
 		color: black;
 	}
@@ -110,7 +126,7 @@
 		font-weight: bold;
 	}
 	
-	.awesomplete > ul > li[aria-selected="true"] {
+	.awesomplete > ul > a > li[aria-selected="true"] {
 		background: hsl(205, 40%, 40%);
 		color: white;
 	}
