@@ -13,12 +13,12 @@ const Author = () => {
         {author.bio}
         <a
           className={styles['author__bio-twitter']}
-          href={getContactHref('twitter', author.contacts.twitter)}
+          href="http://www.bii.a-star.edu.sg/"
           rel="noopener noreferrer"
           target="_blank"
         >
-          <strong>{author.name}</strong> on Twitter
-        </a>
+          <strong>{author.name} © 2019 </strong>
+        </a> 
       </p>
     </div>
   );
