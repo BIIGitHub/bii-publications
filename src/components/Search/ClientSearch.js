@@ -1,7 +1,9 @@
 import React, { Component } from "react"
 import * as JsSearch from "js-search"
 import { StaticQuery, graphql } from 'gatsby';
+import ReactPaginate from 'react-paginate';
 import Badge from 'react-bootstrap/Badge';
+import paginate from 'paginate-array';
 
 // get our fontawesome imports
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -11,10 +13,14 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 export class ClientSearch extends Component {
   state = {
     isLoading: true,
+    totalResults: [],
     searchResults: [],
     search: null,
     isError: false,
-    searchQuery: ""
+    searchQuery: "",
+    pageCount: 0,
+    perPage: 3,
+    currentPage: 1
   }
   /**
    * React lifecycle method that will inject the data into the state.
@@ -29,6 +35,7 @@ export class ClientSearch extends Component {
    */
   rebuildIndex = () => {
     const { publications } = this.props
+    
     
     const dataToSearch = new JsSearch.Search("title")
 
@@ -95,12 +102,28 @@ export class ClientSearch extends Component {
    */
   searchData = e => {
     const { search } = this.state;
-    const queryResult = search.search(e.target.value)
-    this.setState({ searchQuery: e.target.value, searchResults: queryResult })
+    const queryResult = search.search(e.target.value);
+    const paginateCollection = paginate(queryResult, 1, this.state.perPage);
+    
+    this.setState({ 
+      totalResults: queryResult,
+      searchQuery: e.target.value, 
+      searchResults: paginateCollection.data, 
+      pageCount: Math.ceil(queryResult.length / this.state.perPage),
+    });
   }
   handleSubmit = e => {
     e.preventDefault()
   }
+  handlePageClick = data => {
+    let selected = data.selected + 1;
+    const paginateCollection = paginate(this.state.totalResults, selected, this.state.perPage);
+
+    this.setState({ 
+      currentPage: selected, 
+      searchResults: paginateCollection.data
+    });
+  };
   render() {
     const { searchResults, searchQuery } = this.state
     const queryResults = searchResults;
@@ -121,39 +144,56 @@ export class ClientSearch extends Component {
         </span>
             
             {queryResults.length > 0 &&
-              <ul id="mylist">
-                {queryResults.map(item => {
-                    return (
-                      <a href={`${item.slug}`}>
-                        <li key={`row_${item.title}`} style={{ borderBottom:"1px dotted #cbced4"}}>
-                          <span className="search-title">{item.title}</span> <br/> <br/>
-                          <span className="label-author-group">Authors:</span><br />
-                          {
-                            (item.authors).map(author => {
-                              return(
-                                <Badge className="badge-author-group" pill variant="primary">
-                                  {author} 
-                                </Badge>
-                              )  
-                            })
-                          }<br/> <br/>
+              <div>
 
-                          <span className="label-author-group">Groups:</span><br />
-                          {
-                            (item.groups).map(group => {
-                              return(
-                                <Badge className="badge-author-group" pill variant="danger">
-                                  {group} 
-                                </Badge>
-                              )  
-                            })
-                          }
-                        </li>
-                      </a>
-                      
-                    )
-                  })}
-              </ul>
+                <ul id="search-list">
+                    {queryResults.map(item => {
+                        return (
+                          <a href={`${item.slug}`}>
+                            <li key={`row_${item.title}`} style={{ borderBottom:"1px dotted #cbced4"}}>
+                              <span className="search-title">{item.title}</span> <br/> <br/>
+                              <span className="label-author-group">Authors:</span><br />
+                              {
+                                (item.authors).map(author => {
+                                  return(
+                                    <Badge className="badge-author-group" pill variant="primary">
+                                      {author} 
+                                    </Badge>
+                                  )  
+                                })
+                              }<br/> <br/>
+
+                              <span className="label-author-group">Groups:</span><br />
+                              {
+                                (item.groups).map(group => {
+                                  return(
+                                    <Badge className="badge-author-group" pill variant="danger">
+                                      {group} 
+                                    </Badge>
+                                  )  
+                                })
+                              }
+                            </li>
+                          </a>
+                          
+                        )
+                      })}
+                      <ReactPaginate
+                        previousLabel={'previous'}
+                        nextLabel={'next'}
+                        breakLabel={'...'}
+                        breakClassName={'break-me'}
+                        pageCount={this.state.pageCount}
+                        marginPagesDisplayed={2}
+                        pageRangeDisplayed={5}
+                        onPageChange={this.handlePageClick}
+                        containerClassName={'pagination'}
+                        subContainerClassName={'pages pagination'}
+                        activeClassName={'active'}
+                    />
+                  </ul>               
+                </div>
+                            
             }   
 
           <div>
@@ -163,6 +203,8 @@ export class ClientSearch extends Component {
             </div>
           </div>
         </div>
+
+            
     )
   }
 }

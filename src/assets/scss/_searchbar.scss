@@ -32,7 +32,7 @@
     transition: border-color 0.2s ease 0s;
 }
 
-.awesomplete > ul {
+.awesomplete > div > #search-list {
     position: absolute;
     left: 0;
     z-index: 1;
@@ -45,16 +45,16 @@
     background: #fff;
 }
 
-.awesomplete > ul li {
+.awesomplete > div > #search-list li {
 	margin-bottom: 0rem !important;
 }
 
 
-.awesomplete > ul:empty {
+.awesomplete > div > #search-list:empty {
     display: none;
 }
 
-.awesomplete > ul {
+.awesomplete > div > #search-list {
 	border-radius: .3em;
 	margin: .2em 0 0;
 	background: hsla(0,0%,100%,.9);
@@ -79,14 +79,18 @@
 	margin-left: 0.5rem;
 }
 
+.pagination {
+	position: relative !important;
+}
+
 @supports (transform: scale(0)) {
-	.awesomplete > ul {
+	.awesomplete > div > #search-list {
 		transition: .3s cubic-bezier(.4,.2,.5,1.4);
 		transform-origin: 1.43em -.43em;
 	}
 	
-	.awesomplete > ul[hidden],
-	.awesomplete > ul:empty {
+	.awesomplete > div > #search-list[hidden],
+	.awesomplete > div > #search-list:empty {
 		opacity: 0;
 		transform: scale(0);
 		display: block;
@@ -95,7 +99,7 @@
 }
 
 	/* Pointer */
-	.awesomplete > ul:before {
+	.awesomplete > div > #search-list:before {
 		content: "";
 		position: absolute;
 		top: -.43em;
@@ -110,14 +114,14 @@
 		transform: rotate(45deg);
 	}
 
-	.awesomplete > ul > a > li {
+	.awesomplete > div > #search-list > a > li {
 		position: relative;
 		padding: .8rem .8rem;
 		cursor: pointer;
 		background:rgba(255,255,255,0.8);
 	}
 	
-	.awesomplete > ul > a > li:hover {
+	.awesomplete > div > #search-list > a > li:hover {
 		background: hsl(220, 17%, 87%);
 		color: black;
 	}
@@ -126,7 +130,7 @@
 		font-weight: bold;
 	}
 	
-	.awesomplete > ul > a > li[aria-selected="true"] {
+	.awesomplete > div > #search-list > a > li[aria-selected="true"] {
 		background: hsl(205, 40%, 40%);
 		color: white;
 	}

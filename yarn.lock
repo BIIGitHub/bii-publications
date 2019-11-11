@@ -11203,6 +11203,11 @@ package-json@^4.0.0:
     registry-url "^3.0.3"
     semver "^5.1.0"
 
+paginate-array@^2.1.0:
+  version "2.1.0"
+  resolved "https://registry.yarnpkg.com/paginate-array/-/paginate-array-2.1.0.tgz#062e8844763f5d0fa566e6289e9009bdfccb9f89"
+  integrity sha512-rY2Bo4AsD3YU8WcHwWjxZLBunTM5UYQlBAMTIaDPBWINJ59L6DL9S1DqtW5RQdRctBEdm7k06QKCIvUNDGhclg==
+
 pako@^1.0.5, pako@~1.0.5:
   version "1.0.10"
   resolved "https://registry.yarnpkg.com/pako/-/pako-1.0.10.tgz#4328badb5086a426aa90f541977d4955da5c9732"
@@ -12574,6 +12579,13 @@ react-overlays@^1.2.0:
     react-popper "^1.3.2"
     uncontrollable "^6.0.0"
     warning "^4.0.2"
+
+react-paginate@^6.3.2:
+  version "6.3.2"
+  resolved "https://registry.yarnpkg.com/react-paginate/-/react-paginate-6.3.2.tgz#4e18cbdb2654d308566775fa14df11e820188391"
+  integrity sha512-Ch++Njfv8UHpLtIMiQouAPeJQA5Ki86kIYfCer6c1B96Rvn3UF27se+goCilCP8oHNXNsA2R2kxvzanY1YIkyg==
+  dependencies:
+    prop-types "^15.6.1"
 
 react-polyglot@^0.4.0:
   version "0.4.1"
