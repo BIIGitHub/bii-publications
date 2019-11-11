@@ -1,13 +1,15 @@
 // @flow strict
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { Link } from 'gatsby';
+import ReactPaginate from 'react-paginate';
+
 import kebabCase from 'lodash/kebabCase';
 import Layout from '../components/Layout';
 import Sidebar from '../components/Sidebar';
 import Page from '../components/Page';
 import { useSiteMetadata, useTagsList } from '../hooks';
-import ReactPaginate from 'react-paginate';
-import paginate from 'paginate-array';
+import { usePaginateArray } from '../utils/utilities';
+
 
 
 const TagsListTemplate = () => {
@@ -17,14 +19,28 @@ const TagsListTemplate = () => {
   const pageCount = Math.ceil(totalAuthors.length / perPage);
 
   const [currentPage, setCurrentPage] = useState(1);
-  const [paginateCollection, setPaginateCollection] = useState(paginate(totalAuthors, currentPage, perPage));
-  const [authors, setAuthors] = useState(paginateCollection.data);
+  const [paginateCollection, setPaginateCollection] = useState([]);
+  const [authors, setAuthors] = useState([]);
+
+  useEffect(() => {
+    fetchAuthors();
+    
+  }, [authors]);
   
+
+  const fetchAuthors = async () => {
+    const pageData = await usePaginateArray(totalAuthors, currentPage, perPage);
+
+    setPaginateCollection(pageData);
+    setAuthors(pageData.data);
+  };
+
+
   const handlePageClick = (data) => {
     let selected = data.selected + 1;
-
     setCurrentPage(selected)
-    setPaginateCollection(paginate(totalAuthors, selected, perPage));
+
+    setPaginateCollection(usePaginateArray(totalAuthors, currentPage, perPage));
     setAuthors(paginateCollection.data);
   };
 

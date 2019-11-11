@@ -149,14 +149,14 @@ export class ClientSearch extends Component {
                 <ul id="search-list">
                     {queryResults.map(item => {
                         return (
-                          <a href={`${item.slug}`}>
-                            <li key={`row_${item.title}`} style={{ borderBottom:"1px dotted #cbced4"}}>
+                          <a key={`row_${item.title}`} href={`${item.slug}`}>
+                            <li key={`link_${item.title}`}style={{ borderBottom:"1px dotted #cbced4"}}>
                               <span className="search-title">{item.title}</span> <br/> <br/>
                               <span className="label-author-group">Authors:</span><br />
                               {
-                                (item.authors).map(author => {
+                                (item.authors).map((author, index) => {
                                   return(
-                                    <Badge className="badge-author-group" pill variant="primary">
+                                    <Badge key={`badge_${index}`} className="badge-author-group" pill variant="primary">
                                       {author} 
                                     </Badge>
                                   )  
@@ -165,9 +165,9 @@ export class ClientSearch extends Component {
 
                               <span className="label-author-group">Groups:</span><br />
                               {
-                                (item.groups).map(group => {
+                                (item.groups).map((group, index) => {
                                   return(
-                                    <Badge className="badge-author-group" pill variant="danger">
+                                    <Badge key={`badge_${index}`} className="badge-author-group" pill variant="danger">
                                       {group} 
                                     </Badge>
                                   )  
