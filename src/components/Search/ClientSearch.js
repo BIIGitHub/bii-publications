@@ -67,6 +67,7 @@ export class ClientSearch extends Component {
     dataToSearch.addIndex("title");
     dataToSearch.addIndex("groups");
     dataToSearch.addIndex("authors");
+    dataToSearch.addIndex("description");
     
     let searchPublications = [];
     if (publications != null) {
@@ -145,7 +146,6 @@ export class ClientSearch extends Component {
             
             {queryResults.length > 0 &&
               <div>
-
                 <ul id="search-list">
                     {queryResults.map(item => {
                         return (
@@ -195,7 +195,6 @@ export class ClientSearch extends Component {
                 </div>
                             
             }   
-
           <div>
             {/* Number of items:
             {queryResults.length} */}
