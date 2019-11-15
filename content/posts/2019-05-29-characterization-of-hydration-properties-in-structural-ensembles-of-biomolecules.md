@@ -39,6 +39,6 @@ tags:
   - Verma CS
 categories:
   - Atomistic Simulations and Design in Biology
-  - Biomolecular Modelling & Design Division
+  - Biomolecular Modelling and Design Division
 ---
 Solute-solvent interactions are critical for biomolecular stability and recognition. Explicit solvent molecular dynamics (MD) simulations are routinely used to probe such interactions. However, detailed analyses and interpretation of the hydration patterns seen in MD simulations can be both complex and time-consuming. A variety of approaches/tools to compute and interrogate hydration properties in structural ensembles of proteins, nucleic acids, or in general any molecule are available and are complemented here with a new and free software package ("JAL"). Central to "JAL" is an intuitive atom centric approach of computing hydration properties. In addition to the standard metrics commonly used to understand hydration, "JAL" introduces two nonstandard utilities: a program to rapidly compute buried waters in an MD trajectory and a new method to compute multiwater bridges around a solute. We demonstrate the utility of the package by probing the hydration characteristics of the tumor suppressor protein p53 and the translation initiation factor eif4E. "JAL" is hosted online and can be accessed for free at http://mspc.bii.a-star.edu.sg/minhn/jal.html .
