@@ -31,7 +31,6 @@ description: >-
   at http://mspc.bii.a-star.edu.sg/minhn/jal.html .
 tags:
   - Pradhan MR
-  - ''
   - Nguyen MN
   - Kannan S
   - Fox SJ
