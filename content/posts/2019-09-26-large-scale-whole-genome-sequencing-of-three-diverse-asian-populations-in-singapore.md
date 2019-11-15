@@ -67,7 +67,7 @@ categories:
   - Protein Sequence Analysis
   - Biomolecular Function Discovery Division
   - Atomistic Simulations and Design in Biology
-  - Biomolecular Modelling & Design Division
+  - Biomolecular Modelling and Design Division
 ---
 Underrepresentation of Asian genomes has hindered population and medical genetics research on Asians, leading to population disparities in precision
 medicine. By whole-genome sequencing of 4,810 Singapore Chinese, Malays, and Indians, we found 98.3 million SNPs and small insertions or deletions, 
