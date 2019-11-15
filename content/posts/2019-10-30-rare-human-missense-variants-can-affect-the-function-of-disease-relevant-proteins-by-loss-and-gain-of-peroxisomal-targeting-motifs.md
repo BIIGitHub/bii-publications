@@ -21,12 +21,12 @@ description: >-
   to mistargeting of cytosolic proteins to peroxisomes.
 uploadfile: /media/uploads/pdf.pdf
 tags:
-  - CHONG CS
-  - KUNZE M
-  - HOCHREITER B
-  - KRENN M
-  - BERGER J
-  - MAURER-STROH S
+  - Chong CS
+  - Kunze M
+  - Hochreiter B
+  - Krenn M
+  - Berger J
+  - Maurer-Stroh S
 categories:
   - Protein Sequence Analysis
   - Biomolecular Function Discovery Division
