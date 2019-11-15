@@ -50,7 +50,7 @@ export const query = graphql`
     allMarkdownRemark(
         limit: $postsLimit,
         skip: $postsOffset,
-        filter: { frontmatter: { categories: { eq: $category }, template: { eq: "post" }, draft: { ne: true } } },
+        filter: { frontmatter: { categories: { eq: $category }, template: { eq: "post" } } },
         sort: { order: DESC, fields: [frontmatter___date] }
       ){
       edges {

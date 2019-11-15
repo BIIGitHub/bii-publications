@@ -6,7 +6,7 @@ const useTagsList = () => {
     graphql`
       query TagsListQuery {
         allMarkdownRemark(
-          filter: { frontmatter: { template: { eq: "post" }, draft: { ne: true } } }
+          filter: { frontmatter: { template: { eq: "post" } } }
         ) {
           group(field: frontmatter___tags) {
             fieldValue

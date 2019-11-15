@@ -56,7 +56,7 @@ query TagPage($tag: String, $postsLimit: Int!, $postsOffset: Int!) {
   allMarkdownRemark(
       limit: $postsLimit,
       skip: $postsOffset,
-      filter: { frontmatter: { tags: { in: [$tag] }, template: { eq: "post" }, draft: { ne: true } } },
+      filter: { frontmatter: { tags: { in: [$tag] }, template: { eq: "post" } } },
       sort: { order: DESC, fields: [frontmatter___date] }
     ){
     edges {

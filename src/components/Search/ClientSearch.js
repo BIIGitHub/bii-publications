@@ -215,7 +215,7 @@ export default () => (
     query={graphql`
       query {
         allMarkdownRemark(
-          filter: { frontmatter: { template: { eq: "post" }, draft: { ne: true } } },
+          filter: { frontmatter: { template: { eq: "post" } } },
           sort: { order: DESC, fields: [frontmatter___date] }
         ){
         edges {
