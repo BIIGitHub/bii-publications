@@ -31,8 +31,7 @@ const createPages = async ({ graphql, actions }) => {
   // Posts and pages from markdown
   const result = await graphql(`
     {
-      allMarkdownRemark(
-      ) {
+      allMarkdownRemark() {
         edges {
           node {
             frontmatter {
