@@ -58,17 +58,20 @@ const TagsListTemplate = () => {
           ))}
 
           <ReactPaginate
-                previousLabel={'previous'}
-                nextLabel={'next'}
-                breakLabel={'...'}
+                previousLabel={'← Previous'}
+                nextLabel={'Next →'}
+                breakLabel={<span className="gap">...</span>}
                 breakClassName={'break-me'}
                 pageCount={pageCount}
                 marginPagesDisplayed={2}
-                pageRangeDisplayed={5}
+                pageRangeDisplayed={2}
                 onPageChange={handlePageClick}
                 containerClassName={'pagination'}
                 subContainerClassName={'pages pagination'}
-                activeClassName={'active'}
+                previousLinkClassName={"previous_page"}
+                nextLinkClassName={"next_page"}
+                disabledClassName={"disabled"}
+                activeClassName={"active"}
             />
         </ul>
       </Page>
