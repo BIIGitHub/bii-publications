@@ -14,7 +14,8 @@ const ArchiveTemplate = props => {
   return (
     <Layout title={`BII Publications - ${title}`} description={subtitle}>
       <Sidebar />
-        <Page title="Search BII Publications Archive">
+        <Page title="Archive Search">
+          <p> Please enter in a range of dates to start your search.</p>
           <ArchiveSearch publications={allPublications.edges} engine={options} />
         </Page>
     </Layout>

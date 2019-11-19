@@ -1,9 +1,17 @@
 import React, { Component } from "react"
 import DatePicker from "react-datepicker";
 import moment from 'moment';
+import Badge from 'react-bootstrap/Badge';
+import ReactPaginate from 'react-paginate';
+import paginate from 'paginate-array';
 
 import "react-datepicker/dist/react-datepicker.css";
+import { faWeight } from "@fortawesome/free-solid-svg-icons";
 
+// get our fontawesome imports
+import 'bootstrap/dist/css/bootstrap.min.css';
+import { faSearch } from "@fortawesome/free-solid-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 class ArchiveSearch extends Component {
   state = {
@@ -46,7 +54,7 @@ class ArchiveSearch extends Component {
 
   onSearchPublications = () => {
     if (this.state.startDate == null || this.state.endDate == null) {
-        alert("Error");
+        alert("Error! Please enter a valid date");
     } else {
         let tempPublications = [];
         let publications = this.state.allPublications;
@@ -61,17 +69,9 @@ class ArchiveSearch extends Component {
                     tempPublications.push(pub);
                      
            });
-    
             this.setState({ queryPublications: tempPublications });
          }
     }
-
-  
-
-
- 
-
-
      //console.log(tempPublications);
   }
   
@@ -88,7 +88,9 @@ class ArchiveSearch extends Component {
                         showYearDropdown
                         dropdownMode="select"
                         isClearable
+                        placeholderText="Select a date"
                     />
+                     <span style={{ fontWeight: "bold", margin:"10px"}}>TO</span>
                     <DatePicker
                         selected={this.state.endDate}
                         onChange={this.handleEndDateChange}
@@ -97,100 +99,66 @@ class ArchiveSearch extends Component {
                         showMonthDropdown
                         showYearDropdown
                         dropdownMode="select"
+                        placeholderText="Select a date"
                         isClearable
                     />
-                    <button onClick={this.onSearchPublications}>
-                        Search 
+                    &nbsp;&nbsp;
+                    <button onClick={this.onSearchPublications} style={{ width: "15%"}}>
+                    <FontAwesomeIcon icon={faSearch} /> Search 
                     </button>
                 </div>
                 <div>
-                   
-                    {(this.state.queryPublications).length > 0 &&
-                        <table
-                        style={{
-                            width: "100%",
-                            borderCollapse: "collapse",
-                            borderRadius: "4px",
-                            border: "1px solid #d3d3d3",
-                        }}
-                        >
-                        <thead style={{ border: "1px solid #808080" }}>
-                            <tr>
-                            <th
-                                style={{
-                                textAlign: "left",
-                                padding: "5px",
-                                fontSize: "14px",
-                                fontWeight: 600,
-                                borderBottom: "2px solid #d3d3d3",
-                                cursor: "pointer",
-                                }}
-                            >
-                                Title
-                            </th>
-                            <th
-                                style={{
-                                textAlign: "left",
-                                padding: "5px",
-                                fontSize: "14px",
-                                fontWeight: 600,
-                                borderBottom: "2px solid #d3d3d3",
-                                cursor: "pointer",
-                                }}
-                            >
-                                Authors
-                            </th>
-                            <th
-                                style={{
-                                textAlign: "left",
-                                padding: "5px",
-                                fontSize: "14px",
-                                fontWeight: 600,
-                                borderBottom: "2px solid #d3d3d3",
-                                cursor: "pointer",
-                                }}
-                            >
-                                Groups
-                            </th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            {(this.state.queryPublications).map(item => {
-                            return (
-                                <tr key={`row_${item.title}`}>
-                                <td style={{ fontSize: "14px", border: "1px solid #d3d3d3" }}>
-                                    <a href={`${item.slug}`}>{item.title}</a>
-                                </td>
-                                <td style={{ fontSize: "14px", border: "1px solid #d3d3d3" }}>
-                                    {
+                    
+                    <h1 style={{ fontSize: '20px', marginTop: '5%', marginBottom: '2%', fontWeight: 'bold', textDecorationLine: 'underline'}}>Publication(s)</h1>
+                    {(this.state.queryPublications).map(item => {
+                        return (
+                            <div key={`row_${item.title}`}>
+                                <span style={{ fontSize: "18px", fontWeight: "bold"}}>
+                                    <a style={{color: '#003399'}} href={`${item.slug}`}>{item.title}</a>
+                                </span>
+                                <br />
+                                <span style={{ fontSize: "16x"}}> Authors: 
+                                {
                                     (item.authors).map(author => {
                                         var searchAuthor = author.replace(/\s+/g, '-').toLowerCase();
                                         return(
-                                        <div>
-                                            <a href={`/author/${searchAuthor}`}>{author}</a> <br/>
-                                        </div>      
+                                            <Badge className="badge-author-group" pill variant="primary">
+                                            <a style={{color: '#ffffff', fontWeight: "normal"}} href={`/author/${searchAuthor}`}>{author}</a>
+                                            </Badge>
                                         )  
                                     })
-                                    }
-                                </td>
-                                <td style={{ fontSize: "14px", border: "1px solid #d3d3d3" }}>
+                                }
+                                </span>
+                                <br />
+                                <span style={{ fontSize: "16px"}}> Groups:
                                 {
                                     (item.groups).map(group => {
-                                    var searchGroup = group.replace(/\s+/g, '-').toLowerCase();
-                                    return(
-                                        <div>
-                                        <a href={`/group/${searchGroup}`}>{group}</a> <br/>
-                                        </div>      
-                                    )  
+                                        var searchGroup = group.replace(/\s+/g, '-').toLowerCase();
+                                        return(
+                                            <Badge className="badge-author-group" pill variant="danger">
+                                                <a style={{color: '#ffffff', fontWeight: "normal"}} href={`/group/${searchGroup}`}>{group}</a>
+                                            </Badge>
+                                        )  
                                     })
                                 }
-                                </td>
-                                </tr>
-                            )
-                            })}
-                            </tbody>
-                        </table>
-                        }
+                                </span>
+                                <div style={{borderBottom: '1px solid #D3D3D3', marginTop: '5%', marginBottom: '5%'}}></div>
+                            </div>
+                        )
+                    })}
+                    {/* <ReactPaginate
+                        previousLabel={'previous'}
+                        nextLabel={'next'}
+                        breakLabel={'...'}
+                        breakClassName={'break-me'}
+                        pageCount={this.state.pageCount}
+                        marginPagesDisplayed={2}
+                        pageRangeDisplayed={5}
+                        onPageChange={this.handlePageClick}
+                        containerClassName={'pagination'}
+                        subContainerClassName={'pages pagination'}
+                        activeClassName={'active'}
+                    /> */}
                 </div>     
             </div>
         )

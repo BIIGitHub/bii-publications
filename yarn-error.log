@@ -1,20 +1,29 @@
 Arguments: 
-  /usr/local/Cellar/node/12.9.0/bin/node /Users/admin/.npm-packages/bin/yarn add react-date-range@next
+  C:\Program Files\nodejs\node.exe C:\Program Files (x86)\Yarn\bin\yarn.js install
 
 PATH: 
-  /Users/admin/.npm-packages/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/share/dotnet:~/.dotnet/tools:/Library/Frameworks/Mono.framework/Versions/Current/Commands:/Users/admin/anaconda3/bin:/Users/admin/anaconda3/condabin:/Users/admin/.npm-packages/bin
+  C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\PuTTY\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\OpenAFS\Common;C:\Program Files\OpenAFS\Client\Program;C:\Program Files\nodejs\;C:\Program Files\Git\cmd;C:\Program Files (x86)\Yarn\bin\;C:\Hugo\bin;C:\Users\sumhm\AppData\Local\Yarn\bin;C:\Users\sumhm\AppData\Local\Programs\Microsoft VS Code\bin
 
 Yarn version: 
-  1.15.2
+  1.19.1
 
 Node version: 
-  12.9.0
+  12.3.0
 
 Platform: 
-  darwin x64
+  win32 x64
 
 Trace: 
-  Error: EACCES: permission denied, mkdir '/Users/admin/Desktop/HeiMun/gatsby-starter-lumen/node_modules/concurrently/node_modules/date-fns'
+  Error: https://registry.yarnpkg.com/@fortawesome/free-solid-svg-icons/-/free-solid-svg-icons-5.11.2.tgz: ESOCKETTIMEDOUT
+      at ClientRequest.<anonymous> (C:\Program Files (x86)\Yarn\lib\cli.js:141191:19)
+      at Object.onceWrapper (events.js:288:20)
+      at ClientRequest.emit (events.js:200:13)
+      at TLSSocket.emitRequestTimeout (_http_client.js:683:40)
+      at Object.onceWrapper (events.js:288:20)
+      at TLSSocket.emit (events.js:200:13)
+      at TLSSocket.Socket._onTimeout (net.js:432:8)
+      at listOnTimeout (internal/timers.js:531:17)
+      at processTimers (internal/timers.js:475:7)
 
 npm manifest: 
   {
@@ -104,7 +113,7 @@ npm manifest:
       "prismjs": "^1.17.1",
       "react": "^16.11.0",
       "react-bootstrap": "^1.0.0-beta.14",
-      "react-date-range": "^0.9.4",
+      "react-datepicker": "^2.10.0",
       "react-disqus-comments": "^1.4.0",
       "react-dom": "^16.11.0",
       "react-helmet": "^5.2.1",
@@ -4558,6 +4567,11 @@ Lockfile:
       abab "^2.0.0"
       whatwg-mimetype "^2.2.0"
       whatwg-url "^7.0.0"
+  
+  date-fns@2.0.0-alpha.7:
+    version "2.0.0-alpha.7"
+    resolved "https://registry.yarnpkg.com/date-fns/-/date-fns-2.0.0-alpha.7.tgz#245ad16f95764eababfb2c0a41fd5d033c20e57a"
+    integrity sha1-JFrRb5V2Tqur+ywKQf1dAzwg5Xo=
   
   date-fns@^2.0.1:
     version "2.4.1"
@@ -10294,7 +10308,7 @@ Lockfile:
     dependencies:
       minimist "0.0.8"
   
-  moment@^2.10.6, moment@^2.24.0:
+  moment@^2.24.0:
     version "2.24.0"
     resolved "https://registry.yarnpkg.com/moment/-/moment-2.24.0.tgz#0d055d53f5052aa653c9f6eb68bb5d12bf5c2b5b"
   
@@ -12310,7 +12324,7 @@ Lockfile:
       react-is "^16.3.2"
       warning "^3.0.0"
   
-  prop-types@^15.0.0, prop-types@^15.5.10, prop-types@^15.5.4, prop-types@^15.5.6, prop-types@^15.5.7, prop-types@^15.5.8, prop-types@^15.6.0, prop-types@^15.6.1, prop-types@^15.6.2, prop-types@^15.7.2:
+  prop-types@15, prop-types@^15.0.0, prop-types@^15.5.10, prop-types@^15.5.4, prop-types@^15.5.6, prop-types@^15.5.7, prop-types@^15.5.8, prop-types@^15.6.0, prop-types@^15.6.1, prop-types@^15.6.2, prop-types@^15.7.2:
     version "15.7.2"
     resolved "https://registry.yarnpkg.com/prop-types/-/prop-types-15.7.2.tgz#52c41e75b8c87e72b9d9360e0206b99dcbffa6c5"
     dependencies:
@@ -12555,14 +12569,26 @@ Lockfile:
     resolved "https://registry.yarnpkg.com/react-context-toolbox/-/react-context-toolbox-2.0.2.tgz#35637287cb23f801e6ed802c2bb7a97e1f04e3fb"
     integrity sha512-tY4j0imkYC3n5ZlYSgFkaw7fmlCp3IoQQ6DxpqeNHzcD0hf+6V+/HeJxviLUZ1Rv1Yn3N3xyO2EhkkZwHn0m1A==
   
-  react-date-range@^0.9.4:
-    version "0.9.4"
-    resolved "https://registry.yarnpkg.com/react-date-range/-/react-date-range-0.9.4.tgz#d97515545a28edc717b674e169a50a215d69ec15"
-    integrity sha1-2XUVVFoo7ccXtnThaaUKIV1p7BU=
+  react-date-range@^1.0.0-beta:
+    version "1.0.0-beta"
+    resolved "https://registry.yarnpkg.com/react-date-range/-/react-date-range-1.0.0-beta.tgz#d67957b6af0230ef5cab60d73bf287429aff3856"
+    integrity sha512-04xUpkD9qTq6bFpLqcYTvptw+yFl793o1YB+uCWI+SrIp0eyEE4Aw+R9jaWp5cGnxsRDUqywV0cRd8e1Ys2uYQ==
     dependencies:
       classnames "^2.2.1"
-      moment "^2.10.6"
+      date-fns "2.0.0-alpha.7"
       prop-types "^15.5.10"
+      react-list "^0.8.8"
+  
+  react-datepicker@^2.10.0:
+    version "2.10.0"
+    resolved "https://registry.yarnpkg.com/react-datepicker/-/react-datepicker-2.10.0.tgz#c300dd00cf7d80861cd0d0cb0864994b342b937c"
+    integrity sha512-3dzmk+QJ2DML5sAHry8TWp8yRgHHkHwXKhirbOwCAdQIWXyLMdODgjhyqYZyk0KbAPnVSLqozIQ2xxN/eJb+vA==
+    dependencies:
+      classnames "^2.2.6"
+      date-fns "^2.0.1"
+      prop-types "^15.7.2"
+      react-onclickoutside "^6.9.0"
+      react-popper "^1.3.4"
   
   react-datetime@^2.16.3:
     version "2.16.3"
@@ -12715,6 +12741,13 @@ Lockfile:
     version "3.0.4"
     resolved "https://registry.yarnpkg.com/react-lifecycles-compat/-/react-lifecycles-compat-3.0.4.tgz#4f1a273afdfc8f3488a8c516bfda78f872352362"
   
+  react-list@^0.8.8:
+    version "0.8.13"
+    resolved "https://registry.yarnpkg.com/react-list/-/react-list-0.8.13.tgz#6947d41cccbcca5a8399d5f7822e2a9796f85b70"
+    integrity sha512-6iY1JdlfHNF7tTuDZMcDf1cQZv5IuLkYJraiEY11CbTi/zASUxmVA8ClCNjuY1gA2l6+g6CNel031BhuXCN0uA==
+    dependencies:
+      prop-types "15"
+  
   react-modal@^3.8.1:
     version "3.9.1"
     resolved "https://registry.yarnpkg.com/react-modal/-/react-modal-3.9.1.tgz#82ce53d110eea0d8f028f3315ef336d0baffa9b9"
@@ -12727,6 +12760,11 @@ Lockfile:
   react-onclickoutside@^6.5.0:
     version "6.8.0"
     resolved "https://registry.yarnpkg.com/react-onclickoutside/-/react-onclickoutside-6.8.0.tgz#9f91b5b3ed59f4d9e43fd71620dc200773a4d569"
+  
+  react-onclickoutside@^6.9.0:
+    version "6.9.0"
+    resolved "https://registry.yarnpkg.com/react-onclickoutside/-/react-onclickoutside-6.9.0.tgz#a54bc317ae8cf6131a5d78acea55a11067f37a1f"
+    integrity sha512-8ltIY3bC7oGhj2nPAvWOGi+xGFybPNhJM0V1H8hY/whNcXgmDeaeoCMPPd8VatrpTsUWjb/vGzrmu6SrXVty3A==
   
   react-overlays@^1.2.0:
     version "1.2.0"
@@ -12760,6 +12798,18 @@ Lockfile:
     version "1.3.4"
     resolved "https://registry.yarnpkg.com/react-popper/-/react-popper-1.3.4.tgz#f0cd3b0d30378e1f663b0d79bcc8614221652ced"
     integrity sha512-9AcQB29V+WrBKk6X7p0eojd1f25/oJajVdMZkywIoAV6Ag7hzE1Mhyeup2Q1QnvFRtGQFQvtqfhlEoDAPfKAVA==
+    dependencies:
+      "@babel/runtime" "^7.1.2"
+      create-react-context "^0.3.0"
+      popper.js "^1.14.4"
+      prop-types "^15.6.1"
+      typed-styles "^0.0.7"
+      warning "^4.0.2"
+  
+  react-popper@^1.3.4:
+    version "1.3.6"
+    resolved "https://registry.yarnpkg.com/react-popper/-/react-popper-1.3.6.tgz#32122f83af8fda01bdd4f86625ddacaf64fdd06d"
+    integrity sha512-kLTfa9z8n+0jJvRVal9+vIuirg41rObg4Bbrvv/ZfsGPQDN9reyVVSxqnHF1ZNgXgV7x11PeUfd5ItF8DZnqhg==
     dependencies:
       "@babel/runtime" "^7.1.2"
       create-react-context "^0.3.0"

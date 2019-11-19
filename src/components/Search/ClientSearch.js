@@ -204,13 +204,9 @@ export class ClientSearch extends Component {
             </div>
           </div>
         </div>
-
-            
     )
   }
 }
-
-
 
 export default () => (
   <StaticQuery

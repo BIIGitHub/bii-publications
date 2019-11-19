@@ -54,6 +54,15 @@ const Menu = ({ menu }: Props) => (
         Groups
         </Link>
       </li>
+      <li className={styles['menu__list-item']}>
+        <Link
+            to="/archive"
+            className={styles['menu__list-item-link']}
+            activeClassName={styles['menu__list-item-link--active']}
+        >
+        Archive Search
+        </Link>
+      </li>
     </ul>
   </nav>
 );
