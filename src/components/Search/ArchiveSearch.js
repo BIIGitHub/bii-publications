@@ -4,6 +4,7 @@ import moment from 'moment';
 import Badge from 'react-bootstrap/Badge';
 import ReactPaginate from 'react-paginate';
 import paginate from 'paginate-array';
+import { usePaginateArray } from '../../utils/utilities';
 
 import "react-datepicker/dist/react-datepicker.css";
 import { faWeight } from "@fortawesome/free-solid-svg-icons";
@@ -19,6 +20,10 @@ class ArchiveSearch extends Component {
       endDate: null,
       allPublications: [],
       queryPublications: [],
+      currentPublications: [],
+      perPage: 5,
+      currentPage: 1,
+      pageCount: 0,
   }
   /**
    * React lifecycle method that will inject the data into the state.
@@ -69,11 +74,29 @@ class ArchiveSearch extends Component {
                     tempPublications.push(pub);
                      
            });
-            this.setState({ queryPublications: tempPublications });
-         }
+        
+        const pageCount = Math.ceil(tempPublications.length / this.state.perPage);
+        const pageData =  usePaginateArray(tempPublications, this.state.currentPage, this.state.perPage);
+        console.log('pageData', pageData);
+
+        this.setState({ 
+            queryPublications: pageData.data, 
+            pageCount: pageCount,
+            currentPublications: tempPublications,
+        });
+      }
     }
-     //console.log(tempPublications);
   }
+
+  handlePageClick = (data) => {
+    let selected = data.selected + 1;
+    const pageData =  usePaginateArray(this.state.currentPublications, selected, this.state.perPage);
+    
+    this.setState({ 
+        queryPublications: pageData.data, 
+        currentPage: selected
+    });
+  };
   
   render(){
         return (
@@ -107,9 +130,10 @@ class ArchiveSearch extends Component {
                     <FontAwesomeIcon icon={faSearch} /> Search 
                     </button>
                 </div>
-                <div>
+
+                <div>          
+                    {(this.state.queryPublications).length > 0 &&  <h1 style={{ fontSize: '20px', marginTop: '5%', marginBottom: '2%', fontWeight: 'bold', textDecorationLine: 'underline'}}>Publication(s)</h1>}
                     
-                    <h1 style={{ fontSize: '20px', marginTop: '5%', marginBottom: '2%', fontWeight: 'bold', textDecorationLine: 'underline'}}>Publication(s)</h1>
                     {(this.state.queryPublications).map(item => {
                         return (
                             <div key={`row_${item.title}`}>
@@ -146,19 +170,28 @@ class ArchiveSearch extends Component {
                             </div>
                         )
                     })}
-                    {/* <ReactPaginate
-                        previousLabel={'previous'}
-                        nextLabel={'next'}
-                        breakLabel={'...'}
-                        breakClassName={'break-me'}
-                        pageCount={this.state.pageCount}
-                        marginPagesDisplayed={2}
-                        pageRangeDisplayed={5}
-                        onPageChange={this.handlePageClick}
-                        containerClassName={'pagination'}
-                        subContainerClassName={'pages pagination'}
-                        activeClassName={'active'}
-                    /> */}
+                    
+                    {(this.state.queryPublications).length > 0 && 
+                        <ReactPaginate
+                            previousLabel={'← Previous'}
+                            nextLabel={'Next →'}
+                            breakLabel={<span className="gap">...</span>}
+                            breakClassName={'break-me'}
+                            pageCount={this.state.pageCount}
+                            marginPagesDisplayed={2}
+                            pageRangeDisplayed={2}
+                            onPageChange={this.handlePageClick}
+                            containerClassName={'pagination'}
+                            subContainerClassName={'pages pagination'}
+                            previousLinkClassName={"previous_page"}
+                            nextLinkClassName={"next_page"}
+                            disabledClassName={"disabled"}
+                            activeClassName={"active"}
+                        />
+                    }
+
+                   
+
                 </div>     
             </div>
         )
