@@ -1,5 +1,5 @@
 Arguments: 
-  /usr/local/Cellar/node/12.9.0/bin/node /Users/admin/.npm-packages/bin/yarn add react-bootstrap bootstrap --save
+  /usr/local/Cellar/node/12.9.0/bin/node /Users/admin/.npm-packages/bin/yarn add react-date-range@next
 
 PATH: 
   /Users/admin/.npm-packages/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/share/dotnet:~/.dotnet/tools:/Library/Frameworks/Mono.framework/Versions/Current/Commands:/Users/admin/anaconda3/bin:/Users/admin/anaconda3/condabin:/Users/admin/.npm-packages/bin
@@ -14,7 +14,7 @@ Platform:
   darwin x64
 
 Trace: 
-  Error: EACCES: permission denied, unlink '/Users/admin/Desktop/HeiMun/gatsby-starter-lumen/node_modules/@babel/code-frame/README.md'
+  Error: EACCES: permission denied, mkdir '/Users/admin/Desktop/HeiMun/gatsby-starter-lumen/node_modules/concurrently/node_modules/date-fns'
 
 npm manifest: 
   {
@@ -62,6 +62,7 @@ npm manifest:
       "@fortawesome/react-fontawesome": "^0.1.7",
       "awesomplete": "^1.1.5",
       "bluebird": "^3.7.1",
+      "bootstrap": "^4.3.1",
       "classnames": "^2.2.6",
       "codecov": "^3.6.1",
       "gatsby": "^2.17.4",
@@ -99,11 +100,15 @@ npm manifest:
       "netlify-cms-app": "^2.9.7",
       "node-sass": "^4.13.0",
       "normalize-scss": "^7.0.1",
+      "paginate-array": "^2.1.0",
       "prismjs": "^1.17.1",
       "react": "^16.11.0",
+      "react-bootstrap": "^1.0.0-beta.14",
+      "react-date-range": "^0.9.4",
       "react-disqus-comments": "^1.4.0",
       "react-dom": "^16.11.0",
-      "react-helmet": "^5.2.1"
+      "react-helmet": "^5.2.1",
+      "react-paginate": "^6.3.2"
     },
     "devDependencies": {
       "@babel/core": "7.6.4",
@@ -961,6 +966,13 @@ Lockfile:
     dependencies:
       regenerator-runtime "^0.13.2"
   
+  "@babel/runtime@^7.5.5":
+    version "7.7.1"
+    resolved "https://registry.yarnpkg.com/@babel/runtime/-/runtime-7.7.1.tgz#b223497bbfbcbbb38116673904debc71470ca528"
+    integrity sha512-SQ0sS7KUJDvgCI2cpZG0nJygO6002oTbhgSuw4WcocsnbxLwL5Q8I3fqbJdyBAc3uFrWZiR2JomseuxSuci3SQ==
+    dependencies:
+      regenerator-runtime "^0.13.2"
+  
   "@babel/runtime@^7.6.3":
     version "7.6.3"
     resolved "https://registry.yarnpkg.com/@babel/runtime/-/runtime-7.6.3.tgz#935122c74c73d2240cafd32ddb5fc2a6cd35cf1f"
@@ -1759,6 +1771,16 @@ Lockfile:
       react-lifecycles-compat "^3.0.4"
       warning "^3.0.0"
   
+  "@restart/context@^2.1.4":
+    version "2.1.4"
+    resolved "https://registry.yarnpkg.com/@restart/context/-/context-2.1.4.tgz#a99d87c299a34c28bd85bb489cb07bfd23149c02"
+    integrity sha512-INJYZQJP7g+IoDUh/475NlGiTeMfwTXUEr3tmRneckHIxNolGOW9CTq83S8cxq0CgJwwcMzMJFchxvlwe7Rk8Q==
+  
+  "@restart/hooks@^0.3.11":
+    version "0.3.15"
+    resolved "https://registry.yarnpkg.com/@restart/hooks/-/hooks-0.3.15.tgz#17cb37a272dfb9cbacf83614a5a7170e68f17d75"
+    integrity sha512-rVNba1A2oMzKBg16fCrrHmCf4JjOzFhT9TWR8J+Y8iOcY4zffxtP3ke7mEsakvghHZT+9//uDOPSSeuBDW41GQ==
+  
   "@sindresorhus/is@^0.7.0":
     version "0.7.0"
     resolved "https://registry.yarnpkg.com/@sindresorhus/is/-/is-0.7.0.tgz#9a06f4f137ee84d7df0460c1fdb1135ffa6c50fd"
@@ -1896,6 +1918,14 @@ Lockfile:
   "@types/react@*", "@types/react@^16.8.12", "@types/react@^16.8.6":
     version "16.8.23"
     resolved "https://registry.yarnpkg.com/@types/react/-/react-16.8.23.tgz#ec6be3ceed6353a20948169b6cb4c97b65b97ad2"
+    dependencies:
+      "@types/prop-types" "*"
+      csstype "^2.2.0"
+  
+  "@types/react@^16.8.23", "@types/react@^16.9.11":
+    version "16.9.11"
+    resolved "https://registry.yarnpkg.com/@types/react/-/react-16.9.11.tgz#70e0b7ad79058a7842f25ccf2999807076ada120"
+    integrity sha512-UBT4GZ3PokTXSWmdgC/GeCGEJXE5ofWyibCcecRLUVN2ZBpXQGVgQGtG2foS7CrTKFKlQVVswLvf7Js6XA/CVQ==
     dependencies:
       "@types/prop-types" "*"
       csstype "^2.2.0"
@@ -3076,6 +3106,11 @@ Lockfile:
     version "1.0.0"
     resolved "https://registry.yarnpkg.com/boolbase/-/boolbase-1.0.0.tgz#68dff5fbe60c51eb37725ea9e3ed310dcc1e776e"
   
+  bootstrap@^4.3.1:
+    version "4.3.1"
+    resolved "https://registry.yarnpkg.com/bootstrap/-/bootstrap-4.3.1.tgz#280ca8f610504d99d7b6b4bfc4b68cec601704ac"
+    integrity sha512-rXqOmH1VilAt2DyPzluTi2blhk17bO7ef+zLLPlWvG494pDxcM234pJ8wTc/6R40UWizAIIMgxjvxZg5kmsbag==
+  
   boxen@^1.2.1:
     version "1.3.0"
     resolved "https://registry.yarnpkg.com/boxen/-/boxen-1.3.0.tgz#55c6c39a8ba58d9c61ad22cd877532deb665a20b"
@@ -3683,7 +3718,7 @@ Lockfile:
       isobject "^3.0.0"
       static-extend "^0.1.1"
   
-  classnames@^2.2.5, classnames@^2.2.6:
+  classnames@^2.2.1, classnames@^2.2.5, classnames@^2.2.6:
     version "2.2.6"
     resolved "https://registry.yarnpkg.com/classnames/-/classnames-2.2.6.tgz#43935bffdd291f326dad0a205309b38d00f650ce"
   
@@ -4219,6 +4254,14 @@ Lockfile:
       fbjs "^0.8.0"
       gud "^1.0.0"
   
+  create-react-context@^0.3.0:
+    version "0.3.0"
+    resolved "https://registry.yarnpkg.com/create-react-context/-/create-react-context-0.3.0.tgz#546dede9dc422def0d3fc2fe03afe0bc0f4f7d8c"
+    integrity sha512-dNldIoSuNSvlTJ7slIKC/ZFGKexBMBrrcc+TTe1NdmROnaASuLPvqpwj9v4XS4uXZ8+YPu0sNmShX2rXI5LNsw==
+    dependencies:
+      gud "^1.0.0"
+      warning "^4.0.3"
+  
   cross-fetch@2.2.2:
     version "2.2.2"
     resolved "https://registry.yarnpkg.com/cross-fetch/-/cross-fetch-2.2.2.tgz#a47ff4f7fc712daba8f6a695a11c948440d45723"
@@ -4467,6 +4510,11 @@ Lockfile:
   csstype@^2.2.0, csstype@^2.5.2, csstype@^2.5.7:
     version "2.6.6"
     resolved "https://registry.yarnpkg.com/csstype/-/csstype-2.6.6.tgz#c34f8226a94bbb10c32cc0d714afdf942291fc41"
+  
+  csstype@^2.6.7:
+    version "2.6.7"
+    resolved "https://registry.yarnpkg.com/csstype/-/csstype-2.6.7.tgz#20b0024c20b6718f4eda3853a1f5a1cce7f5e4a5"
+    integrity sha512-9Mcn9sFbGBAdmimWb2gLVDtFJzeKtDGIr76TUqmjZrw9LFXBMSU70lcs+C0/7fyCd6iBDqmksUcCOUIkisPHsQ==
   
   currently-unhandled@^0.4.1:
     version "0.4.1"
@@ -4902,6 +4950,14 @@ Lockfile:
     resolved "https://registry.yarnpkg.com/dom-helpers/-/dom-helpers-3.4.0.tgz#e9b369700f959f62ecde5a6babde4bccd9169af8"
     dependencies:
       "@babel/runtime" "^7.1.2"
+  
+  dom-helpers@^5.0.1:
+    version "5.1.3"
+    resolved "https://registry.yarnpkg.com/dom-helpers/-/dom-helpers-5.1.3.tgz#7233248eb3a2d1f74aafca31e52c5299cc8ce821"
+    integrity sha512-nZD1OtwfWGRBWlpANxacBEZrEuLa16o1nh7YopFWeoF68Zt8GGEmzHu6Xv4F3XaFIC+YXtTLrzgqKxFgLEe4jw==
+    dependencies:
+      "@babel/runtime" "^7.6.3"
+      csstype "^2.6.7"
   
   dom-serializer@0, dom-serializer@~0.1.1:
     version "0.1.1"
@@ -9334,7 +9390,7 @@ Lockfile:
     dependencies:
       lodash.kebabcase "^4.1.1"
   
-  keycode@^2.1.2:
+  keycode@^2.1.2, keycode@^2.2.0:
     version "2.2.0"
     resolved "https://registry.yarnpkg.com/keycode/-/keycode-2.2.0.tgz#3d0af56dc7b8b8e5cba8d0a97f107204eec22b04"
   
@@ -10238,7 +10294,7 @@ Lockfile:
     dependencies:
       minimist "0.0.8"
   
-  moment@^2.24.0:
+  moment@^2.10.6, moment@^2.24.0:
     version "2.24.0"
     resolved "https://registry.yarnpkg.com/moment/-/moment-2.24.0.tgz#0d055d53f5052aa653c9f6eb68bb5d12bf5c2b5b"
   
@@ -11300,6 +11356,11 @@ Lockfile:
       registry-url "^3.0.3"
       semver "^5.1.0"
   
+  paginate-array@^2.1.0:
+    version "2.1.0"
+    resolved "https://registry.yarnpkg.com/paginate-array/-/paginate-array-2.1.0.tgz#062e8844763f5d0fa566e6289e9009bdfccb9f89"
+    integrity sha512-rY2Bo4AsD3YU8WcHwWjxZLBunTM5UYQlBAMTIaDPBWINJ59L6DL9S1DqtW5RQdRctBEdm7k06QKCIvUNDGhclg==
+  
   pako@^1.0.5, pako@~1.0.5:
     version "1.0.10"
     resolved "https://registry.yarnpkg.com/pako/-/pako-1.0.10.tgz#4328badb5086a426aa90f541977d4955da5c9732"
@@ -11655,6 +11716,11 @@ Lockfile:
     integrity sha512-jd9olUr9D7do+RN8Wspzhpxhgp1n6Vd0NtQ4SFkmIACZoEL1nkyAdW9Ygrinjec0vgDcWjscFQQ1gDW8rsfKTg==
     dependencies:
       ts-pnp "^1.1.2"
+  
+  popper.js@^1.14.4, popper.js@^1.14.7:
+    version "1.16.0"
+    resolved "https://registry.yarnpkg.com/popper.js/-/popper.js-1.16.0.tgz#2e1816bcbbaa518ea6c2e15a466f4cb9c6e2fbb3"
+    integrity sha512-+G+EkOPoE5S/zChTpmBSSDYmhXJ5PsW8eMhH8cP/CQHMFPBG/kC9Y5IIw6qNYgdJ+/COf0ddY2li28iHaZRSjw==
   
   portfinder@^1.0.24:
     version "1.0.24"
@@ -12236,6 +12302,14 @@ Lockfile:
       kleur "^3.0.3"
       sisteransi "^1.0.3"
   
+  prop-types-extra@^1.1.0:
+    version "1.1.0"
+    resolved "https://registry.yarnpkg.com/prop-types-extra/-/prop-types-extra-1.1.0.tgz#32609910ea2dcf190366bacd3490d5a6412a605f"
+    integrity sha512-QFyuDxvMipmIVKD2TwxLVPzMnO4e5oOf1vr3tJIomL8E7d0lr6phTHd5nkPhFIzTD1idBLLEPeylL9g+rrTzRg==
+    dependencies:
+      react-is "^16.3.2"
+      warning "^3.0.0"
+  
   prop-types@^15.0.0, prop-types@^15.5.10, prop-types@^15.5.4, prop-types@^15.5.6, prop-types@^15.5.7, prop-types@^15.5.8, prop-types@^15.6.0, prop-types@^15.6.1, prop-types@^15.6.2, prop-types@^15.7.2:
     version "15.7.2"
     resolved "https://registry.yarnpkg.com/prop-types/-/prop-types-15.7.2.tgz#52c41e75b8c87e72b9d9360e0206b99dcbffa6c5"
@@ -12455,6 +12529,41 @@ Lockfile:
       prop-types "^15.6.0"
       teeny-tap "^0.2.0"
   
+  react-bootstrap@^1.0.0-beta.14:
+    version "1.0.0-beta.14"
+    resolved "https://registry.yarnpkg.com/react-bootstrap/-/react-bootstrap-1.0.0-beta.14.tgz#30330df61edbed1f0405f75363ef72d77c1fed57"
+    integrity sha512-UGK5f78FE8wAei1YL/oSwFlJZLqxJ/h4S8DCwHyY8hQjFCrjEW5PoEBTOOhQ6PQL6WOsZe1jkiOJG7L5TZWu+w==
+    dependencies:
+      "@babel/runtime" "^7.4.2"
+      "@restart/context" "^2.1.4"
+      "@restart/hooks" "^0.3.11"
+      "@types/react" "^16.8.23"
+      classnames "^2.2.6"
+      dom-helpers "^3.4.0"
+      invariant "^2.2.4"
+      keycode "^2.2.0"
+      popper.js "^1.14.7"
+      prop-types "^15.7.2"
+      prop-types-extra "^1.1.0"
+      react-overlays "^1.2.0"
+      react-transition-group "^4.0.0"
+      uncontrollable "^7.0.0"
+      warning "^4.0.3"
+  
+  react-context-toolbox@^2.0.2:
+    version "2.0.2"
+    resolved "https://registry.yarnpkg.com/react-context-toolbox/-/react-context-toolbox-2.0.2.tgz#35637287cb23f801e6ed802c2bb7a97e1f04e3fb"
+    integrity sha512-tY4j0imkYC3n5ZlYSgFkaw7fmlCp3IoQQ6DxpqeNHzcD0hf+6V+/HeJxviLUZ1Rv1Yn3N3xyO2EhkkZwHn0m1A==
+  
+  react-date-range@^0.9.4:
+    version "0.9.4"
+    resolved "https://registry.yarnpkg.com/react-date-range/-/react-date-range-0.9.4.tgz#d97515545a28edc717b674e169a50a215d69ec15"
+    integrity sha1-2XUVVFoo7ccXtnThaaUKIV1p7BU=
+    dependencies:
+      classnames "^2.2.1"
+      moment "^2.10.6"
+      prop-types "^15.5.10"
+  
   react-datetime@^2.16.3:
     version "2.16.3"
     resolved "https://registry.yarnpkg.com/react-datetime/-/react-datetime-2.16.3.tgz#7f9ac7d4014a939c11c761d0c22d1fb506cb505e"
@@ -12588,6 +12697,11 @@ Lockfile:
     version "16.8.5"
     resolved "https://registry.yarnpkg.com/react-is/-/react-is-16.8.5.tgz#c54ac229dd66b5afe0de5acbe47647c3da692ff8"
   
+  react-is@^16.3.2:
+    version "16.11.0"
+    resolved "https://registry.yarnpkg.com/react-is/-/react-is-16.11.0.tgz#b85dfecd48ad1ce469ff558a882ca8e8313928fa"
+    integrity sha512-gbBVYR2p8mnriqAwWx9LbuUrShnAuSCNnuPGyc7GJrMVQtPDAh8iLpv7FRuMPFb56KkaVZIYSz1PrjI9q0QPCw==
+  
   react-is@^16.6.0, react-is@^16.6.3, react-is@^16.7.0, react-is@^16.8.1, react-is@^16.8.4:
     version "16.8.6"
     resolved "https://registry.yarnpkg.com/react-is/-/react-is-16.8.6.tgz#5bbc1e2d29141c9fbdfed456343fe2bc430a6a16"
@@ -12614,12 +12728,45 @@ Lockfile:
     version "6.8.0"
     resolved "https://registry.yarnpkg.com/react-onclickoutside/-/react-onclickoutside-6.8.0.tgz#9f91b5b3ed59f4d9e43fd71620dc200773a4d569"
   
+  react-overlays@^1.2.0:
+    version "1.2.0"
+    resolved "https://registry.yarnpkg.com/react-overlays/-/react-overlays-1.2.0.tgz#205368eeb0a5fb0b7f9b717fa7a12d518500abdb"
+    integrity sha512-i/FCV8wR6aRaI+Kz/dpJhOdyx+ah2tN1RhT9InPrexyC4uzf3N4bNayFTGtUeQVacj57j1Mqh1CwV60/5153Iw==
+    dependencies:
+      classnames "^2.2.6"
+      dom-helpers "^3.4.0"
+      prop-types "^15.6.2"
+      prop-types-extra "^1.1.0"
+      react-context-toolbox "^2.0.2"
+      react-popper "^1.3.2"
+      uncontrollable "^6.0.0"
+      warning "^4.0.2"
+  
+  react-paginate@^6.3.2:
+    version "6.3.2"
+    resolved "https://registry.yarnpkg.com/react-paginate/-/react-paginate-6.3.2.tgz#4e18cbdb2654d308566775fa14df11e820188391"
+    integrity sha512-Ch++Njfv8UHpLtIMiQouAPeJQA5Ki86kIYfCer6c1B96Rvn3UF27se+goCilCP8oHNXNsA2R2kxvzanY1YIkyg==
+    dependencies:
+      prop-types "^15.6.1"
+  
   react-polyglot@^0.4.0:
     version "0.4.1"
     resolved "https://registry.yarnpkg.com/react-polyglot/-/react-polyglot-0.4.1.tgz#3a84acfcee8671820435d267c8de9b721fe43c28"
     dependencies:
       hoist-non-react-statics "^2.5.0"
       prop-types "^15.5.8"
+  
+  react-popper@^1.3.2:
+    version "1.3.4"
+    resolved "https://registry.yarnpkg.com/react-popper/-/react-popper-1.3.4.tgz#f0cd3b0d30378e1f663b0d79bcc8614221652ced"
+    integrity sha512-9AcQB29V+WrBKk6X7p0eojd1f25/oJajVdMZkywIoAV6Ag7hzE1Mhyeup2Q1QnvFRtGQFQvtqfhlEoDAPfKAVA==
+    dependencies:
+      "@babel/runtime" "^7.1.2"
+      create-react-context "^0.3.0"
+      popper.js "^1.14.4"
+      prop-types "^15.6.1"
+      typed-styles "^0.0.7"
+      warning "^4.0.2"
   
   react-portal@^3.1.0:
     version "3.2.0"
@@ -12781,6 +12928,16 @@ Lockfile:
       loose-envify "^1.4.0"
       prop-types "^15.6.2"
       react-lifecycles-compat "^3.0.4"
+  
+  react-transition-group@^4.0.0:
+    version "4.3.0"
+    resolved "https://registry.yarnpkg.com/react-transition-group/-/react-transition-group-4.3.0.tgz#fea832e386cf8796c58b61874a3319704f5ce683"
+    integrity sha512-1qRV1ZuVSdxPlPf4O8t7inxUGpdyO5zG9IoNfJxSO0ImU2A1YWkEQvFPuIPZmMLkg5hYs7vv5mMOyfgSkvAwvw==
+    dependencies:
+      "@babel/runtime" "^7.5.5"
+      dom-helpers "^5.0.1"
+      loose-envify "^1.4.0"
+      prop-types "^15.6.2"
   
   react-waypoint@^8.1.0:
     version "8.1.0"
@@ -15266,6 +15423,11 @@ Lockfile:
     version "1.0.1"
     resolved "https://registry.yarnpkg.com/type/-/type-1.0.1.tgz#084c9a17fcc9151a2cdb1459905c2e45e4bb7d61"
   
+  typed-styles@^0.0.7:
+    version "0.0.7"
+    resolved "https://registry.yarnpkg.com/typed-styles/-/typed-styles-0.0.7.tgz#93392a008794c4595119ff62dde6809dbc40a3d9"
+    integrity sha512-pzP0PWoZUhsECYjABgCGQlRGL1n7tOHsgwYv3oIiEpJwGhFTuty/YNeduxQYzXXa3Ge5BdT6sHYIQYpl4uJ+5Q==
+  
   typedarray-to-buffer@^3.1.5:
     version "3.1.5"
     resolved "https://registry.yarnpkg.com/typedarray-to-buffer/-/typedarray-to-buffer-3.1.5.tgz#a97ee7a9ff42691b9f783ff1bc5112fe3fca9080"
@@ -15313,6 +15475,24 @@ Lockfile:
   unc-path-regex@^0.1.2:
     version "0.1.2"
     resolved "https://registry.yarnpkg.com/unc-path-regex/-/unc-path-regex-0.1.2.tgz#e73dd3d7b0d7c5ed86fbac6b0ae7d8c6a69d50fa"
+  
+  uncontrollable@^6.0.0:
+    version "6.2.3"
+    resolved "https://registry.yarnpkg.com/uncontrollable/-/uncontrollable-6.2.3.tgz#e7dba0d746e075122ed178f27ad2354d343196c7"
+    integrity sha512-VgOAoBU2ptCL2bfTG2Mra0I8i1u6Aq84AFonD5tmCAYSfs3hWvr2Rlw0q2ntoxXTHjcQOmZOh3FKaN+UZVyREQ==
+    dependencies:
+      "@babel/runtime" "^7.4.5"
+      invariant "^2.2.4"
+  
+  uncontrollable@^7.0.0:
+    version "7.1.1"
+    resolved "https://registry.yarnpkg.com/uncontrollable/-/uncontrollable-7.1.1.tgz#f67fed3ef93637126571809746323a9db815d556"
+    integrity sha512-EcPYhot3uWTS3w00R32R2+vS8Vr53tttrvMj/yA1uYRhf8hbTG2GyugGqWDY0qIskxn0uTTojVd6wPYW9ZEf8Q==
+    dependencies:
+      "@babel/runtime" "^7.6.3"
+      "@types/react" "^16.9.11"
+      invariant "^2.2.4"
+      react-lifecycles-compat "^3.0.4"
   
   underscore.string@^3.3.5:
     version "3.3.5"
@@ -15794,7 +15974,7 @@ Lockfile:
     dependencies:
       loose-envify "^1.0.0"
   
-  warning@^4.0.1, warning@^4.0.3:
+  warning@^4.0.1, warning@^4.0.2, warning@^4.0.3:
     version "4.0.3"
     resolved "https://registry.yarnpkg.com/warning/-/warning-4.0.3.tgz#16e9e077eb8a86d6af7d64aa1e05fd85b4678ca3"
     dependencies:

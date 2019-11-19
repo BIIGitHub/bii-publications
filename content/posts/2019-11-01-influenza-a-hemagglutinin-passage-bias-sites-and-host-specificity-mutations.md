@@ -1,7 +1,7 @@
 ---
 template: post
 title: Influenza A Hemagglutinin Passage Bias Sites and Host Specificity Mutations
-date: 2019-11-01T08:46:28.760Z
+date: 2018-09-01T08:46:28.760Z
 journaltypes: Journal Paper
 journal: 'Cells 2019, Aug 22, 8(9), 958; doi: 10.3390/cells8090958'
 pubmed: '31443542'

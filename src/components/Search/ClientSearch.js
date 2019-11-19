@@ -167,7 +167,9 @@ export class ClientSearch extends Component {
                               {
                                 (item.groups).map(group => {
                                   return(
-                                    <Badge className="badge-author-group" pill variant="danger">
+                                    <Badge 
+                                        className="badge-author-group" 
+                                        pill variant="danger">
                                       {group} 
                                     </Badge>
                                   )  

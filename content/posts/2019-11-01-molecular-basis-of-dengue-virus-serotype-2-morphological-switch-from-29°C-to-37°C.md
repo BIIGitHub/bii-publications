@@ -3,7 +3,7 @@ template: post
 title: >-
   Molecular basis of dengue virus serotype 2 morphological switch from 29°C to
   37°C
-date: 2019-11-01T08:44:34.355Z
+date: 2018-11-01T08:44:34.355Z
 journaltypes: Journal Paper
 journal: 'PLOS Pathogens, Sep 2019, Vol. 15, Issue 9, doi 10.1371/journal.ppat.1007996'
 pubmed: '31536610'

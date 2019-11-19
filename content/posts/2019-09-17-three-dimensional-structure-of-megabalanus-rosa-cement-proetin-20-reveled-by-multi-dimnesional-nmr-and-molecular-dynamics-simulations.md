@@ -3,7 +3,7 @@ template: post
 title: >-
   Three-dimensional structure of Megabalanus rosa Cement Protein 20 revealed by
   multi-dimensional NMR and molecular dynamics simulations
-date: 2019-09-17T08:44:34.355Z
+date: 2019-05-17T08:44:34.355Z
 journaltypes: Journal Paper
 journal: 'Philosophical Transactions B, 2019, doi: 10.1098/rstb.2019.0198'
 pubmed: '31495314'
