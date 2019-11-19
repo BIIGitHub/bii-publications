@@ -49,6 +49,9 @@
 	margin-bottom: 0rem !important;
 }
 
+.awesomplete > div > #search-list > a > li {
+    padding: 1rem !important;
+}
 
 .awesomplete > div > #search-list:empty {
     display: none;

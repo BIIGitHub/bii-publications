@@ -77,7 +77,7 @@ class ArchiveSearch extends Component {
         
         const pageCount = Math.ceil(tempPublications.length / this.state.perPage);
         const pageData =  usePaginateArray(tempPublications, this.state.currentPage, this.state.perPage);
-        console.log('pageData', pageData);
+        //console.log('pageData', pageData);
 
         this.setState({ 
             queryPublications: pageData.data, 
@@ -137,8 +137,14 @@ class ArchiveSearch extends Component {
                     {(this.state.queryPublications).map(item => {
                         return (
                             <div key={`row_${item.title}`}>
+                                <span style={{ fontSize: "12px", fontWeight: "bold", color: '#000000', textTransform: 'uppercase'}}>
+                                    <time dateTime={moment(item.date).format('MMMM D, YYYY')}>
+                                        {moment(item.date).format('D MMMM YYYY')}
+                                    </time>
+                                </span>
+                                <br />
                                 <span style={{ fontSize: "18px", fontWeight: "bold"}}>
-                                    <a style={{color: '#003399'}} href={`${item.slug}`}>{item.title}</a>
+                                    <a target="_blank" style={{color: '#003399'}} href={`${item.slug}`}>{item.title}</a>
                                 </span>
                                 <br />
                                 <span style={{ fontSize: "16x"}}> Authors: 
@@ -147,7 +153,7 @@ class ArchiveSearch extends Component {
                                         var searchAuthor = author.replace(/\s+/g, '-').toLowerCase();
                                         return(
                                             <Badge className="badge-author-group" pill variant="primary">
-                                            <a style={{color: '#ffffff', fontWeight: "normal"}} href={`/author/${searchAuthor}`}>{author}</a>
+                                            <a target="_blank" style={{color: '#ffffff', fontWeight: "normal"}} href={`/author/${searchAuthor}`}>{author}</a>
                                             </Badge>
                                         )  
                                     })
@@ -160,7 +166,7 @@ class ArchiveSearch extends Component {
                                         var searchGroup = group.replace(/\s+/g, '-').toLowerCase();
                                         return(
                                             <Badge className="badge-author-group" pill variant="danger">
-                                                <a style={{color: '#ffffff', fontWeight: "normal"}} href={`/group/${searchGroup}`}>{group}</a>
+                                                <a target="_blank" style={{color: '#ffffff', fontWeight: "normal"}} href={`/group/${searchGroup}`}>{group}</a>
                                             </Badge>
                                         )  
                                     })
@@ -189,8 +195,6 @@ class ArchiveSearch extends Component {
                             activeClassName={"active"}
                         />
                     }
-
-                   
 
                 </div>     
             </div>
