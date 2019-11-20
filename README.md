@@ -7,26 +7,13 @@
   Repository of all published Science Articles by our Researchers, their Group Members and Collaborators. To find out more on what research our Institute does, please visit <a target="_blank" href="http://www.bii.a-star.edu.sg">www.bii.a-star.edu.sg</a>. This website was created using Netlify and Gatsby. 
 </h4>
 
-## Table of contents
-+ [Features](http://github.com/alxshelepenok/gatsby-starter-lumen#features)
-+ [Web Performance Tests](http://github.com/alxshelepenok/gatsby-starter-lumen#web-performance-tests)
-+ [Quick Start](http://github.com/alxshelepenok/gatsby-starter-lumen#quick-start)
-+ [Deploy with Netlify](http://github.com/alxshelepenok/gatsby-starter-lumen#deploy-with-netlify)
-+ [Folder Structure](http://github.com/alxshelepenok/gatsby-starter-lumen#folder-structure)
-+ [Related](http://github.com/alxshelepenok/gatsby-starter-lumen#related)
-+ [Contributors](http://github.com/alxshelepenok/gatsby-starter-lumen#contributors)
-+ [Backers](http://github.com/alxshelepenok/gatsby-starter-lumen#backers)
-+ [Sponsors](http://github.com/alxshelepenok/gatsby-starter-lumen#sponsors)
-+ [Credits](http://github.com/alxshelepenok/gatsby-starter-lumen#credits)
-+ [License](http://github.com/alxshelepenok/gatsby-starter-lumen#license)
-
 ## Features
 + [Publications](http://lostgrid.org).
-+ [Search Publications](https://bitsofco.de/the-new-system-font-stack).
-+ [Bioinformations Institute Website](https://github.com/matejlatin/Gutenberg).
-+ [Authors](https://medium.com/@mrmrs_/mobile-first-css-48bc4cc3f60f) approach in development.
-+ [Groups](https://www.netlifycms.org) support.
-+ [Archive](https://flow.org/) static type checking.
++ [Search Publications] - Searching for a science article through the search of Names, Authors, Title, Groups and Identification.
++ [Bioinformations Institute Website] - BII Website
++ [Authors] - List of all Authors that have 
++ [Groups] - List of all Groups in BII and science articles by them.
++ [Archive]- Search specific periods to look for publications. 
 
 ```
 
