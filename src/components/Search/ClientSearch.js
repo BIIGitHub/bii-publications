@@ -4,6 +4,7 @@ import { StaticQuery, graphql } from 'gatsby';
 import ReactPaginate from 'react-paginate';
 import Badge from 'react-bootstrap/Badge';
 import paginate from 'paginate-array';
+// import { TextBoxComponent } from '@syncfusion/ej2-react-inputs';
 
 // get our fontawesome imports
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -133,15 +134,16 @@ export class ClientSearch extends Component {
         <div className="awesomplete" style={{ margin: "0 auto" }}>
         <span className="awesomplete" style={{ position: "relative", display: "inline-block", direction: "ltr"}}>
           <FontAwesomeIcon icon={faSearch} /> Search:
-                <input
-                  id="Search"
-                  value={searchQuery}
-                  onChange={this.searchData}
-                  className="awesomplete" 
-                  data-list="#mylist" 
-                  placeholder="Title, Author or Group Name"
-                  style={{ margin: "0 auto" }}
-                />
+            <input
+              id="Search"
+              type="search"
+              value={searchQuery}
+              onChange={this.searchData}
+              className="awesomplete" 
+              data-list="#mylist" 
+              placeholder="Title, Author or Group Name"
+              style={{ margin: "0 auto" }}
+            />
         </span>
             
             {queryResults.length > 0 &&

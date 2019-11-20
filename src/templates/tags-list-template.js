@@ -15,7 +15,7 @@ import { usePaginateArray } from '../utils/utilities';
 const TagsListTemplate = () => {
   const { title, subtitle } = useSiteMetadata();
   const totalAuthors = useTagsList();
-  const perPage = 10;
+  const perPage = 15;
   const pageCount = Math.ceil(totalAuthors.length / perPage);
 
   const [currentPage, setCurrentPage] = useState(1);

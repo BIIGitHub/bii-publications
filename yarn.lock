@@ -1632,6 +1632,67 @@
   version "0.7.0"
   resolved "https://registry.yarnpkg.com/@sindresorhus/is/-/is-0.7.0.tgz#9a06f4f137ee84d7df0460c1fdb1135ffa6c50fd"
 
+"@syncfusion/ej2-base@~17.3.27":
+  version "17.3.27"
+  resolved "https://registry.yarnpkg.com/@syncfusion/ej2-base/-/ej2-base-17.3.27.tgz#9959a331cb6086dbfc6a87e2852a4e4fcf07a410"
+  integrity sha512-iJ1QzVQElGvDqk8CH99eKQGZIrZiIrXGrZIxJxhjcFHNcL9s0TK1YtDUQI5HBqpfL0IZmK5WtNlRuyt7L5FfyQ==
+  dependencies:
+    "@syncfusion/ej2-icons" "~17.3.27"
+
+"@syncfusion/ej2-buttons@~17.3.27":
+  version "17.3.27"
+  resolved "https://registry.yarnpkg.com/@syncfusion/ej2-buttons/-/ej2-buttons-17.3.27.tgz#bcdab200ae909c98f9cda3e2e82d7bd88ef82f9e"
+  integrity sha512-xfT85sZCzI88fdU3vUHI504nBkSUyFN7vJr2jO9EBRSo4CjjS4kjKc4ugkz8AT3VTTujJJxIczBHUF1erXbxRg==
+  dependencies:
+    "@syncfusion/ej2-base" "~17.3.27"
+
+"@syncfusion/ej2-icons@~17.3.27":
+  version "17.3.27"
+  resolved "https://registry.yarnpkg.com/@syncfusion/ej2-icons/-/ej2-icons-17.3.27.tgz#100ecedf7b65593b3f4458dd120083001016986c"
+  integrity sha512-0MM+93IrtXCnyXybVLjyRdy8JSJ4diCC0gZagFc1VhBofhZqrpWlCLt3C0SUyfsSvuMyYZUisR41iwqRP84yIQ==
+
+"@syncfusion/ej2-inputs@17.3.28":
+  version "17.3.28"
+  resolved "https://registry.yarnpkg.com/@syncfusion/ej2-inputs/-/ej2-inputs-17.3.28.tgz#0c70c9ace9ab7cb57c49e0dfbf2f5e5528a33d82"
+  integrity sha512-rjjezTDNlsM2yKF5fO0x62Q/Ml+hoQCl0QXjlOvkn4L7N5hT8B340DwUykeOFS/v5+ZS0zX3RAPgd0cimgf7RQ==
+  dependencies:
+    "@syncfusion/ej2-base" "~17.3.27"
+    "@syncfusion/ej2-buttons" "~17.3.27"
+    "@syncfusion/ej2-popups" "~17.3.27"
+    "@syncfusion/ej2-splitbuttons" "~17.3.27"
+
+"@syncfusion/ej2-popups@~17.3.27":
+  version "17.3.27"
+  resolved "https://registry.yarnpkg.com/@syncfusion/ej2-popups/-/ej2-popups-17.3.27.tgz#a4d1fbd64ec42f77653a6c6982efc9f1fb14a487"
+  integrity sha512-2M4x70yVK/F4y3fOpw94TWKEuvasBJ3l+ZKIsvRLptSX8N8oREfgCIASvaIwMmdwu3ehPNvEcm8qN5qM+oj7eQ==
+  dependencies:
+    "@syncfusion/ej2-base" "~17.3.27"
+    "@syncfusion/ej2-buttons" "~17.3.27"
+
+"@syncfusion/ej2-react-base@~17.3.27":
+  version "17.3.27"
+  resolved "https://registry.yarnpkg.com/@syncfusion/ej2-react-base/-/ej2-react-base-17.3.27.tgz#51bb4cca333a90b8e8d3478a949f061913304fcb"
+  integrity sha512-sGciSG4v72GplOgoT1L3Feieo7e45sWt1CmKoTZqUbeqra5tFOOquVuqaqWk970IikM0KfYKXtAtqNeEeflzqQ==
+  dependencies:
+    "@syncfusion/ej2-base" "~17.3.27"
+
+"@syncfusion/ej2-react-inputs@^17.3.28":
+  version "17.3.28"
+  resolved "https://registry.yarnpkg.com/@syncfusion/ej2-react-inputs/-/ej2-react-inputs-17.3.28.tgz#f4f208963ebbeb346c05afe177b599b1430799fa"
+  integrity sha512-jNyIyeLnh4wpVIc0/poh/LccIh1EjzoumtPSEKW/gTjCxq56+VN58UCGnkP7rxkYwFslogWbiTK2QPmSZPSrmg==
+  dependencies:
+    "@syncfusion/ej2-base" "~17.3.27"
+    "@syncfusion/ej2-inputs" "17.3.28"
+    "@syncfusion/ej2-react-base" "~17.3.27"
+
+"@syncfusion/ej2-splitbuttons@~17.3.27":
+  version "17.3.27"
+  resolved "https://registry.yarnpkg.com/@syncfusion/ej2-splitbuttons/-/ej2-splitbuttons-17.3.27.tgz#43d13ae9cfbf3a5951c3fa6c720e2b5bb4f96a2f"
+  integrity sha512-4e9WDyiHLT6S4Jnsv3yFJgSqm0TUe8pCNEYFSV5wmFk20RE4qov4cDTEyNSngK7IFhNdmdfRwjYGpwnOOQzRVQ==
+  dependencies:
+    "@syncfusion/ej2-base" "~17.3.27"
+    "@syncfusion/ej2-popups" "~17.3.27"
+
 "@types/babel__core@^7.1.0":
   version "7.1.2"
   resolved "https://registry.yarnpkg.com/@types/babel__core/-/babel__core-7.1.2.tgz#608c74f55928033fce18b99b213c16be4b3d114f"

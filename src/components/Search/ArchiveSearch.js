@@ -3,7 +3,6 @@ import DatePicker from "react-datepicker";
 import moment from 'moment';
 import Badge from 'react-bootstrap/Badge';
 import ReactPaginate from 'react-paginate';
-import paginate from 'paginate-array';
 import { usePaginateArray } from '../../utils/utilities';
 
 import "react-datepicker/dist/react-datepicker.css";
@@ -147,7 +146,8 @@ class ArchiveSearch extends Component {
                                     <a target="_blank" style={{color: '#003399'}} href={`${item.slug}`}>{item.title}</a>
                                 </span>
                                 <br />
-                                <span style={{ fontSize: "16x"}}> Authors: 
+                                <p><span style={{ fontSize: "14px", lineHeight: "1px"}}>{item.description}</span></p>
+                                <span style={{ fontSize: "16px"}}> Authors: 
                                 {
                                     (item.authors).map(author => {
                                         var searchAuthor = author.replace(/\s+/g, '-').toLowerCase();
