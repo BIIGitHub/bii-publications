@@ -5,7 +5,6 @@ import Badge from 'react-bootstrap/Badge';
 import ReactPaginate from 'react-paginate';
 import { usePaginateArray } from '../../utils/utilities';
 
-import "react-datepicker/dist/react-datepicker.css";
 import { faWeight } from "@fortawesome/free-solid-svg-icons";
 
 // get our fontawesome imports
@@ -51,7 +50,6 @@ class ArchiveSearch extends Component {
     });
     this.setState({ allPublications: searchPublications });
   }
-
 
   handleStartDateChange = date => { this.setState({ startDate: date}); };
   handleEndDateChange = date => { this.setState({ endDate: date}); };
