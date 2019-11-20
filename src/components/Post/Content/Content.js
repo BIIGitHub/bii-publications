@@ -47,6 +47,7 @@ const Content = ({ details, title, body}: Props) => (
          <a href={details.uploadfile}> <img src="/media/images/pdf_icon.png" style={{ display: "inline-block"}}/> &nbsp;<b>Published Paper</b></a> <br />
       </div>    
     }
+    <br />
     <div className={styles['content__body']} dangerouslySetInnerHTML={{ __html: body }} />
     
   </div>
