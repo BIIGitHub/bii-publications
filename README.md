@@ -15,8 +15,6 @@
 + [Groups] - List of all Groups in BII and science articles by them.
 + [Archive]- Search specific periods to look for publications. 
 
-```
-
 ## Related
 [Statinamic port](https://github.com/thangngoc89/statinamic-theme-lumen) by [Khoa Nguyen](https://github.com/thangngoc89)
 
