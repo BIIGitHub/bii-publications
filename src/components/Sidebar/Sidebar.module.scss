@@ -7,6 +7,27 @@
         position: relative;
         padding: 25px 20px 0;
     }
+    &__innerMobile {
+        position: relative;
+        padding: 10px 10px 0;
+    }
+}
+
+.mobile-only { 
+    @media (min-width: 768px){ 
+    display: none; 
+
+        .navHover:hover { 
+            cursor: pointer;
+            background-color: beige;
+            color: red;  
+        } 
+    } 
+}
+.desktop-only { 
+    @media (max-width: 767px){ 
+      display: none; 
+    } 
 }
 
 @include breakpoint-sm {
@@ -37,3 +58,6 @@
         }
     }
 }
+
+
+

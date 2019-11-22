@@ -8,7 +8,13 @@ type Props = {
 
 const Copyright = ({ copyright }: Props) => (
   <div className={styles['copyright']}>
-    {copyright}
+    <div className={styles['desktop-only']}>
+      {copyright}
+    </div>
+
+    <div className={styles['mobile-only']}>
+      {/* {copyright} */}
+    </div>
   </div>
 );
 

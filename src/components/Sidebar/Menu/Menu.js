@@ -16,55 +16,56 @@ type Props = {
 };
 
 const Menu = ({ menu }: Props) => (
-  
-  <nav className={styles['menu']}>
-    <ul className={styles['menu__list']}>
-    <li className={styles['menu__list-item','smallfont','hoverDetails']}>
-        <ClientSearch />
-      </li>
-      {menu.map((item) => (
-        <li className={styles['menu__list-item']} key={item.path}>
+  <nav className={styles['menu']}> 
+    <div className={styles['desktop-only']}>
+      <ul className={styles['menu__list']}>
+        <li className={styles['menu__list-item','smallfont','hoverDetails']}>
+          <ClientSearch />
+        </li>
+        {menu.map((item) => (
+          <li className={styles['menu__list-item']} key={item.path}>
+            <Link
+              to={item.path}
+              className={styles['menu__list-item-link']}
+              activeClassName={styles['menu__list-item-link--active']}
+            >
+              {item.label}
+            </Link>
+          </li>
+        ))}
+        <li className={styles['menu__list-item']}>
+          <a className={styles['menu__list-item-link']} target='_blank' href="http://www.bii.a-star.edu.sg/">Bioinformatics Institute Website <FontAwesomeIcon style={{ width:"0.8em"}} icon={faExternalLinkAlt} /></a>
+        </li>
+        <li className={styles['menu__list-item']}>
           <Link
-            to={item.path}
+              to="/authors"
+              className={styles['menu__list-item-link']}
+              activeClassName={styles['menu__list-item-link--active']}
+          >Authors
+        </Link>
+        </li>
+        <li className={styles['menu__list-item']}>
+          <Link
+            to="/groups"
             className={styles['menu__list-item-link']}
             activeClassName={styles['menu__list-item-link--active']}
           >
-            {item.label}
+          Groups
           </Link>
         </li>
-      ))}
-      <li className={styles['menu__list-item']}>
-        <a className={styles['menu__list-item-link']} target='_blank' href="http://www.bii.a-star.edu.sg/">Bioinformatics Institute Website <FontAwesomeIcon style={{ width:"0.8em"}} icon={faExternalLinkAlt} /></a>
-      </li>
-      <li className={styles['menu__list-item']}>
-        <Link
-            to="/authors"
-            className={styles['menu__list-item-link']}
-            activeClassName={styles['menu__list-item-link--active']}
-        >
-        Authors
-        </Link>
-      </li>
-      <li className={styles['menu__list-item']}>
-        <Link
-          to="/groups"
-          className={styles['menu__list-item-link']}
-          activeClassName={styles['menu__list-item-link--active']}
-        >
-        Groups
-        </Link>
-      </li>
-      <li className={styles['menu__list-item']}>
-        <Link
-            to="/archive"
-            className={styles['menu__list-item-link']}
-            activeClassName={styles['menu__list-item-link--active']}
-        >
-        Archive Search
-        </Link>
-      </li>
-    </ul>
+        <li className={styles['menu__list-item']}>
+          <Link
+              to="/archive"
+              className={styles['menu__list-item-link']}
+              activeClassName={styles['menu__list-item-link--active']}
+          >
+          Archive Search
+          </Link>
+        </li>
+      </ul>
+    </div>
   </nav>
+
 );
 
 export default Menu;

@@ -29,12 +29,27 @@
           color: $color-base;
           border-bottom: 1px solid $color-base;
         }
-
       }
-
     }
-
   }
-
+}
+.mobile-only { 
+  @media (min-width: 768px){ 
+  display: none; 
+  } 
+} 
+.desktop-only { 
+  @media (max-width: 767px){ 
+    display: none; 
+  } 
 }
 .smallfont { font-size: 12px; line-height: 1.5 !important;}
+.fa-1x {
+  font-size: 1.5rem;
+  }
+  .navbar-toggler.toggler-example {
+  cursor: pointer;
+  }
+  .dark-blue-text {
+  color: #0A38F5;
+  }
