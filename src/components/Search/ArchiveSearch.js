@@ -99,36 +99,80 @@ class ArchiveSearch extends Component {
         return (
             <div>
                 <div>
-                    <DatePicker
-                        selected={this.state.startDate}
-                        onChange={this.handleStartDateChange}
-                        dateFormat="dd/MM/yyyy"
-                        peekNextMonth
-                        showMonthDropdown
-                        showYearDropdown
-                        dropdownMode="select"
-                        isClearable
-                        placeholderText="Select a date"
-                    />
-                     <span style={{ fontWeight: "bold", margin:"10px"}}>TO</span>
-                    <DatePicker
-                        selected={this.state.endDate}
-                        onChange={this.handleEndDateChange}
-                        dateFormat="dd/MM/yyyy"
-                        peekNextMonth
-                        showMonthDropdown
-                        showYearDropdown
-                        dropdownMode="select"
-                        placeholderText="Select a date"
-                        isClearable
-                    />
-                    &nbsp;&nbsp;
-                    <button onClick={this.onSearchPublications} style={{ width: "15%"}}>
-                    <FontAwesomeIcon icon={faSearch} /> Search 
-                    </button>
+                    <div className={'desktop-only'}>
+                        <DatePicker
+                            selected={this.state.startDate}
+                            onChange={this.handleStartDateChange}
+                            dateFormat="dd/MM/yyyy"
+                            peekNextMonth
+                            showMonthDropdown
+                            showYearDropdown
+                            dropdownMode="select"
+                            isClearable
+                            placeholderText="Select a date"
+                        />
+                        <span style={{ fontWeight: "bold", margin:"10px"}}>TO</span>
+                        <DatePicker
+                            selected={this.state.endDate}
+                            onChange={this.handleEndDateChange}
+                            dateFormat="dd/MM/yyyy"
+                            peekNextMonth
+                            showMonthDropdown
+                            showYearDropdown
+                            dropdownMode="select"
+                            placeholderText="Select a date"
+                            isClearable
+                        />
+                        &nbsp;&nbsp;
+                        <button onClick={this.onSearchPublications} style={{ width: "15%"}}>
+                        <FontAwesomeIcon icon={faSearch} /> Search 
+                        </button>
+                    </div>
                 </div>
 
-                <div>          
+                <div className={'mobile-only'}>
+                    <div style={{marginLeft: '24vw'}}>
+                        <span style={{fontWeight: 'bold'}}>START DATE:</span>
+                        <br />
+                            <DatePicker
+                                selected={this.state.startDate}
+                                onChange={this.handleStartDateChange}
+                                dateFormat="dd/MM/yyyy"
+                                peekNextMonth
+                                showMonthDropdown
+                                showYearDropdown
+                                dropdownMode="select"
+                                isClearable
+                                placeholderText="Select a date" 
+                                style={{width: "100%"}}
+                            />
+                            <br />
+                            <br />
+                            <span style={{ fontWeight: "bold"}}>END DATE:</span>
+                            <br />
+                            <DatePicker
+                                selected={this.state.endDate}
+                                onChange={this.handleEndDateChange}
+                                dateFormat="dd/MM/yyyy"
+                                peekNextMonth
+                                showMonthDropdown
+                                showYearDropdown
+                                dropdownMode="select"
+                                placeholderText="Select a date"
+                                isClearable
+                            />
+                        </div>
+                        <br /><br />
+                        <div className={"centered"}>
+                            <button onClick={this.onSearchPublications} style={{ width: "50%", justifyContent: 'center', alignItems: 'center'}}>
+                            <FontAwesomeIcon icon={faSearch} /> Search 
+                            </button>
+                        </div>
+                    </div>
+                    <br />
+                    <hr />
+                
+            <div>          
                     {(this.state.queryPublications).length > 0 &&  <h1 style={{ fontSize: '20px', marginTop: '5%', marginBottom: '2%', fontWeight: 'bold', textDecorationLine: 'underline'}}>Publication(s)</h1>}
                     
                     {(this.state.queryPublications).map(item => {

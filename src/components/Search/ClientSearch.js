@@ -87,12 +87,9 @@ export class ClientSearch extends Component {
           title: publication.node.frontmatter.title,
           url: publication.node.frontmatter.url
         }
-  
         searchPublications.push(publicationObj);
       });
     }
-  
-
 
     dataToSearch.addDocuments(searchPublications) // adds the data to be searched
 
@@ -130,8 +127,8 @@ export class ClientSearch extends Component {
     const { searchResults, searchQuery } = this.state
     const queryResults = searchResults;
     return (
-      <div>
-        <div className="awesomplete" style={{ margin: "0 auto" }}>
+      <div className='desktop-only'>
+        <div className="awesomplete " style={{ margin: "0 auto" }}>
         <span className="awesomplete" style={{ position: "relative", display: "inline-block", direction: "ltr"}}>
           <FontAwesomeIcon icon={faSearch} /> Search:
             <input
@@ -179,9 +176,9 @@ export class ClientSearch extends Component {
                               }
                             </li>
                           </a>
-                          
                         )
                       })}
+
                       <ReactPaginate
                         previousLabel={'previous'}
                         nextLabel={'next'}

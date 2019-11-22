@@ -7,6 +7,7 @@ import Menu from './Menu';
 import styles from './Sidebar.module.scss';
 import { useSiteMetadata } from '../../hooks';
 import { Button, Navbar, Nav, NavDropdown, Form, FormControl, Col, Card } from 'react-bootstrap';
+import ClientSearch from '../../components/Search/ClientSearch';
 
 type Props = {
   isIndex?: boolean,
@@ -35,7 +36,7 @@ const Sidebar = ({ isIndex }: Props) => {
               </Navbar.Brand>
               <Navbar.Toggle aria-controls="basic-navbar-nav" style={{verticalAlign: 'middle', float:'right', marginLeft:'80px', marginTop:'30px'}} /> 
             </div>
-            <hr />
+            <hr style={{width: '100%'}}/>
             <Navbar.Collapse id="basic-navbar-nav">
               <Nav className="mr-auto">
                 <Card style={{ width: '100%', marginTop: '-20px'}}>
@@ -51,6 +52,8 @@ const Sidebar = ({ isIndex }: Props) => {
                       <Nav.Link className={['navHover']} href="/groups">Groups</Nav.Link>
                       <hr style={{width: '100%'}}/>
                       <Nav.Link className={['navHover']} href="/archive">Archive Search</Nav.Link>
+                      <hr style={{width: '100%'}}/>
+                      <ClientSearch />
                     </Card.Text>
                   </Card.Body>
                 </Card>
