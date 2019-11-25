@@ -170,7 +170,7 @@ class ArchiveSearch extends Component {
                         </div>
                     </div>
                     <br />
-                    <hr />
+                    <hr className={'mobile-only'}/>
                 
             <div>          
                     {(this.state.queryPublications).length > 0 &&  <h1 style={{ fontSize: '20px', marginTop: '5%', marginBottom: '2%', fontWeight: 'bold', textDecorationLine: 'underline'}}>Publication(s)</h1>}

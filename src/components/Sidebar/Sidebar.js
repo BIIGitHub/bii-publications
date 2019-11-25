@@ -34,7 +34,7 @@ const Sidebar = ({ isIndex }: Props) => {
               <Navbar.Brand href="#home" style={{float:'left', maxWidth:'200px'}}>
                 <Author author={author} isIndex={isIndex} /> 
               </Navbar.Brand>
-              <Navbar.Toggle aria-controls="basic-navbar-nav" style={{verticalAlign: 'middle', float:'right', marginLeft:'80px', marginTop:'30px'}} /> 
+              <Navbar.Toggle aria-controls="basic-navbar-nav" style={{verticalAlign: 'middle', float:'right', marginLeft: '50px', marginTop: '40px'}} /> 
             </div>
             <hr style={{width: '100%'}}/>
             <Navbar.Collapse id="basic-navbar-nav">
