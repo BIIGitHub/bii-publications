@@ -1,6 +1,7 @@
 // @flow strict
 import React from 'react';
 import type { Entry, WidgetFor } from '../../types';
+import moment from 'moment';
 
 type Props = {
   entry: Entry,
@@ -54,7 +55,7 @@ const PostPreview = ({ entry, widgetFor }: Props) => {
       {dateofacceptance &&
         <div>
           <b>Date of Acceptance: </b>&nbsp;
-          <span className="post__title">{dateofacceptance}</span>
+          <span className="post__title">{moment(dateofacceptance).format('D MMM YYYY')}</span>
         </div>    
       }
          

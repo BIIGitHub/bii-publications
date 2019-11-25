@@ -1,6 +1,7 @@
 // @flow strict
 import React from 'react';
 import styles from './Content.module.scss';
+import moment from 'moment';
 
 
 const Content = ({ details, title, body}: Props) => (
@@ -39,7 +40,9 @@ const Content = ({ details, title, body}: Props) => (
     {details.dateofacceptance &&
       <div>
         <b>Date of Acceptance: </b>&nbsp;
-        <span className={styles['content__body']} dangerouslySetInnerHTML={{ __html: details.dateofacceptance }} /> <br />
+        
+        <span className={styles['content__body']} /> {moment(details.dateofacceptance).format('D MMM YYYY')}<br />
+        
       </div>    
     }
     {details.uploadfile &&
