@@ -90,7 +90,8 @@
     "react-disqus-comments": "^1.4.0",
     "react-dom": "^16.11.0",
     "react-helmet": "^5.2.1",
-    "react-paginate": "^6.3.2"
+    "react-paginate": "^6.3.2",
+    "react-scroll-up-button": "^1.6.4"
   },
   "devDependencies": {
     "@babel/core": "7.6.4",

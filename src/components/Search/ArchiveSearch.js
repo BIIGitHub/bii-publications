@@ -4,6 +4,7 @@ import moment from 'moment';
 import Badge from 'react-bootstrap/Badge';
 import ReactPaginate from 'react-paginate';
 import { usePaginateArray } from '../../utils/utilities';
+import ScrollUpButton from "react-scroll-up-button"; //Add this line Here
 
 import { faWeight } from "@fortawesome/free-solid-svg-icons";
 
@@ -238,7 +239,8 @@ class ArchiveSearch extends Component {
                         />
                     }
 
-                </div>     
+                </div>   
+                <ScrollUpButton />  
             </div>
         )
     }   

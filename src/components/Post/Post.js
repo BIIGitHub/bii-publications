@@ -21,7 +21,7 @@ const Post = ({ post }: Props) => {
 
   return (
     <div className={styles['post']}>
-      <Link className={styles['post__home-button']} to="/">Back</Link>
+      <Link className={styles['post__home-button', 'mobile-only-button']} to="/">Back</Link>
 
       <div className={styles['post__content']}>
         <Content details={post.frontmatter} title={title} body={html}/>

@@ -4,6 +4,7 @@ import moment from 'moment';
 import { Link } from 'gatsby';
 import type { Edges } from '../../types';
 import styles from './Feed.module.scss';
+import ScrollUpButton from "react-scroll-up-button"; //Add this line Here
 
 type Props = {
   edges: Edges
@@ -28,6 +29,7 @@ const Feed = ({ edges }: Props) => (
         <Link className={styles['feed__item-button']} to={edge.node.fields.slug}>Read</Link>
       </div>
     ))}
+    <ScrollUpButton />
   </div>
   
 );
