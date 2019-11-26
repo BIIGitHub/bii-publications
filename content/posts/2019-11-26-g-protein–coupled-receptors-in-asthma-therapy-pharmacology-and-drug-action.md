@@ -1,7 +1,7 @@
 ---
 template: post
 title: 'G Protein–Coupled Receptors in Asthma Therapy: Pharmacology and Drug Action'
-date: 2019-11-26T08:00:14.556Z
+date: 2019-11-25T08:00:14.556Z
 journaltypes: Journal Paper
 journal: >-
   Pharmacological Reviews, Vol. 72, Issue 1, 1 Jan 2020, doi:
