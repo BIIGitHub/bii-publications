@@ -91,6 +91,7 @@ class PublicationsSearch extends Component {
     dataToSearch.addIndex("authors");
     dataToSearch.addIndex("pubmed");
     dataToSearch.addIndex("journal");
+    dataToSearch.addIndex("description");
     dataToSearch.addIndex("journaltypes");
     dataToSearch.addIndex("impactfactor");
     
@@ -146,6 +147,7 @@ class PublicationsSearch extends Component {
               </label>
               <input
                 id="Search"
+                type="search"
                 value={searchQuery}
                 onChange={this.searchData}
                 placeholder=" Author's initials, Group Name or Article Title"
