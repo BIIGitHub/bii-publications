@@ -3,6 +3,10 @@ import React from 'react';
 import styles from './Content.module.scss';
 import moment from 'moment';
 
+// get our fontawesome imports
+import { faExternalLinkAlt } from "@fortawesome/free-solid-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+
 
 const Content = ({ details, title, body}: Props) => (
   <div className={styles['content']}>
@@ -28,7 +32,7 @@ const Content = ({ details, title, body}: Props) => (
     {details.url &&
       <div>
         <b>URL: </b>&nbsp;
-        <a target="_blank" href={details.url}><span className={styles['content__body']} dangerouslySetInnerHTML={{ __html: details.url }} /></a> <br />
+        <a target="_blank" href={details.url}><span className={styles['content__body']} dangerouslySetInnerHTML={{ __html: details.url }} /> &nbsp;  <FontAwesomeIcon style={{ width:"0.8em"}} icon={faExternalLinkAlt} /></a> <br />
       </div>    
     }
     {details.impactfactor &&

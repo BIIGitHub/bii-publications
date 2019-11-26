@@ -53,6 +53,8 @@ const Sidebar = ({ isIndex }: Props) => {
                       <hr style={{width: '100%'}}/>
                       <Nav.Link className={['navHover']} href="/archive">Archive Search</Nav.Link>
                       <hr style={{width: '100%'}}/>
+                      <Nav.Link className={['navHover']} href="/search">Search</Nav.Link>
+                      <hr style={{width: '100%'}}/>
                       <ClientSearch />
                     </Card.Text>
                   </Card.Body>

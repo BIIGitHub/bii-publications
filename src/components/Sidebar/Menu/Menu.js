@@ -62,6 +62,15 @@ const Menu = ({ menu }: Props) => (
           Archive Search
           </Link>
         </li>
+        <li className={styles['menu__list-item']}>
+          <Link
+              to="/search"
+              className={styles['menu__list-item-link']}
+              activeClassName={styles['menu__list-item-link--active']}
+          >
+          Search
+          </Link>
+        </li>
       </ul>
     </div>
   </nav>

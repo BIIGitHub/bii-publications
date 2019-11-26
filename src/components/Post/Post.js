@@ -9,6 +9,7 @@ import Tags from './Tags';
 import Categories from './Categories';
 import styles from './Post.module.scss';
 import type { Node } from '../../types';
+import ScrollUpButton from "react-scroll-up-button"; //Add this line Here
 
 type Props = {
   post: Node
@@ -38,6 +39,7 @@ const Post = ({ post }: Props) => {
       <div className={styles['post__comments']}>
         <Comments postSlug={slug} postTitle={post.frontmatter.title} />
       </div>
+      <ScrollUpButton />
     </div>
   );
 };
