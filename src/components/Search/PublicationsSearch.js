@@ -90,11 +90,8 @@ class PublicationsSearch extends Component {
     dataToSearch.addIndex("groups");
     dataToSearch.addIndex("authors");
     dataToSearch.addIndex("pubmed");
-    dataToSearch.addIndex("journal");
     dataToSearch.addIndex("description");
-    dataToSearch.addIndex("journaltypes");
-    dataToSearch.addIndex("impactfactor");
-    
+
 
     let searchPublications = [];
     publications.forEach((publication) => {
