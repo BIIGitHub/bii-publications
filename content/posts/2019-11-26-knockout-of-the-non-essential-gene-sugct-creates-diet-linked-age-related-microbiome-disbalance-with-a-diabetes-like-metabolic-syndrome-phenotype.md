@@ -40,10 +40,10 @@ tags:
   - MAURER-STROH S
   - KALDIS P
 categories:
-  - PROTEIN SEQUENCE ANALYSIS
-  - GENE FUNCTION PREDICTION
-  - BIOMOLECULAR FUNCTION DISCOVERY DIVISION
-  - NATURAL PRODUCT CHEMISTRY
-  - TRANSLATIONAL RESEARCH DIVISION
+  - Protein Sequence Analysis
+  - Gene Function Prediction
+  - Biomolecular Function Discovery Division
+  - Natural Product Chemistry
+  - Translational Research Division
 ---
 SUGCT (C7orf10) is a mitochondrial enzyme that synthesizes glutaryl-CoA from glutarate in tryptophan and lysine catabolism, but it has not been studied in vivo. Although mutations in Sugct lead to Glutaric Aciduria Type 3 disease in humans, patients remain largely asymptomatic despite high levels of glutarate in the urine. To study the disease mechanism, we generated SugctKO mice and uncovered imbalanced lipid and acylcarnitine metabolism in kidney in addition to changes in the gut microbiome. After SugctKO mice were treated with antibiotics, metabolites were comparable to WT, indicating that the microbiome affects metabolism in SugctKO mice. SUGCT loss of function contributes to gut microbiota dysbiosis, leading to age-dependent pathological changes in kidney, liver, and adipose tissue. This is associated with an obesity-related phenotype that is accompanied by lipid accumulation in kidney and liver, as well as “crown-like” structures in adipocytes. Furthermore, we show that the SugctKO kidney pathology is accelerated and exacerbated by a high-lysine diet. Our study highlights the importance of non-essential genes with no readily detectable early phenotype, but with substantial contributions to the development of age-related pathologies, which result from an interplay between genetic background, microbiome, and diet in the health of mammals.
