@@ -27,8 +27,8 @@ tags:
   - FAN H
   - ZHANG C
 categories:
-  - STRUCTURE-BASED LIGAND DISCOVERY AND DESIGN
-  - BIOMOLECULAR MODELLING & DESIGN DIVISION
+  - Structure-based Ligand Discovery and Design
+  - BIomolecular Modelling and Design Division
 ---
 Asthma is a heterogeneous inflammatory disease of the airways that is associated with airway hyperresponsiveness and airflow limitation. Although asthma was once simply categorized as atopic or nonatopic, emerging analyses over the last few decades have revealed a variety of asthma endotypes that are attributed to numerous pathophysiological mechanisms. The classification of asthma by endotype is primarily routed in different profiles of airway inflammation that contribute to bronchoconstriction. Many asthma therapeutics target G protein–coupled receptors (GPCRs), which either enhance bronchodilation or prevent bronchoconstriction. Short-acting and long-acting β2-agonists are widely used bronchodilators that signal through the activation of the β2-adrenergic receptor. Short-acting and long-acting antagonists of muscarinic acetylcholine receptors are used to reduce bronchoconstriction by blocking the action of acetylcholine. Leukotriene antagonists that block the signaling of cysteinyl leukotriene receptor 1 are used as an add-on therapy to reduce bronchoconstriction and inflammation induced by cysteinyl leukotrienes. A number of GPCR-targeting asthma drug candidates are also in different stages of development. Among them, antagonists of prostaglandin D2 receptor 2 have advanced into phase III clinical trials. Others, including antagonists of the adenosine A2B receptor and the histamine H4 receptor, are in early stages of clinical investigation. In the past decade, significant research advancements in pharmacology, cell biology, structural biology, and molecular physiology have greatly deepened our understanding of the therapeutic roles of GPCRs in asthma and drug action on these GPCRs. This review summarizes our current understanding of GPCR signaling and pharmacology in the context of asthma treatment.
 
