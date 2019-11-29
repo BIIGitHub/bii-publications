@@ -22,12 +22,7 @@ description: >-
   and revealed a  Malay-related novel ancestry component. Furthermore,
   demographic inference suggested  that Malays split from Chinese ∼24,800 years
   ago and experienced significant admixture with East Asians ∼1,700 years ago,
-  coinciding with the Austronesian expansion.  Additionally, we identified 20
-  candidate loci for natural selection, 14 of which  harbored robust
-  associations with complex traits and diseases. Finally, we show  that our data
-  can substantially improve genotype imputation in diverse Asian and  Oceanian
-  populations. These results highlight the value of our data as a resource  to
-  empower human genetics discovery across broad geographic regions.
+  coinciding with the Austronesian expansion.  
 tags:
   - Wu D
   - Dou J
