@@ -64,11 +64,5 @@ categories:
   - Atomistic Simulations and Design in Biology
   - Biomolecular Modelling and Design Division
 ---
-Underrepresentation of Asian genomes has hindered population and medical genetics research on Asians, leading to population disparities in precision
-medicine. By whole-genome sequencing of 4,810 Singapore Chinese, Malays, and Indians, we found 98.3 million SNPs and small insertions or deletions, 
-over half of which are novel. Population structure analysis demonstrated great representation of Asian genetic diversity by three ethnicities in 
-Singapore and revealed a Malay-related novel ancestry component. Furthermore, demographic inference suggested that Malays split from Chinese 
-∼24,800 years ago and experienced significant admixture with East Asians ∼1,700 years ago, coinciding with the Austronesian expansion. Additionally,
-we identified 20 candidate loci for natural selection, 14 of which harbored robust associations with complex traits and diseases. Finally, we show 
-that our data can substantially improve genotype imputation in diverse Asian and Oceanian populations. These results highlight the value of our data
+Underrepresentation of Asian genomes has hindered population and medical genetics research on Asians, leading to population disparities in precision medicine. By whole-genome sequencing of 4,810 Singapore Chinese, Malays, and Indians, we found 98.3 million SNPs and small insertions or deletions,  over half of which are novel. Population structure analysis demonstrated great representation of Asian genetic diversity by three ethnicities in Singapore and revealed a Malay-related novel ancestry component. Furthermore, demographic inference suggested that Malays split from Chinese ∼24,800 years ago and experienced significant admixture with East Asians ∼1,700 years ago, coinciding with the Austronesian expansion. Additionally, we identified 20 candidate loci for natural selection, 14 of which harbored robust associations with complex traits and diseases. Finally, we show  that our data can substantially improve genotype imputation in diverse Asian and Oceanian populations. These results highlight the value of our data
 as a resource to empower human genetics discovery across broad geographic regions.
