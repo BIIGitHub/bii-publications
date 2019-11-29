@@ -142,14 +142,14 @@ class PublicationsSearch extends Component {
               <label htmlFor="Search" style={{ paddingRight: "10px" }}>
                 <span style={{fontWeight: 'bold'}}>SEARCH: </span>
               </label>
-              <input
-                id="Search"
-                type="search"
-                value={searchQuery}
-                onChange={this.searchData}
-                placeholder=" Author's initials, Group Name or Article Title"
-                style={{ margin: "0 auto", width: "400px" }}
-              />
+              <div class="form-group">
+                <input type="search" value={searchQuery}
+                  id="Search"
+                  onChange={this.searchData} 
+                  class="form-control-lg" 
+                  aria-describedby="publicationsHelp" 
+                  placeholder=" Author's initials, Group Name or Article Title" />
+              </div>
             </div>
           </form>
           <div>
