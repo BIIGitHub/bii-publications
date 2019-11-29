@@ -20,16 +20,7 @@ description: >-
   recombinant Megabalanus rosa Cement Protein  20 (rMrCP20). Our NMR results
   show that rMrCP20 contains three main folded domain  regions intervened by two
   dynamic loops, resulting in multiple protein conformations  that exist in
-  equilibrium. We found that 12 out of 32 Cys in the sequence engage in 
-  disulfide bonds that stabilize the β-sheet domains owing to their placement at
-  the  extremities of β-strands. Another feature unveiled by NMR is the location
-  of basic  residues in turn regions that are exposed to the solvent, playing an
-  important role  for intermolecular contact with negatively charged surfaces.
-  MD simulations highlight  a highly stable and conserved β-motif (β7-β8), which
-  may function as nuclei for  amyloid-like nanofibrils previously observed in
-  the cured adhesive cement. To the best  of our knowledge, this is the first
-  report describing the tertiary structure of an  extracellular biological
-  adhesive protein at the molecular level.
+  equilibrium. 
 tags:
   - Mohanram H
   - Kumar A
