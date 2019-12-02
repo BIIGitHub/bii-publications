@@ -6,6 +6,7 @@ import ClientSearch from '../../Search/ClientSearch';
 
 // get our fontawesome imports
 import { faExternalLinkAlt } from "@fortawesome/free-solid-svg-icons";
+import { faSearch } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 type Props = {
@@ -20,7 +21,7 @@ const Menu = ({ menu }: Props) => (
     <div className={styles['desktop-only']}>
       <ul className={styles['menu__list']}>
         <li className={styles['menu__list-item','smallfont','hoverDetails']}>
-          <ClientSearch />
+          {/* <ClientSearch /> */}
         </li>
         {menu.map((item) => (
           <li className={styles['menu__list-item']} key={item.path}>
@@ -68,7 +69,7 @@ const Menu = ({ menu }: Props) => (
               className={styles['menu__list-item-link']}
               activeClassName={styles['menu__list-item-link--active']}
           >
-          Search
+          <FontAwesomeIcon icon={faSearch} /> Search
           </Link>
         </li>
       </ul>

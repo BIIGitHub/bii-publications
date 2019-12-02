@@ -8,6 +8,10 @@ import styles from './Sidebar.module.scss';
 import { useSiteMetadata } from '../../hooks';
 import { Button, Navbar, Nav, NavDropdown, Form, FormControl, Col, Card } from 'react-bootstrap';
 import ClientSearch from '../../components/Search/ClientSearch';
+// get our fontawesome imports
+import 'bootstrap/dist/css/bootstrap.min.css';
+import { faSearch } from "@fortawesome/free-solid-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 type Props = {
   isIndex?: boolean,
@@ -53,9 +57,8 @@ const Sidebar = ({ isIndex }: Props) => {
                       <hr style={{width: '100%'}}/>
                       <Nav.Link className={['navHover']} href="/archive">Archive Search</Nav.Link>
                       <hr style={{width: '100%'}}/>
-                      <Nav.Link className={['navHover']} href="/search">Search</Nav.Link>
+                      <Nav.Link className={['navHover']} href="/search"><FontAwesomeIcon icon={faSearch} /> Search</Nav.Link>
                       <hr style={{width: '100%'}}/>
-                      <ClientSearch />
                     </Card.Text>
                   </Card.Body>
                 </Card>
