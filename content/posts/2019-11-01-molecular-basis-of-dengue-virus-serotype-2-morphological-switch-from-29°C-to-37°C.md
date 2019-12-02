@@ -15,9 +15,7 @@ description: >-
   antigenic properties) complicates vaccine and therapeutics development.
   Previous studies  showed most strains of laboratory adapted DENV2 particles
   changed from smooth to  "bumpy" surfaced morphology when the temperature is
-  switched from 29°C at 37°C.  Here we identified five envelope (E) protein
-  residues different between two  alternative passage history DENV2 NGC strains
-  exhibiting smooth or bumpy surface  morphologies. 
+  switched from 29°C at 37°C.  
 tags:
   - Lim XN
   - Shan C
