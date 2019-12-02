@@ -16,12 +16,7 @@ description: >-
   health safety evaluation by informing screening level assessments. The primary
   objective of this work was to compare PODs based on high-throughput
   predictions of bioactivity, exposure predictions, and traditional hazard
-  information for 448 chemicals. PODs derived from new approach methodologies
-  (NAMs) were obtained for this comparison using the 50th (PODNAM,50) and the
-  95th (PODNAM,95) percentile credible interval estimates for the steady-state
-  plasma concentration used in in vitro to in vivo extrapolation of administered
-  equivalent doses (AEDs). Of the 448 substances, 89% had a PODNAM,95 that was
-  less than the traditional POD (PODtraditional) value. 
+  information for 448 chemicals. 
 tags:
   - Friedman KP
   - Gagne M
