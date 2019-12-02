@@ -17,10 +17,7 @@ description: >-
   understood, in particular,  because the three-dimensional molecular structure
   of CPs remained unknown to date.  Here, we conducted multi-dimensional nuclear
   magnetic resonance (NMR) studies and  molecular dynamics (MD) simulations of
-  recombinant Megabalanus rosa Cement Protein  20 (rMrCP20). Our NMR results
-  show that rMrCP20 contains three main folded domain  regions intervened by two
-  dynamic loops, resulting in multiple protein conformations  that exist in
-  equilibrium. 
+  recombinant Megabalanus rosa Cement Protein  20 (rMrCP20). 
 tags:
   - Mohanram H
   - Kumar A
