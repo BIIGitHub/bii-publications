@@ -22,23 +22,23 @@ description: >-
   to changes in the gut microbiome. 
 uploadfile: /media/uploads/knockout-of-the-non-essential-gene.pdf
 tags:
-  - NISKA-BLAKIE J
-  - GOPINATHAN L
-  - LOW KN
-  - YANG LK
-  - GOH CMF
-  - CALDEZ MJ
-  - PFEIFFENBERGER E
-  - JONES OS
-  - ONG CB
-  - KUROCHKIN IV
-  - COPPOLA V
-  - TESSAROLLO L
-  - CHOI H
-  - KANAGASUNDARAM Y
-  - EISENHABER F
-  - MAURER-STROH S
-  - KALDIS P
+  - Niska-Blakie J
+  - Gopinathan L
+  - Low KN
+  - Yang LK
+  - Goh CMF
+  - Caldez MJ
+  - Pfeiffenberger E
+  - Jones OS
+  - Ong CB
+  - Kurochkin IV
+  - Coppola V
+  - Tessarollo L
+  - Choi H
+  - Kanagasundaram Y
+  - Eisenhaber F
+  - Maurer-Stroh S
+  - Kaldis P
 categories:
   - Protein Sequence Analysis
   - Gene Function Prediction
