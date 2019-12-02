@@ -23,28 +23,28 @@ description: >-
   equivalent doses (AEDs). Of the 448 substances, 89% had a PODNAM,95 that was
   less than the traditional POD (PODtraditional) value. 
 tags:
-  - FRIEDMAN KP
-  - GAGNE M
-  - LOO LH
-  - KARAMERTZANIS P
-  - NETZEVA T
-  - SOBANSKI T
-  - FRANZOSA J
-  - RICHARD A
-  - LOUGEE R
-  - GISSI A
-  - LEE JJ
-  - ANGRISH M
-  - DORNE JL
-  - FOSTER S
-  - RAFFAELE K
-  - BAHADORI T
-  - GWINN M
-  - LAMBERT J
-  - WHELAN M
-  - RASENBERG M
-  - BARTON-MACLAREN T
-  - THOMAS RS.
+  - Friedman KP
+  - Gagne M
+  - Loo LH
+  - Karamertzanis P
+  - Netzeva T
+  - Sobanski T
+  - Franzosa J
+  - Richard A
+  - Loug R
+  - Gissi A
+  - Lee JJ
+  - Angrish M
+  - Dorne JL
+  - Foster S
+  - Raffaele K
+  - Bahadori T
+  - Gwinn M
+  - Lambert J
+  - Whelan M
+  - Rasenberg M
+  - Barton-Maclaren Tee
+  - Thomas RS
 categories:
   - Complex Cellular Phenotype Analysis
   - Imaging Informatics Division
