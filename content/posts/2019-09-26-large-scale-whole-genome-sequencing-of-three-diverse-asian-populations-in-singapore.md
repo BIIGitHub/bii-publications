@@ -19,10 +19,7 @@ description: >-
   Indians, we found 98.3 million SNPs and small insertions or deletions, over
   half of which  are novel. Population structure analysis demonstrated great
   representation of  Asian genetic diversity by three ethnicities in Singapore
-  and revealed a  Malay-related novel ancestry component. Furthermore,
-  demographic inference suggested  that Malays split from Chinese ∼24,800 years
-  ago and experienced significant admixture with East Asians ∼1,700 years ago,
-  coinciding with the Austronesian expansion.  
+  and revealed a  Malay-related novel ancestry component. 
 tags:
   - Wu D
   - Dou J
