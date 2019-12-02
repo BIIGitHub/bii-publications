@@ -16,16 +16,12 @@ description: >-
   over the last few decades have revealed a variety of asthma endotypes that are
   attributed to numerous pathophysiological mechanisms. The classification of
   asthma by endotype is primarily routed in different profiles of airway
-  inflammation that contribute to bronchoconstriction. Many asthma therapeutics
-  target G protein–coupled receptors (GPCRs), which either enhance
-  bronchodilation or prevent bronchoconstriction. Short-acting and long-acting
-  β2-agonists are widely used bronchodilators that signal through the activation
-  of the β2-adrenergic receptor. 
+  inflammation that contribute to bronchoconstriction. 
 uploadfile: /media/uploads/g-protein-coupled-receptors.pdf
 tags:
-  - WENDELL SG
-  - FAN H
-  - ZHANG C
+  - Wendell SG
+  - Fan H
+  - Zhang C
 categories:
   - Structure-based Ligand Discovery and Design
   - BIomolecular Modelling and Design Division
