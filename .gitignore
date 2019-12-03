@@ -5,9 +5,6 @@ public/icons
 public/media
 public/page-data
 public/static
-public/admin/index.html
-public/admin/cms.js.map
-public/admin/cms.js
 npm-debug.log
 .eslintcache
 .gatsby-context.js
