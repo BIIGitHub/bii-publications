@@ -15,8 +15,8 @@ collections:
       - {label: "Template", name: "template", widget: "hidden", default: "post"}
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Date", name: "date", widget: "datetime"}
-      - {label: "Type", name: "journaltypes", widget: "string", required: false}
-      - {label: "Journal ", name: "journal", widget: "string", required: false}
+      - {label: "Journal Type", name: "journaltypes", widget: "string", required: false}
+      - {label: "Name of Journal ", name: "journal", widget: "string", required: false}
       - {label: "Pubmed ", name: "pubmed", widget: "string", required: false}
       - {label: "URL ", name: "url", widget: "string", required: false}
       - {label: "Impact Factor", name: "impactfactor", widget: "string", required: false}
