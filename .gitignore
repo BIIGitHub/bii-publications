@@ -1,9 +1,5 @@
 node_modules/
-public/css
-public/icons
-public/media
-public/page-data
-public/static
+public/
 npm-debug.log
 .cache/
 .eslintcache

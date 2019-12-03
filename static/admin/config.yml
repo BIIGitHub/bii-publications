@@ -25,7 +25,12 @@ collections:
       - {label: "Body", name: "body", widget: "markdown"}
       - {label: "File", name: "uploadfile", widget: "file", required: false}
       - {label: "Authors", name: "tags", widget: "list"}
-      - {label: "Groups", name: "categories", widget: "list"}
+      - {label: "Groups", name: "categories", widget: "select", multiple: true, options: ["Biomolecular Function Discovery Division ", "Biomolecular Modelling and Design Division", "Imaging Informatics Division", "Translational Research Division",
+                                                                                            "Gene Function Prediction", "Protein Sequence Analysis", "Function and Structure of RNA", "Analytics of Biological Sequence Data", 
+                                                                                            "Atomistic Simulations and Design in Biology", "Physics and Evolution of Biological Macromolecules", "Multiscale Simulation, Modelling and Design", "Structure-based Ligand Discovery and Design",
+                                                                                            "Computer Vision and Pattern Discovery for Bioimages", "Machine Learning for Bioimage Analysis", "Biophysical Modelling", "Complex Cellular Phenotype Analysis", 
+                                                                                            "Natural Product Biology", "Natural Product Chemistry", "Chemical Genomics", "Antibody and Product Development"]}
+      
 
   - name: "pages"
     label: "Pages"
