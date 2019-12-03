@@ -140,7 +140,7 @@ class PublicationsSearch extends Component {
           <form onSubmit={this.handleSubmit}>
             <div style={{ margin: "0 auto" }}>
               <label htmlFor="Search" style={{ paddingRight: "10px" }}>
-                <span style={{fontWeight: 'bold'}}>SEARCH: </span>
+                <span style={{fontWeight: 'bold'}}>SEARCH: </span><br />
               </label>
               <div class="form-group">
                 <input type="search" value={searchQuery}
@@ -148,11 +148,16 @@ class PublicationsSearch extends Component {
                   onChange={this.searchData} 
                   class="form-control-lg" 
                   aria-describedby="publicationsHelp" 
-                  placeholder=" Author's initials, Group Name or Article Title" />
+                  placeholder=" Enter search field" />
               </div>
             </div>
           </form>
           <div>
+          <div class="alert alert-primary" role="alert">
+          <span style={{fontSize: '12px', fontWeight: 'normal'}}> Please enter <span style={{fontWeight: 'bold'}}>Author's surname and initials</span> or <span style={{fontWeight: 'bold'}}>Group Name</span> or <span style={{fontWeight: 'bold'}}> Keywords</span> 
+          <br /> Example: <span style={{textDecoration: 'underline'}}>Eisenhaber F</span> OR <span style={{textDecoration: 'underline'}}>Gene Function Prediction</span> OR <span style={{textDecoration: 'underline'}}>Metabolic</span></span>
+          </div>
+          
           <span style={{fontStyle: 'italic', fontSize: '12px', color: '#990000'}}>Number of returned articles: 
             {queryResults.length}
         </span>
