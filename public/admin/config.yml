@@ -1,0 +1,43 @@
+backend:
+  name: git-gateway
+  branch: master
+
+media_folder: "static/media/uploads"
+public_folder: "/media/uploads"
+
+collections:
+  - name: "posts"
+    label: "Posts"
+    folder: "content/posts"
+    create: true
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    fields:
+      - {label: "Template", name: "template", widget: "hidden", default: "post"}
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Date", name: "date", widget: "datetime"}
+      - {label: "Type", name: "journaltypes", widget: "string", required: false}
+      - {label: "Journal ", name: "journal", widget: "string", required: false}
+      - {label: "Pubmed ", name: "pubmed", widget: "string", required: false}
+      - {label: "URL ", name: "url", widget: "string", required: false}
+      - {label: "Impact Factor", name: "impactfactor", widget: "string", required: false}
+      - {label: "Date of Acceptance", name: "dateofacceptance", widget: "datetime"}
+      - {label: "Description", name: "description", widget: "text"}
+      - {label: "Body", name: "body", widget: "markdown"}
+      - {label: "File", name: "uploadfile", widget: "file", required: false}
+      - {label: "Authors", name: "tags", widget: "list"}
+      - {label: "Groups", name: "categories", widget: "select", multiple: true, options: ["Biomolecular Function Discovery Division ", "Biomolecular Modelling and Design Division", "Imaging Informatics Division", "Translational Research Division",
+                                                                                            "Gene Function Prediction", "Protein Sequence Analysis", "Function and Structure of RNA", "Analytics of Biological Sequence Data", 
+                                                                                            "Atomistic Simulations and Design in Biology", "Physics and Evolution of Biological Macromolecules", "Multiscale Simulation, Modelling and Design", "Structure-based Ligand Discovery and Design",
+                                                                                            "Computer Vision and Pattern Discovery for Bioimages", "Machine Learning for Bioimage Analysis", "Biophysical Modelling", "Complex Cellular Phenotype Analysis", 
+                                                                                            "Natural Product Biology", "Natural Product Chemistry", "Chemical Genomics", "Antibody and Product Development"]}
+
+  - name: "pages"
+    label: "Pages"
+    folder: "content/pages"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - {label: "Template", name: "template", widget: "hidden", default: "page"}
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Slug", name: "slug", widget: "string"}
+      - {label: "Body", name: "body", widget: "markdown"}
