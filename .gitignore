@@ -1,11 +1,11 @@
 node_modules/
-.cache/
 public/css
 public/icons
 public/media
 public/page-data
 public/static
 npm-debug.log
+.cache/
 .eslintcache
 .gatsby-context.js
 .idea
