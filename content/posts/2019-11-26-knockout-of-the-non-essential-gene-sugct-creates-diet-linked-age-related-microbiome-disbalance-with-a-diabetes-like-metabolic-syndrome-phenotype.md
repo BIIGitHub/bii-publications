@@ -20,7 +20,7 @@ description: >-
   in the urine. To study the disease mechanism, we generated SugctKO mice and
   uncovered imbalanced lipid and acylcarnitine metabolism in kidney in addition
   to changes in the gut microbiome. 
-uploadfile: /media/uploads/knockout-of-the-non-essential-gene.pdf
+uploadfile: /media/images/pdf_icon.png
 tags:
   - Niska-Blakie J
   - Gopinathan L

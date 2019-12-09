@@ -5,16 +5,20 @@ backend:
 media_folder: "static/media/uploads"
 public_folder: "/media/uploads"
 
+# https://github.com/netlify/netlify-cms/issues/54
 collections:
   - name: "posts"
     label: "Posts"
     folder: "content/posts"
+    filter: 
+      - {field: "date", value: {{date}}}
     create: true
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    summary: '{{day}}/{{month}}/{{year}} - {{title}}'
     fields:
       - {label: "Template", name: "template", widget: "hidden", default: "post"}
       - {label: "Title", name: "title", widget: "string"}
-      - {label: "Date", name: "date", widget: "datetime"}
+      - {label: "Date", name: "date", widget: "datetime", options: "date"}
       - {label: "Journal Type", name: "journaltypes", widget: "string", required: false}
       - {label: "Name of Journal ", name: "journal", widget: "string", required: false}
       - {label: "Pubmed ", name: "pubmed", widget: "string", required: false}
@@ -30,7 +34,6 @@ collections:
                                                                                             "Atomistic Simulations and Design in Biology", "Physics and Evolution of Biological Macromolecules", "Multiscale Simulation, Modelling and Design", "Structure-based Ligand Discovery and Design",
                                                                                             "Computer Vision and Pattern Discovery for Bioimages", "Machine Learning for Bioimage Analysis", "Biophysical Modelling", "Complex Cellular Phenotype Analysis", 
                                                                                             "Natural Product Biology", "Natural Product Chemistry", "Chemical Genomics", "Antibody and Product Development"]}
-      
 
   - name: "pages"
     label: "Pages"
