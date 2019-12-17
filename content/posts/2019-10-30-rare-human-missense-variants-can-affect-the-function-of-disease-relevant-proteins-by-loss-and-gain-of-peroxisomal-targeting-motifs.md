@@ -29,6 +29,6 @@ tags:
   - Maurer-Stroh S
 categories:
   - Protein Sequence Analysis
-  - Biomolecular Function Discovery Division
+  - 'Biomolecular Function Discovery Division '
 ---
 Single nucleotide variants (SNVs) resulting in amino acid substitutions (i.e., missense variants) can affect protein localization by changing or creating new targeting signals. Here, we studied the potential of naturally occurring SNVs from the Genome Aggregation Database (gnomAD) to result in the loss of an existing peroxisomal targeting signal 1 (PTS1) or gain of a novel PTS1 leading to mistargeting of cytosolic proteins to peroxisomes. Filtering down from 32,985 SNVs resulting in missense mutations within the C-terminal tripeptide of 23,064 human proteins, based on gene annotation data and computational prediction, we selected six SNVs for experimental testing of loss of function (LoF) of the PTS1 motif and five SNVs in cytosolic proteins for gain in PTS1-mediated peroxisome import (GoF). Experimental verification by immunofluorescence microscopy for subcellular localization and FRET affinity measurements for interaction with the receptor PEX5 demonstrated that five of the six predicted LoF SNVs resulted in loss of the PTS1 motif while three of five predicted GoF SNVs resulted in de novo PTS1 generation. Overall, we showed that a complementary approach incorporating bioinformatics methods and experimental testing was successful in identifying SNVs capable of altering peroxisome protein import, which may have implications in human disease.
