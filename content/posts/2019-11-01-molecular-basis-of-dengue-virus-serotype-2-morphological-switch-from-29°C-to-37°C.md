@@ -33,7 +33,8 @@ tags:
   - Shi P
   - Lok SM
 categories:
-  - Multiscale Simulation Modelling and Design
+  - 'Multiscale Simulation, Modelling and Design'
+  - Atomistic Simulations and Design in Biology
   - Biomolecular Modelling and Design Division
 ---
   The ability of DENV2 to display different morphologies (hence different antigenic properties) complicates vaccine and therapeutics development.  Previous studies showed most strains of laboratory adapted DENV2 particles changed from smooth to "bumpy" surfaced morphology when the temperature 
