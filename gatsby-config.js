@@ -216,5 +216,49 @@ module.exports = {
     },
     'gatsby-plugin-flow',
     'gatsby-plugin-optimize-svgs',
+    {
+      resolve: 'gatsby-plugin-json-output',
+      options: {
+        siteUrl: 'https://bii-publications.netlify.com',
+        graphQLQuery: `
+          {
+            allMarkdownRemark(limit: 1000) {
+              edges {
+                node {
+                  html
+                  fields {
+                    slug
+                  }
+                  frontmatter {
+                    title
+                    date
+                    template
+                    description
+                  }
+                }
+              }
+            }
+          }
+        `,
+        serialize: results => results.data.allMarkdownRemark.edges.map(({ node }) => ({
+          path: node.fields.path, // MUST contain a path
+          title: node.frontmatter.title,
+          created: node.frontmatter.created,
+          updated: node.frontmatter.updated,
+          html: node.html,
+        })),
+        // Using arrow functions
+        serializeFeed: results => results.data.allMarkdownRemark.edges.map(({ node }) => ({
+          id: nodes.field.path,
+          url: path.join(siteUrl, node.fields.path),
+          title: node.frontmatter.title,
+          description: edge.node.frontmatter.description,
+          date: edge.node.frontmatter.date,
+          date_published: new Date(node.frontmatter.created).toISOString(),
+          date_modified: new Date(node.frontmatter.updated).toISOString(),
+        })),
+        nodesPerFeedFile: 1000,
+      }
+    }
   ]
 };
