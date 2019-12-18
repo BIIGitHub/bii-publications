@@ -228,12 +228,20 @@ module.exports = {
                   html
                   fields {
                     slug
+                    categorySlugs
                   }
                   frontmatter {
                     title
                     date
-                    template
+                    journaltypes
+                    journal
+                    pubmed
+                    url
+                    impactfactor
+                    dateofacceptance
                     description
+                    tags
+                    categories
                   }
                 }
               }
@@ -241,21 +249,37 @@ module.exports = {
           }
         `,
         serialize: results => results.data.allMarkdownRemark.edges.map(({ node }) => ({
-          path: node.fields.path, // MUST contain a path
+          path: node.fields.slug, // MUST contain a path
           title: node.frontmatter.title,
-          created: node.frontmatter.created,
-          updated: node.frontmatter.updated,
-          html: node.html,
+          date: node.frontmatter.date,
+          journaltypes: node.frontmatter.journaltypes,
+          journal: node.frontmatter.journal,
+          pubmed: node.frontmatter.pubmed,
+          url: node.frontmatter.url,
+          impactfactor: node.frontmatter.impactfactor,
+          dateofacceptance: node.frontmatter.dateofacceptance,
+          journaltypes: node.frontmatter.journaltypes,
+          description: node.frontmatter.description,
+          uploadfile: node.frontmatter.uploadfile,
+          tags: node.frontmatter.tags,
+          categories: node.frontmatter.categories,
+          // body: node.html
         })),
         // Using arrow functions
         serializeFeed: results => results.data.allMarkdownRemark.edges.map(({ node }) => ({
-          id: nodes.field.path,
-          url: path.join(siteUrl, node.fields.path),
+          path: node.fields.slug, // MUST contain a path
           title: node.frontmatter.title,
-          description: edge.node.frontmatter.description,
-          date: edge.node.frontmatter.date,
-          date_published: new Date(node.frontmatter.created).toISOString(),
-          date_modified: new Date(node.frontmatter.updated).toISOString(),
+          date: node.frontmatter.date,
+          journaltypes: node.frontmatter.journaltypes,
+          journal: node.frontmatter.journal,
+          pubmed: node.frontmatter.pubmed,
+          url: node.frontmatter.url,
+          impactfactor: node.frontmatter.impactfactor,
+          dateofacceptance: node.frontmatter.dateofacceptance,
+          description: node.frontmatter.description,
+          tags: node.frontmatter.tags,
+          categories: node.frontmatter.categories,
+          // body: node.html
         })),
         nodesPerFeedFile: 1000,
       }
