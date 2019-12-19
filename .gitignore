@@ -1,6 +1,9 @@
 node_modules/
 public/**/
 public/*.js
+public/*.map
+public/*.js.map
+public/*.xml
 npm-debug.log
 .cache/
 .eslintcache
