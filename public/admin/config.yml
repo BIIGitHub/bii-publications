@@ -24,7 +24,7 @@ collections:
       - {label: "Pubmed ", name: "pubmed", widget: "string", required: false}
       - {label: "URL ", name: "url", widget: "string", required: false}
       - {label: "Impact Factor", name: "impactfactor", widget: "string", required: false}
-      - {label: "Date of Acceptance", name: "dateofacceptance", widget: "datetime", required: false}
+      - {label: "Date of Acceptance", name: "dateofacceptance", widget: "datetime"}
       - {label: "Description", name: "description", widget: "text"}
       - {label: "Body", name: "body", widget: "markdown"}
       - {label: "File", name: "uploadfile", widget: "file", required: false}
