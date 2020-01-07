@@ -4,7 +4,8 @@ title: >-
   Translational Informatics Management System (TIMS): Towards OMICS based
   clinical data management for long term curation of clinical studies
 date: 2019-08-03T07:06:54.541Z
-journaltypes: Journal Paper
+journaltypes:
+  - Journal Paper
 journal: 'Journal of Open Source Software, 2019, 4(40), 1533, DOI: 10.21105/joss.01533'
 url: 'https://joss.theoj.org/papers/3c5651fb27f0f08d37fc17a2bc31cfee'
 impactfactor: '1.01'
