@@ -4,7 +4,8 @@ title: >-
   Rare Human Missense Variants can affect the Function of Disease-Relevant
   Proteins by Loss and Gain of Peroxisomal Targeting Motifs
 date: 2019-09-17T03:14:41.673Z
-journaltypes: Journal Paper
+journaltypes:
+  - Journal Paper
 journal: >-
   International Journal of Molecular Sciences, Vol. 20, Issue 18, Sep 17, doi:
   10.3390/ijms20184609
