@@ -42,7 +42,7 @@ export const query = graphql`
         tags        
         title
         uploadfile
-        journaltypes
+        
         journal
         pubmed
         url

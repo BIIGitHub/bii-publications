@@ -14,12 +14,12 @@ collections:
       - {field: "date", value: {{date}}}
     create: true
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
-    summary: '{{month}}/{{year}} - {{title}}'
+    summary: '{{day}}/{{month}}/{{year}} - {{title}}'
     fields:
       - {label: "Template", name: "template", widget: "hidden", default: "post"}
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Date", name: "date", widget: "datetime", options: "date"}
-      - {label: "Journal Type", name: "journaltypes", widget: "select", multiple: true, options: ["Journal Paper", "Book/Book Chapter", "Conference Paper/Poster"]}
+      - {label: "Journal Type", name: "journaltypes", widget: "select", multiple: false, options: ["Journal Paper", "Book/Book Chapter", "Conference Paper/Poster"]}
       - {label: "Name of Journal ", name: "journal", widget: "string", required: false}
       - {label: "Pubmed ", name: "pubmed", widget: "string", required: false}
       - {label: "URL ", name: "url", widget: "string", required: false}
