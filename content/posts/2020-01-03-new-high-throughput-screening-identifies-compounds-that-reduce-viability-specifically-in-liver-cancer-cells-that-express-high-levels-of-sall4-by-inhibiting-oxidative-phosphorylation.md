@@ -5,7 +5,8 @@ title: >-
   Specifically in Liver Cancer Cells That Express High Levels of SALL4 by
   Inhibiting Oxidative Phosphorylation
 date: 2019-08-22T06:25:17.732Z
-journaltypes: Journal Paper
+journaltypes:
+  - Journal Paper
 journal: >-
   Gastroenterology, Dec 2019, Vol. 157, Issue 6, Pg 1615-1629, doi:
   10.1053/j.gastro.2019.08.022
