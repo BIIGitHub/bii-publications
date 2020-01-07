@@ -4,7 +4,8 @@ title: >-
   The dual interactions of p53 with MDM2 and p300: Implications for the design
   of MDM2 Inhibitors
 date: 2019-11-28T03:33:55.211Z
-journaltypes: Journal Paper
+journaltypes:
+  - Journal Paper
 journal: >-
   International Journal of Molecular Sciences, 2019, Vol. 20, Issue 23, doi:
   10.3390/ijms20235996
