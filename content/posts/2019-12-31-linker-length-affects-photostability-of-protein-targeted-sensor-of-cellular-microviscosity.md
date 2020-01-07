@@ -4,7 +4,8 @@ title: >-
   Linker length affects photostability of protein-targeted sensor of cellular
   microviscosity
 date: 2019-09-26T04:30:40.132Z
-journaltypes: Journal Paper
+journaltypes:
+  - Journal Paper
 journal: >-
   Methods and Applications in Fluorescence, 2019 Sep 26. doi:
   10.1088/2050-6120/ab481f
