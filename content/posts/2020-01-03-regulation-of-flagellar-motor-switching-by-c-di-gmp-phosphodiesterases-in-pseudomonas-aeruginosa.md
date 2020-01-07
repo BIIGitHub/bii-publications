@@ -4,7 +4,8 @@ title: >-
   Regulation of flagellar motor switching by c-di-GMP phosphodiesterases in
   Pseudomonas aeruginosa
 date: 2019-07-26T07:09:54.744Z
-journaltypes: Journal Paper
+journaltypes:
+  - Journal Paper
 journal: >-
   Journal of Biological Chemistry, 2019, Sep 13, 294 (37), Pg 13789-13799, doi:
   10.1074/jbc.RA119.009009
