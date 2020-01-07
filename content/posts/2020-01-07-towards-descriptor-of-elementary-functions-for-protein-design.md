@@ -7,6 +7,9 @@ journal: >-
   Current Opinion in Structural Biology, 2019, Vol 58, Pg 159-165. doi:
   10.1016/j.sbi.2019.06.010
 pubmed: '31352188'
+url: >-
+  https://www.sciencedirect.com/science/article/abs/pii/S0959440X19300417?via%3Dihub
+impactfactor: '7.052'
 dateofacceptance: 2020-01-07T07:25:31.287Z
 description: >-
   We review studies of the protein evolution that help to formulate rules for
