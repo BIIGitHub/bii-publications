@@ -1,7 +1,7 @@
 ---
 template: post
 title: On the ion coupling mechanism of the MATE transporter ClbM
-date: 2020-01-07T05:44:38.834Z
+date: 2019-11-28T05:44:38.834Z
 journaltypes: Journal Paper
 journal: >-
   BBA - Biomembranes, Vol. 1862, Issue 2, 1 Feb 2020, doi:
