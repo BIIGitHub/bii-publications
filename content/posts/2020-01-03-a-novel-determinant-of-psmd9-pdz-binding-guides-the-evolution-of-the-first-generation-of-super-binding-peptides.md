@@ -4,7 +4,8 @@ title: >-
   A Novel Determinant of PSMD9 PDZ Binding Guides the Evolution of the First
   Generation of Super Binding Peptides
 date: 2019-07-09T07:23:06.127Z
-journaltypes: Journal Paper
+journaltypes:
+  - Journal Paper
 journal: 'Biochemistry 2019 Jul 29. doi: 10.1021/acs.biochem.9b00308'
 pubmed: '31287951'
 url: 'https://www.ncbi.nlm.nih.gov/pubmed/31287951'
