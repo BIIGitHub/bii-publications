@@ -2,7 +2,8 @@
 template: post
 title: 'Intense interseasonal influenza outbreaks, Australia, 2018/19'
 date: 2019-08-15T06:37:46.696Z
-journaltypes: Journal Paper
+journaltypes:
+  - Journal Paper
 journal: >-
   Eurosurveillance, Volume 24, Issue 33, 15 Aug 2019, DOI:
   10.2807/1560-7917.ES.2019.24.33.1900421
