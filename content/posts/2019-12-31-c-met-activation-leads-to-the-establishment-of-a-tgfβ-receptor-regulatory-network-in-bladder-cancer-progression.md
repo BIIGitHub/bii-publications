@@ -4,7 +4,8 @@ title: >-
   c-Met activation leads to the establishment of a TGFβ-receptor regulatory
   network in bladder cancer progression
 date: 2019-09-25T04:33:12.491Z
-journaltypes: Journal Paper
+journaltypes:
+  - Journal Paper
 journal: >-
   Nature Communicationsvolume 10, Article number: 4349 (2019), doi:
   10.1038/s41467-019-12241-2
