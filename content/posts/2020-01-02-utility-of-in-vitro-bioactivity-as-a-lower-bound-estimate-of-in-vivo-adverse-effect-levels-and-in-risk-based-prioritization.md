@@ -4,7 +4,8 @@ title: >-
   Utility of In Vitro Bioactivity as a Lower Bound Estimate of In Vivo Adverse
   Effect Levels and in Risk-Based Prioritization
 date: 2019-09-18T03:11:13.384Z
-journaltypes: Journal Paper
+journaltypes:
+  - Journal Paper
 journal: 'Toxicological Sciences, 2019, Sep 18, 10.1093/toxsci/kfz201'
 pubmed: '31532525'
 url: 'https://www.ncbi.nlm.nih.gov/pubmed/31532525'
