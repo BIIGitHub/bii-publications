@@ -4,7 +4,8 @@ title: >-
   On the Allosteric Effect of nsSNPs and the Emerging Importance of Allosteric
   Polymorphism
 date: 2019-07-12T07:20:44.756Z
-journaltypes: Journal Paper
+journaltypes:
+  - Journal Paper
 journal: >-
   Journal of Molecular Biology, Vol. 431, Issue 19, 6 Sept 2019, Pg 3933-3942,
   doi: 10.1016/j.jmb.2019.07.012, PMID: 31306666
