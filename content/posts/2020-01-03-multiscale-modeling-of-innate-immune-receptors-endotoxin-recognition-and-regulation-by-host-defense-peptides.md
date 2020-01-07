@@ -4,7 +4,8 @@ title: >-
   Multiscale modeling of innate immune receptors: Endotoxin recognition and
   regulation by host defense peptides
 date: 2019-07-24T07:16:11.746Z
-journaltypes: Journal Paper
+journaltypes:
+  - Journal Paper
 journal: >-
   Pharmacological Research 2019 Jul 24;147:104372. doi:
   10.1016/j.phrs.2019.104372
