@@ -5,7 +5,8 @@ title: >-
   amorphous precursor route to TiO2 band confinement by shape adaptive
   biopolymer-like flexibility for energy applications
 date: 2020-01-02T03:30:52.534Z
-journaltypes: Journal Paper
+journaltypes:
+  - Journal Paper
 journal: 'Scientific Reports 9, Article no 18721, 2019, doi: 10.1038/s41598-019-55103-z'
 pubmed: '31822722'
 url: 'https://www.nature.com/articles/s41598-019-55103-z'
