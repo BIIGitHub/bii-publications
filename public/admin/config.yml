@@ -14,7 +14,7 @@ collections:
       - {field: "date", value: {{date}}}
     create: true
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
-    summary: '{{day}}/{{month}}/{{year}} - {{title}}'
+    summary: '{{month}}/{{year}} - {{title}}'
     fields:
       - {label: "Template", name: "template", widget: "hidden", default: "post"}
       - {label: "Title", name: "title", widget: "string"}
