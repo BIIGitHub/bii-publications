@@ -2,7 +2,8 @@
 template: post
 title: Towards descriptor of elementary functions for protein design
 date: 2019-07-25T07:13:01.744Z
-journaltypes: Journal Paper
+journaltypes:
+  - Journal Paper
 journal: >-
   Current Opinion in Structural Biology, 2019, Vol 58, Pg 159-165. doi:
   10.1016/j.sbi.2019.06.010
