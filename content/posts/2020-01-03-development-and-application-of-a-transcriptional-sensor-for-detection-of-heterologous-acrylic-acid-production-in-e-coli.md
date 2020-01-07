@@ -4,7 +4,8 @@ title: >-
   Development and application of a transcriptional sensor for detection of
   heterologous acrylic acid production in E. coli
 date: 2019-08-19T06:30:22.761Z
-journaltypes: Journal paper
+journaltypes:
+  - Journal Paper
 journal: 'Microbial Cell Factories, 2019, 18:139, doi: 10.1186/s1293'
 pubmed: '31426802'
 url: 'https://link.springer.com/article/10.1186%2Fs12934-019-1185-y'
