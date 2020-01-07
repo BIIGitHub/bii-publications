@@ -19,7 +19,7 @@ collections:
       - {label: "Template", name: "template", widget: "hidden", default: "post"}
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Date", name: "date", widget: "datetime", options: "date"}
-      - {label: "Journal Type", name: "journaltypes", widget: "select", multiple: false, options: ["Journal Paper", "Book/Book Chapter", "Conference Paper/Poster"]}
+      - {label: "Journal Type", name: "journaltypes", widget: "string", required: false}S
       - {label: "Name of Journal ", name: "journal", widget: "string", required: false}
       - {label: "Pubmed ", name: "pubmed", widget: "string", required: false}
       - {label: "URL ", name: "url", widget: "string", required: false}

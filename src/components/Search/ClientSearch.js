@@ -222,7 +222,7 @@ export default () => (
             }
             frontmatter {
               title
-              
+              journaltypes
               journal
               pubmed
               url

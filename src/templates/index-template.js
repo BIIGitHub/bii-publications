@@ -64,7 +64,7 @@ export const query = graphql`
             date
             categories
             description
-            
+            journaltypes
             journal
             pubmed
             url

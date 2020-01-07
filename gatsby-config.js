@@ -258,7 +258,7 @@ module.exports = {
           url: node.frontmatter.url,
           impactfactor: node.frontmatter.impactfactor,
           dateofacceptance: node.frontmatter.dateofacceptance,
-          // journaltypes: node.frontmatter.journaltypes,
+          journaltypes: node.frontmatter.journaltypes,
           description: node.frontmatter.description,
           uploadfile: node.frontmatter.uploadfile,
           tags: node.frontmatter.tags,
