@@ -4,7 +4,8 @@ title: >-
   PI3K Catalytic Subunits α and β Modulate Cell Death and IL-6 Secretion Induced
   by Talc Particles in Human Lung Carcinoma Cells
 date: 2019-09-12T08:08:08.022Z
-journaltypes: Journal Paper
+journaltypes:
+  - Journal Paper
 journal: >-
   American Journal of Respiratory Cell and Molecular Biology, 2019 Sep 12. doi:
   10.1165/rcmb.2019-0050OC
