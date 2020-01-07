@@ -4,7 +4,8 @@ title: >-
   Therapeutic anti-cancer activity of antibodies targeting sulfhydryl bond
   constrained epitopes on unglycosylated RON receptor tyrosine kinase
 date: 2019-08-15T06:57:55.906Z
-journaltypes: Journal Paper
+journaltypes:
+  - Journal Paper
 journal: 'Oncogene 2019, doi: 10.1038/s41388-019-0946-8'
 pubmed: '31417186'
 url: 'https://www.nature.com/articles/s41388-019-0946-8'
