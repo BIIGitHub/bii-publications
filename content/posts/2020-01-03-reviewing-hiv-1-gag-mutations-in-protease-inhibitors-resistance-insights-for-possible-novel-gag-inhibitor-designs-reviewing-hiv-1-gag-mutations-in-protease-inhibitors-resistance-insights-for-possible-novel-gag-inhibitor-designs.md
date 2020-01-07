@@ -5,8 +5,7 @@ title: >-
   Possible Novel Gag Inhibitor Designs Reviewing HIV-1 Gag Mutations in Protease
   Inhibitors Resistance: Insights for Possible Novel Gag Inhibitor Designs
 date: 2019-09-06T05:59:40.794Z
-journaltypes:
-  - Journal Paper
+journaltypes: Journal Paper
 journal: 'Molecules 2019, Vol. 24, Issue 3243, https://doi.org/10.3390/molecules24183243'
 pubmed: '31489889 '
 url: 'https://www.mdpi.com/1420-3049/24/18/3243'
