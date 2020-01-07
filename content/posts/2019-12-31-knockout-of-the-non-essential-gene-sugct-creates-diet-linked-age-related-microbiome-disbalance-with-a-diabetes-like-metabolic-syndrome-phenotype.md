@@ -4,7 +4,8 @@ title: >-
   Knockout of the non-essential gene SUGCT creates diet-linked, age-related
   microbiome disbalance with a diabetes-like metabolic syndrome phenotype
 date: 2019-11-13T04:16:09.867Z
-journaltypes: Journal Paper
+journaltypes:
+  - Journal Paper
 journal: >-
   Cellular and Molecular Life Sciences, 2019 Nov 13, doi:
   10.1007/s00018-019-03359-z
