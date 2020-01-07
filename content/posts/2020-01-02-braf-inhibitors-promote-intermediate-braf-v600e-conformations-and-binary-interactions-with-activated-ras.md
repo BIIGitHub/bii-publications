@@ -4,7 +4,8 @@ title: >-
   BRAF inhibitors promote intermediate BRAF(V600E) conformations and binary
   interactions with activated RAS
 date: 2019-09-14T03:25:41.914Z
-journaltypes: Journal Paper
+journaltypes:
+  - Journal Paper
 journal: ' Science Advances, 14 Aug 2019, Vol. 5, no. 8, doi: 10.1126/sciadv.aav8463'
 pubmed: '31453322'
 url: 'https://advances.sciencemag.org/content/5/8/eaav8463.full'
