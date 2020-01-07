@@ -4,7 +4,8 @@ title: >-
   The structural basis for membrane assembly of immunoreceptor signalling
   complexes
 date: 2019-08-27T06:10:35.924Z
-journaltypes: Journal Paper
+journaltypes:
+  - Journal Paper
 journal: >-
   Journal of Molecular Modeling, 2019 Aug 27;25(9):277. doi:
   10.1007/s00894-019-4165-6
