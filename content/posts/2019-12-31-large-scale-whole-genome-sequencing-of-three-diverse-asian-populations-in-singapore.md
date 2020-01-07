@@ -4,7 +4,8 @@ title: >-
   Large-Scale Whole-Genome Sequencing of Three Diverse Asian Populations in
   Singapore
 date: 2019-10-17T04:21:40.681Z
-journaltypes: Journal Paper
+journaltypes:
+  - Journal Paper
 journal: >-
   Cell, 2019. Oct 17, Vol. 179, Issue 3, Pg 736-749, doi:
   10.1016/j.cell.2019.09.019
