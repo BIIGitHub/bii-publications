@@ -25,7 +25,7 @@ description: >-
 uploadfile: /media/uploads/modular-mimicry-and-engagement-min.pdf
 tags:
   - Han Z
-  - Dash S1
+  - Dash S
   - Sagum CA
   - Ruthel G
   - Jaladanki CK
