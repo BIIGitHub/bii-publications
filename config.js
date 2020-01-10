@@ -7,7 +7,7 @@ module.exports = {
   subtitle: 'Repository of all published Science Articles by our Researchers, their Group Members and Collaborators.',
   copyright: 'Bioinformatics Institute 2019 © All rights reserved.',
   disqusShortname: '',
-  postsPerPage: 5,
+  postsPerPage: 8,
   googleAnalyticsId: 'UA-73379983-2',
   useKatex: false,
   menu: [
