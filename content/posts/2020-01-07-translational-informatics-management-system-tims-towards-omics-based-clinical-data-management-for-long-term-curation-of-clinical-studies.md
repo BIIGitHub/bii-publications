@@ -20,10 +20,10 @@ description: >-
   that it has inevitably displaced.
 uploadfile: /media/uploads/translational-informatics-management.pdf
 tags:
-  - TAY WH
-  - TANTOSO E
-  - EISENHABER F
-  - WONG WC
+  - Tay WH
+  - Tantoso E
+  - Eisenhaber F
+  - Wong WC
 categories:
   - Analytics of Biological Sequence Data
   - Gene Function Prediction
