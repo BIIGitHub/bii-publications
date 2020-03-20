@@ -14,9 +14,10 @@ description: >-
   in the highly specific, non-competitive, and modulatory nature of their
   actions calls for deeper theoretical understanding of allosteric
   communication. 
+uploadfile: /media/uploads/structure_27_866_towards_compr_allo_control.pdf
 tags:
-  - GUARNERA E
-  - BEREZOVSKY IN
+  - Guarnera E
+  - Berezovsky IN
 categories:
   - Physics and Evolution of Biological Macromolecules
   - Biomolecular Modelling and Design Division
