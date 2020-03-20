@@ -28,7 +28,7 @@ tags:
   - Kim SY
   - Kang S
   - Kim S
-  - Verma C
+  - Verma CS
   - Ahn SH
   - Lee CS
   - Khare V
