@@ -20,12 +20,12 @@ description: >-
   computational analysis of their mechanical signature.
 uploadfile: /media/uploads/enrichment-and-identification-of-neural-stem.pdf
 tags:
-  - CHEW S
-  - ZENG Y
-  - KHOO D
-  - HONG YU MY
-  - AHMED S
-  - CHIAM KH
+  - Chew S
+  - Zeng Y
+  - Khoo D
+  - Hong Yu MY
+  - Ahmed S
+  - Chiam KH
 categories:
   - Biophysical Modelling
   - Imaging Informatics Division
