@@ -19,6 +19,7 @@ description: >-
   structure-function relationships has enabled the application of a variety of
   atomistic computational modelling techniques towards the establishment of
   mechanistic models. 
+uploadfile: /media/uploads/roles-of-computational-modelling.pdf
 tags:
   - Tan YS
   - Mhoumadi Y
