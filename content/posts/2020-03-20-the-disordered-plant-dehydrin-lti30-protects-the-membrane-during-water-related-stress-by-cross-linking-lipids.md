@@ -17,12 +17,12 @@ description: >-
   contain at least one copy of the highly conserved K-segment, proposed to be a
   membrane binding motif. 
 tags:
-  - GUPTA A
-  - MARZINEK JK
-  - JEFFERIES D
-  - BOND PJ
-  - HARRYSON P
-  - WOHLAND T
+  - Gupta A
+  - Marzinek JK
+  - Jefferies D
+  - Bond PJ
+  - Harryson P
+  - Wohland T
 categories:
   - 'Multiscale Simulation, Modelling and Design'
   - Biomolecular Modelling and Design Division
