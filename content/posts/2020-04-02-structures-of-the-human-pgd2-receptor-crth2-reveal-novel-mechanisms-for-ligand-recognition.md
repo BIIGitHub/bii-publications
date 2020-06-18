@@ -3,7 +3,7 @@ template: post
 title: >-
   Structures of the Human PGD2 Receptor CRTH2 Reveal Novel Mechanisms for Ligand
   Recognition
-date: 2020-04-02T04:17:16.825Z
+date: 2018-09-13T04:17:16.825Z
 journaltypes: Journal Paper
 journal: 'Molecular Cell, 2018, doi: 10.1016/j.molcel.2018.08.009'
 pubmed: '30220562'
