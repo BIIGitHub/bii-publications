@@ -3,7 +3,7 @@ template: post
 title: >-
   Calmidazolium Chloride and Its Complex with Serum Albumin Prevent Huntingtin
   Exon1 Aggregation
-date: 2020-06-19T07:07:50.532Z
+date: 2018-07-06T07:07:50.532Z
 journaltypes: Journal Paper
 journal: >-
   Molecular Pharmaceutics, 2018, Aug 6, 15 (8), pp 3356–3368,
