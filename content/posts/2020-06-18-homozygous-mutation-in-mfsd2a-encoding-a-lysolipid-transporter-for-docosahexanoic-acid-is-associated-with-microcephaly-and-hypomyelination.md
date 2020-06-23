@@ -3,7 +3,7 @@ template: post
 title: >-
   Homozygous mutation in MFSD2A, encoding a lysolipid transporter for
   docosahexanoic acid, is associated with microcephaly and hypomyelination
-date: 2020-06-18T09:00:03.946Z
+date: 2018-07-24T09:00:03.946Z
 journaltypes: Journal Paper
 journal: 'Neurogenetics 2018 Jul 24. doi: 10.1007/s10048-018-0556-6'
 pubmed: '30043326'
