@@ -11,7 +11,7 @@ journal: >-
 pubmed: '29979597'
 url: 'https://www.ncbi.nlm.nih.gov/pubmed/29979597'
 impactfactor: '4.556'
-dateofacceptance: 2020-06-19T07:07:50.545Z
+dateofacceptance: 2018-07-06T07:07:50.545Z
 description: >-
   Huntington's disease (HD) is a genetic disorder caused by a CAG expansion
   mutation in Huntingtin gene leading to polyglutamine (polyQ) expansion in the
