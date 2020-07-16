@@ -19,6 +19,7 @@ description: >-
   the MFSD2A transporter. We carried out detailed analysis of the clinical and
   neuroradiological features of a series of 27 MCPH15 cases, including eight new
   individuals from seven unrelated families. 
+uploadfile: /media/uploads/1137_biallelic-mfsd2a-variants.pdf
 tags:
   - Scalla M
   - Chua GL
