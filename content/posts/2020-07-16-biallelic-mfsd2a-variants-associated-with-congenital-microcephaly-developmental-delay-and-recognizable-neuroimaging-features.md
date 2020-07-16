@@ -9,7 +9,7 @@ journal: 'European Journal of Human Genetics 2020, doi: 10.1038/s41431-020-0669-
 pubmed: '32572202'
 url: 'https://www.nature.com/articles/s41431-020-0669-x'
 impactfactor: '3.54'
-dateofacceptance: 2020-07-16T09:57:15.703Z
+dateofacceptance: 2020-06-04T09:57:15.703Z
 description: >-
   Major Facilitator Superfamily Domain containing 2a (MFSD2A) is an essential
   endothelial lipid transporter at the blood-brain barrier. Biallelic variants
