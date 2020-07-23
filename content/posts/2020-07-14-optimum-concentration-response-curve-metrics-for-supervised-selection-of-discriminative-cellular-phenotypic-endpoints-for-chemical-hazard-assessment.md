@@ -9,7 +9,11 @@ journal: 'Archives of Toxicology 2020, doi: 10.1007/s00204-020-02813-3'
 url: 'https://link.springer.com/article/10.1007%2Fs00204-020-02813-3'
 impactfactor: '5.059'
 dateofacceptance: 2020-06-15T07:50:28.291Z
-description: 'Dose–response curve analysis, In vitro cell models, High-content imaging'
+description: >-
+  High-content imaging (HCI) provides quantitative and information-rich
+  measurements of chemical effects on human in vitro cell models. Identification
+  of discriminative phenotypic endpoints from cellular features obtained from
+  HCI is required for accurate assessments of potential chemical hazards.
 uploadfile: /media/uploads/1138_optimum-concentration-response.pdf
 tags:
   - Miller JA
