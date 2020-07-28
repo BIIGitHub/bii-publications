@@ -8,6 +8,8 @@ date: 2018-02-05T01:49:30.432Z
 journaltypes: Journal Paper
 journal: 'Bioscience Reports, 5 Feb 2018, doi: 10.1042/BSR20171113'
 pubmed: '29437904'
+url: >-
+  https://portlandpress.com/bioscirep/article/38/2/BSR20171113/57175/A-computational-study-for-rational-HIV-1-non
 impactfactor: '2.906'
 dateofacceptance: 2018-02-05T01:49:30.444Z
 description: >-
