@@ -19,7 +19,6 @@ description: >-
   activity. 
 tags:
   - Kozic M
-  - ''
   - Fox S
   - Thomas J
   - Verma CS
