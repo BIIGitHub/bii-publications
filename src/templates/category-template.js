@@ -3,6 +3,9 @@ import React from 'react';
 import Feed from '../components/Feed';
 import { graphql } from 'gatsby';
 import Layout from '../components/Layout';
+import Page from '../components/Page';
+import Pagination from '../components/Pagination';
+import type { PageContext, AllMarkdownRemark } from '../types';
 import Sidebar from '../components/Sidebar';
 import { useSiteMetadata } from '../hooks';
 
