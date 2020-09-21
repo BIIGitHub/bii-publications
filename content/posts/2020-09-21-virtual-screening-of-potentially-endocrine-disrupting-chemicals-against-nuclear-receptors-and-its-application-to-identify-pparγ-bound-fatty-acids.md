@@ -12,6 +12,7 @@ description: "Nuclear receptors (NRs) are key regulators of energy homeostasis,
   disrupt natural hormonal systems and induce undesired adverse effects in the
   body. However, many chemicals of concerns have limited or no experimental data
   on their potential or lack-of-potential endocrine-disrupting effects. "
+uploadfile: /media/uploads/1144_virtual-screening-of-potentially.pdf
 tags:
   - Jaladanki CK
   - He Y
