@@ -10,7 +10,7 @@ description: "Theoretical models capture very precisely the behaviour of
   magnetic materials at the microscopic level. This makes computer simulations
   of magnetic materials, such as spin dynamics simulations, accurately mimic
   experimental results. "
-uploadfile: /media/uploads/1140_accelerated-spin-dynamics-using.pdf
+uploadfile: ""
 tags:
   - Park SJ
   - Kwak WS
