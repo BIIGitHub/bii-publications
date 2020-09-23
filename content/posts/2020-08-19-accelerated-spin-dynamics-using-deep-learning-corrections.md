@@ -1,6 +1,6 @@
 ---
 template: post
-title: Accelerated spin dynamics using deep learning corrections.
+title: Accelerated spin dynamics using deep learning corrections
 date: 2020-08-13T10:15:50.518Z
 journaltypes: Journal Paper
 journal: Sci Rep 10, 13772 (2020). https://doi.org/10.1038/s41598-020-70558-1
@@ -10,7 +10,7 @@ description: "Theoretical models capture very precisely the behaviour of
   magnetic materials at the microscopic level. This makes computer simulations
   of magnetic materials, such as spin dynamics simulations, accurately mimic
   experimental results. "
-uploadfile: ""
+uploadfile: /media/uploads/1140_accelerated-spin-dynamics-using.pdf
 tags:
   - Park SJ
   - Kwak WS
