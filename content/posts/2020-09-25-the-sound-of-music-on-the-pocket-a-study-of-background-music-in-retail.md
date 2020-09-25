@@ -12,6 +12,7 @@ description: "Influences of background music on consumer behaviour has economic
   genres of background music on consumer spending was examined via a pilot field
   test conducted in three branches each of both a Japanese-themed and a
   Mexican-themed restaurant chain in Singapore. "
+uploadfile: /media/uploads/1147b_the_sound_of_music_on_the_pocket_a_study_of_background_music_in_retail.pdf
 tags:
   - Choo BJK
   - Cheok TS
