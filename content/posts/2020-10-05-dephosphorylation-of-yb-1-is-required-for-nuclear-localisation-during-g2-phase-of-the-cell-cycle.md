@@ -8,7 +8,7 @@ journal: "Cancers 2020, Feb 12(2), 315, doi: 10.3390/cancers12020315"
 pubmed: "32013098"
 url: https://www.mdpi.com/2072-6694/12/2/315
 impactfactor: "6.126"
-dateofacceptance: 2020-01-24T16:00:00.000Z
+dateofacceptance: 2020-01-25T09:31:17.451Z
 description: YB-1; cell cycle; nuclear translocation; atomistic modelling; phosphorylation
 uploadfile: /media/uploads/1156_dephosphorylation-of-yb.pdf
 tags:
