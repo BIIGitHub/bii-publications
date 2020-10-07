@@ -2,13 +2,13 @@
 template: post
 title: Discovery and Genomic Characterization of a 382-Nucleotide Deletion in
   ORF7b and ORF8 during the Early Evolution of SARS-CoV-2
-date: 2020-10-07T05:05:13.815Z
+date: 2020-07-21T05:05:13.815Z
 journaltypes: Journal Paper
 journal: "mBio. 2020 Jul 21;11(4):e01610-20. doi: 10.1128/mBio.01610-20"
 pubmed: "32694143"
 url: https://mbio.asm.org/content/11/4/e01610-20
 impactfactor: "6.5"
-dateofacceptance: 2020-10-07T05:05:13.828Z
+dateofacceptance: 2020-06-23T05:05:13.828Z
 description: To date, limited genetic changes in the severe acute respiratory
   syndrome coronavirus 2 (SARS-CoV-2) genome have been described. Here, we
   report a 382-nucleotide (nt) deletion in SARS-CoV-2 that truncates open
