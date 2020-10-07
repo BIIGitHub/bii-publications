@@ -2,14 +2,14 @@
 template: post
 title: Geographical and temporal distribution of SARS-CoV-2 clades in the WHO
   European Region, January to June 2020
-date: 2020-10-07T05:02:13.175Z
+date: 2020-08-13T05:02:13.175Z
 journaltypes: Journal Paper
 journal: "Euro Surveillance. 2020 Aug;25(32):2001410. doi:
   10.2807/1560-7917.ES.2020.25.32.2001410"
 pubmed: "32794443"
 url: https://www.eurosurveillance.org/content/10.2807/1560-7917.ES.2020.25.32.2001410
 impactfactor: "6.4"
-dateofacceptance: 2020-10-07T05:02:13.201Z
+dateofacceptance: 2020-08-11T05:02:13.201Z
 description: We show the distribution of severe acute respiratory syndrome
   coronavirus-2 (SARS-CoV-2) genetic clades over time and between countries and
   outline potential genomic surveillance objectives.
