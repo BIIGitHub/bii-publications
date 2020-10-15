@@ -7,6 +7,7 @@ journal: "Investigative Ophthalmology & Visual Science, October 2020, Vol. 61,
   6, doi: 10.1167/iovs.61.12.6"
 pubmed: "33027505"
 url: https://iovs.arvojournals.org/article.aspx?articleid=2770889
+impactfactor: "3.47"
 dateofacceptance: 2020-09-08T08:15:09.522Z
 description: Affecting children by age 3, primary congenital glaucoma (PCG) can
   cause debilitating vision loss by the developmental impairment of aqueous
