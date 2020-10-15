@@ -15,6 +15,7 @@ description: "The use of proteins and protein-containing materials in a variety
   pharmaceuticals, agrochemicals and consumer and personal care products. As a
   consequence there is a need to ensure potential and environmental risks are
   understood. "
+uploadfile: /media/uploads/1159_determination-of-the-relative-allergenic-potency-of-proteins-hurdles.pdf
 tags:
   - Krutz NL
   - Kimber I
