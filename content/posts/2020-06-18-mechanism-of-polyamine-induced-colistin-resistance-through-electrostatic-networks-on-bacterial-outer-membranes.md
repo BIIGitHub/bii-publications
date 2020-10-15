@@ -1,27 +1,24 @@
 ---
 template: post
-title: >-
-  Mechanism of Polyamine Induced Colistin Resistance through Electrostatic
+title: Mechanism of Polyamine Induced Colistin Resistance through Electrostatic
   Networks on Bacterial Outer Membranes
 date: 2020-04-24T06:48:21.391Z
 journaltypes: Journal Paper
-journal: >-
-  BBA - Biomembrane, Volume 1862, Issue 9, 1 September 2020, doi:
-  10.1016/j.bbamem.2020.183297
-pubmed: ''
-url: 'https://www.sciencedirect.com/science/article/abs/pii/S0005273620301280'
-impactfactor: '3.790'
+journal: "BBA - Biomembrane, Volume 1862, Issue 9, 1 September 2020, doi:
+  10.1016/j.bbamem.2020.183297"
+pubmed: ""
+url: https://www.sciencedirect.com/science/article/abs/pii/S0005273620301280
+impactfactor: "3.790"
 dateofacceptance: 2020-03-29T06:48:21.404Z
-description: >-
-  Naturally occurring linear polyamines are known to enable bacteria to be
-  resistant to cationic membrane active peptides. To understand this protective
-  mechanism, molecular dynamics simulations are employed to probe their effect
-  on a model bacterial outer membrane. 
+description: "Naturally occurring linear polyamines are known to enable bacteria
+  to be resistant to cationic membrane active peptides. To understand this
+  protective mechanism, molecular dynamics simulations are employed to probe
+  their effect on a model bacterial outer membrane. "
 uploadfile: /media/uploads/1128_mechanism-of-polyamine-induced.pdf
 tags:
   - Li JG
   - Beuerman R
-  - Verma CS.
+  - Verma CS
 categories:
   - Atomistic Simulations and Design in Biology
   - Biomolecular Modelling and Design Division
