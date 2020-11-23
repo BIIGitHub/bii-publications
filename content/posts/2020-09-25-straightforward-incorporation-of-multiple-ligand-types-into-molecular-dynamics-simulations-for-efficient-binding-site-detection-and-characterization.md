@@ -14,7 +14,7 @@ description: "Binding site identification and characterization is an important
   protein flexibility and solvation, several cosolvent molecular dynamics (MD)
   simulation methods that incorporate small organic molecules into the protein's
   solvent box to probe for binding sites have been developed. "
-uploadfile: /media/uploads/1149_straightforward-incorporation-of-multiple.pdf
+uploadfile: ""
 tags:
   - Tan YS
   - Verma CS
