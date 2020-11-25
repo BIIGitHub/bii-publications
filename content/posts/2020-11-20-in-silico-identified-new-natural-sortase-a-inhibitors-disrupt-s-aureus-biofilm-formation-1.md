@@ -10,9 +10,13 @@ pubmed: ""
 url: https://www.mdpi.com/1422-0067/21/22/8601
 impactfactor: "4.21"
 dateofacceptance: 2020-11-12T07:25:36.963Z
-description: "Keywords : anti-biofilm activity; sortase A inhibitor;
-  Staphylococcus aureus; MRSA; fibrinogen; molecular docking; virtual screening;
-  natural products; skyrin"
+description: Sortase A (SrtA) is a membrane-associated enzyme that anchors
+  surface-exposed proteins to the cell wall envelope of Gram-positive bacteria
+  such as Staphylococcus aureus. As SrtA is essential for Gram-positive
+  bacterial pathogenesis but dispensable for microbial growth or viability, SrtA
+  is considered a favorable target for the enhancement of novel anti-infective
+  drugs that aim to interfere with key bacterial virulence mechanisms, such as
+  biofilm formation, without developing drug resistance.
 uploadfile: /media/uploads/1169_in-silico-identified-new-natural-sortase.pdf
 tags:
   - Thappetta KRV
