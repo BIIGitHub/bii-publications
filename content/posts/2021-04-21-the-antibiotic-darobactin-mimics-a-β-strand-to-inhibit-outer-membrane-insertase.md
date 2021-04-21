@@ -2,12 +2,12 @@
 template: post
 title: " The antibiotic darobactin mimics a β-strand to inhibit outer membrane
   insertase"
-date: 2021-04-21T09:24:16.356Z
+date: 2021-04-14T09:24:16.356Z
 journaltypes: Journal Paper
 journal: "Nature 2021, doi: 10.1038/s41586-021-03455-w"
 url: https://www.nature.com/articles/s41586-021-03455-w
 impactfactor: "43.07"
-dateofacceptance: 2021-04-21T09:24:16.388Z
+dateofacceptance: 2021-03-15T09:24:16.388Z
 description: "Antibiotics that target Gram-negative bacteria in new ways are
   needed to resolve the antimicrobial resistance crisis1,2,3. Gram-negative
   bacteria are protected by an additional outer membrane, rendering proteins on
