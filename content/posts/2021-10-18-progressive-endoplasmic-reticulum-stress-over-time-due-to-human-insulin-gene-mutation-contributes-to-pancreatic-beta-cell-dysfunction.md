@@ -27,6 +27,7 @@ tags:
 categories:
   - Biomolecular Modelling and Design Division
   - Atomistic Simulations and Design in Biology
+  - Computational Chemical Biology & Fragment-based Design
 ---
 ### Aims/hypothesis
 
