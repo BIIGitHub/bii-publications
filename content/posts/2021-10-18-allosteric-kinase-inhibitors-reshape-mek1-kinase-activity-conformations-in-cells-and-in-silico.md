@@ -2,13 +2,13 @@
 template: post
 title: Allosteric Kinase Inhibitors Reshape MEK1 Kinase Activity Conformations
   in Cells and In Silico
-date: 2021-10-18T07:10:23.436Z
+date: 2021-03-30T07:10:23.436Z
 journaltypes: Journal Paper
 journal: "Biomolecules. 2021 Mar 30;11(4):518. doi: 10.3390/biom11040518."
 pubmed: "33808483"
 url: https://www.mdpi.com/2218-273X/11/4/518
 impactfactor: "4.694"
-dateofacceptance: 2021-10-18T07:10:23.448Z
+dateofacceptance: 2021-03-27T07:10:23.448Z
 description: "Mutations at different stages of the mitogen-activated protein
   kinase (MAPK) signaling pathway lead to aberrant activation of the involved
   protein kinase entities. These oncogenic modifications alter signal
