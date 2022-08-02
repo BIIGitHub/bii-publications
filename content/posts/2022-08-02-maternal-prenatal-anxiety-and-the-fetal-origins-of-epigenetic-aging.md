@@ -6,6 +6,7 @@ journaltypes: Journal Paper
 journal: "Biological Psychiatry 2022 Feb 1;91(3):303-312. doi:
   10.1016/j.biopsych.2021.07.025. Epub 2021 Aug 19"
 pubmed: "34756561"
+url: https://www.biologicalpsychiatryjournal.com/article/S0006-3223(21)01527-4/fulltext
 impactfactor: "13.382"
 dateofacceptance: ""
 description: "The fetal origins of mental health is a well-established framework
