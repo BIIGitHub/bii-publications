@@ -9,7 +9,7 @@ journal: "Journal of Investigative Dermatology, 2022 Apr 23, doi:
 pubmed: "35469906"
 url: https://www.jidonline.org/article/S0022-202X(22)00301-3/fulltext
 impactfactor: "8.551"
-dateofacceptance: 2022-09-09T06:07:13.265Z
+dateofacceptance: 2022-04-11T06:07:13.265Z
 description: Solute carrier transporters are the second largest family of
   membrane proteins responsible for the transport of various substances such as
   saccharides, lipids, amino acids, and inorganic ions across cellular membranes
