@@ -22,6 +22,7 @@ description: Focal adhesions (FAs) play an important role in sensing mechanical
   fibroblasts has been elucidated at the nanoscale level (Kanchanawong et al.,
   2010), little is known about the substrate rigidity sensing mechanisms of the
   cell.
+uploadfile: /media/uploads/1290_zyxin-is-involved-in-fibroblast-rigidity-sensing.pdf
 tags:
   - Yip AK
   - Zhang S
