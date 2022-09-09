@@ -10,6 +10,7 @@ dateofacceptance: 2022-01-15T04:55:00.000Z
 description: "Keywords : Adversarial vulnerability, Adversarial attacks,
   Decision boundary, Regularization, Data Sparsity, Smooth SoftMax score
   surface"
+uploadfile: /media/uploads/1293a_explaining-adversarial-vulnerability.pdf
 tags:
   - Paknezhad M
   - Cuong PN
