@@ -2,7 +2,7 @@
 template: post
 title: Immunity Depletion, Telomere Imbalance, and Cancer-Associated Metabolism
   Pathway Aberrations in Intestinal Mucosa upon Short-Term Caloric Restriction
-date: 2023-09-24T16:00:00.000Z
+date: 2021-06-24T16:00:00.000Z
 journaltypes: Journal Paper
 journal: "Cancers 2021, 13, 3180, doi.org/10.3390/cancers13133180 "
 pubmed: "34202278"
