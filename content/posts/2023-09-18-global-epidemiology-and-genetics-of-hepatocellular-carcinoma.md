@@ -1,13 +1,13 @@
 ---
 template: post
 title: Global Epidemiology and Genetics of Hepatocellular Carcinoma
-date: 2023-09-18T13:21:18.022Z
+date: 2023-02-02T13:21:00.000Z
 journaltypes: Journal Paper
 journal: "Gastroenterology. 2023 Apr;164(5):766-782. doi: 10.1053/j.gastro.2023.01.033"
 pubmed: "36738977"
 url: https://www.sciencedirect.com/science/article/abs/pii/S0016508523001051
 impactfactor: "33.883"
-dateofacceptance: 2023-09-18T13:21:18.033Z
+dateofacceptance: 2023-01-29T13:21:00.000Z
 description: "Keywords: Hepatocellular Carcinoma; Epidemiology; Genetics."
 uploadfile: /media/uploads/1357_global-epidemiology-and-genetics-of-hepatocellular.pdf
 tags:
