@@ -1,14 +1,14 @@
 ---
 template: post
 title: The Singapore National Precision Medicine Strategy
-date: 2023-01-09T14:50:00.000Z
+date: 2023-09-18T14:54:55.916Z
 journaltypes: Journal Paper
 journal: "Nature Genetics, 2023 Feb;55(2):178-186. doi:
   10.1038/s41588-022-01274-x, Feb 2023"
 pubmed: "36658435"
 url: https://www.nature.com/articles/s41588-022-01274-x
 impactfactor: "30.8"
-dateofacceptance: 2023-11-30T14:50:00.000Z
+dateofacceptance: 2023-09-18T14:54:56.935Z
 description: Precision medicine promises to transform healthcare for groups and
   individuals through early disease detection, refining diagnoses and tailoring
   treatments. Analysis of large-scale genomic-phenotypic databases is a critical
