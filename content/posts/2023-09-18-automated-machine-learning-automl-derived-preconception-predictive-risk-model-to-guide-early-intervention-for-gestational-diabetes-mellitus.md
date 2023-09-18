@@ -2,7 +2,7 @@
 template: post
 title: Automated Machine Learning (AutoML)-Derived Preconception Predictive Risk
   Model to Guide Early Intervention for Gestational Diabetes Mellitus
-date: 2022-06-03T06:43:00.000Z
+date: 2022-06-01T06:43:00.000Z
 journaltypes: Journal Paper
 journal: "International Journal of Environmental Research and Public Health,
   2022, 19(11), 6792,  doi: 10.3390/ijerph19116792"
