@@ -4,10 +4,10 @@ title: A novel 3-miRNA network regulates tumour  progression in oral squamous
   cell carcinoma
 date: 2023-06-14T14:05:00.000Z
 journaltypes: Journal Paper
-journal: "Biomarker Research 2023 Jun 14;11(1):64. doi:
-  10.1186/s40364-023-00505-5. PMID: 37316916"
-pubmed: "37175867"
-impactfactor: "6.208"
+journal: "Biomarker Research 2023 Jun 14;11(1):64. doi: 10.1186/s40364-023-00505-5"
+pubmed: "37316916"
+url: https://biomarkerres.biomedcentral.com/articles/10.1186/s40364-023-00505-5
+impactfactor: "8.633"
 dateofacceptance: 2023-03-19T14:05:00.000Z
 description: This study identified potential salivary exosome-derived miRNA
   biomarkers and crucial miRNA-mRNA networks/underlying mechanisms responsible
