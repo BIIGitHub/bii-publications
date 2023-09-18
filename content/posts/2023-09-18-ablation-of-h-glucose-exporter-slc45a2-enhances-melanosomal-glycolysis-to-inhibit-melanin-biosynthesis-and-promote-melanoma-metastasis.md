@@ -4,7 +4,7 @@ title: Ablation of H+/glucose Exporter SLC45A2 Enhances Melanosomal Glycolysis
   to Inhibit Melanin Biosynthesis and Promote Melanoma Metastasis
 date: 2022-04-23T04:18:00.000Z
 journaltypes: Journal Paper
-journal: "Journal of Investigative Dermatology, 2022 Apr 23, doi:
+journal: "Journal of Investigative Dermatology, 2022 Apr 22, doi:
   10.1016/j.jid.2022.04.008"
 pubmed: "35469906"
 url: https://www.sciencedirect.com/science/article/pii/S0022202X22003013
