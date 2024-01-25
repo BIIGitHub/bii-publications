@@ -11,7 +11,47 @@ module.exports = async (graphql, actions) => {
   const result = await graphql(`
     {
       allMarkdownRemark(
-        filter: { frontmatter: { template: { eq: "post" } } }
+        filter: { frontmatter: { 
+        template: { eq: "post" }
+                  categories: {
+            in: [
+              "Biomolecular Function Discovery Division"
+              "Biomolecular Modelling and Design Division"
+              "Imaging Informatics Division"
+              "Translational Research Division"
+              "Biomolecular Sequence To Function Division"
+              "Biomolecular Structure To Mechanism Division"
+              "Cellular Image Informatics Division"
+              "Gene Function Prediction"
+              "Protein Sequence Analysis"
+              "Function and Structure of RNA"
+              "Analytics of Biological Sequence Data"
+              "Aging Biology Interventional Research"
+              "Atomistic Simulations and Design in Biology"
+              "Physics and Evolution of Biological Macromolecules"
+              "Multiscale Simulation, Modelling and Design"
+              "Structure-based Ligand Discovery and Design"
+              "Computational Chemical biology and Fragment-based Design"
+              "Algorithms and Models of Protein Machinery"
+              "Computer Vision and Pattern Discovery for Bioimages"
+              "Machine Learning for Bioimage Analysis"
+              "Biophysical Modelling"
+              "Complex Cellular Phenotype Analysis"
+              "Clinical Data Analytics & Radiomics"
+              "Natural Product Biology"
+              "Natural Product Chemistry"
+              "Chemical Genomics"
+              "Antibody and Product Development"
+              "BioMedical Data Architecture & Repository"
+              "Clinical Data Engagement"
+              "Research Data Integration"
+              "Algorithms and Models of Protein Machinery"
+              "Genome & Gene Expression Data Analysis"
+              "Spatial & Single-Cell Omics Immunology"
+              "Molecular Innovations And AI Integrations"
+            ]
+          }
+        } }
       ) {
         group(field: frontmatter___categories) {
           fieldValue
