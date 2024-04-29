@@ -6,6 +6,7 @@ date: 2023-05-08T13:52:00.000Z
 journaltypes: Journal Paper
 journal: "Chem, 11 May 23, Vol. 9, Issue 5, "
 url: https://www.sciencedirect.com/science/article/abs/pii/S2451929423001870
+impactfactor: "25.83"
 dateofacceptance: 2023-04-11T13:52:00.000Z
 description: Biomimetic membranes incorporating artificial water channels (AWCs)
   are being developed for industrial water purification. Designing AWCs to
