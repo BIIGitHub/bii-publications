@@ -2,14 +2,14 @@
 template: post
 title: SARS-CoV-2 spike protein as a bacterial lipopolysaccharide delivery
   system in an overzealous inflammatory cascade
-date: 2022-02-06T16:00:00.000Z
+date: 2022-10-13T16:00:00.000Z
 journaltypes: Journal Paper
 journal: "Journal of Molecular Cell Biology, 2023 Feb 7;14(9):mjac058. doi:
   10.1093/jmcb/mjac058."
 pubmed: "36240490"
 url: https://academic.oup.com/jmcb/article/14/9/mjac058/6761401
-impactfactor: "4.19"
-dateofacceptance: ""
+impactfactor: "5.5"
+dateofacceptance: 2022-10-10T16:00:00.000Z
 description: Pulmonary and systemic hyperinflammation are some of the prominent
   hallmarks of severe COVID-19 disease.
 uploadfile: /media/uploads/1398_sars-cov2-spike-protein-as-a-bacterial.pdf
