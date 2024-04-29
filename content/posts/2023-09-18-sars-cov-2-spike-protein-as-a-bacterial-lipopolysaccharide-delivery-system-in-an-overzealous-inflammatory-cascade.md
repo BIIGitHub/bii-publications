@@ -8,8 +8,8 @@ journal: "Journal of Molecular Cell Biology, 2022 Oct 14, mjac058, doi:
   10.1093/jmcb/mjac058"
 pubmed: "36240490"
 url: https://academic.oup.com/jmcb/article/14/9/mjac058/6761401
-impactfactor: "8.185"
-dateofacceptance: ""
+impactfactor: "5.5"
+dateofacceptance: 2022-10-10T16:00:00.000Z
 description: "Keywords: COVID-19, SARS-CoV-2, spike protein, lipopolysaccharide,
   TLR4, hyperinflammation"
 uploadfile: /media/uploads/1341_sars-cov2-spike-protein.pdf
