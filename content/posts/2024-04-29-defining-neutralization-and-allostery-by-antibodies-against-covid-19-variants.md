@@ -1,7 +1,7 @@
 ---
 template: post
 title: Defining neutralization and allostery by antibodies against COVID-19 variants
-date: 2024-04-29T07:24:51.782Z
+date: 2023-11-01T07:24:00.000Z
 journaltypes: Journal Paper
 journal: "Nature Communications 2023 Nov 1;14(1):6967. doi: 10.1038/s41467-023-42408-x."
 pubmed: "37907459"
