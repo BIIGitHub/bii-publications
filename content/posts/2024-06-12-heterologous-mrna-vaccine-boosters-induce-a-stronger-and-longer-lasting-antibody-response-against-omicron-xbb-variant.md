@@ -47,8 +47,8 @@ tags:
   - Ng LFP
   - Renia L.
 categories:
-  - "Biomolecular Function Discovery Division "
   - Protein Sequence Analysis
+  - Biomolecular Sequence To Function Division
 ---
 The SARS-CoV-2 Omicron recombinant XBB subvariant was first detected in September 2022, and rapidly spread across South-East Asia, notably overtaking BA.5 to become the dominant variant in Singapore. As of December 2022, the prevalence of XBB is also increasing in the United States and Europe.1
 XBB was likely formed from a recombination between strains from the BA.2.10 and BA.2.75 lineages, with the recombination breakpoint at position 446–460.2
