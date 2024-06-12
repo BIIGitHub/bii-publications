@@ -36,8 +36,8 @@ tags:
   - Cheong W.Y
   - Ting D.S.W.
 categories:
-  - "Biomolecular Function Discovery Division "
   - Protein Sequence Analysis
+  - "Biomolecular Function Discovery Division "
 ---
 <!--StartFragment-->
 
