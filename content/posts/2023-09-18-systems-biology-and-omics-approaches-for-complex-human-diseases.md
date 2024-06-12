@@ -17,8 +17,7 @@ tags:
   - Selvarajoo K
   - Giuliani A.
 categories:
-  - "Biomolecular Function Discovery Division "
-  - Computational Biology & Omics Lab
+  - Biomolecular Sequence To Function Division
 ---
 <!--StartFragment-->
 
