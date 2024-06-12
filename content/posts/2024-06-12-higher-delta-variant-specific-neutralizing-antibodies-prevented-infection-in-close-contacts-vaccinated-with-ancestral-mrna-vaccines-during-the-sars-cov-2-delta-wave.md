@@ -10,7 +10,7 @@ journal: "Scientific Reporrts 13, Article no 19331 (2023), doi:
 pubmed: "37935965"
 url: https://www.nature.com/articles/s41598-023-46800-x
 impactfactor: "4.6"
-dateofacceptance: 2024-06-12T07:26:04.941Z
+dateofacceptance: ""
 description: COVID-19 vaccines have been essential in bringing the pandemic
   under control. They have shown to be highly efficacious against severe
   diseases
