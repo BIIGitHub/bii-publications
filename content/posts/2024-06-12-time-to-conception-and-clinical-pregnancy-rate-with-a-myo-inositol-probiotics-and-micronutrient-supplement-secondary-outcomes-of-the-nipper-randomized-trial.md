@@ -33,7 +33,7 @@ tags:
   - Cutfield WS
   - Godfrey KM; NiPPeR Study Group
 categories:
-  - BioMedical Data Architecture & Repository
+  - Clinical Data Engagement
 ---
 <!--StartFragment-->
 
