@@ -40,8 +40,8 @@ tags:
   - Ng LFP
   - Renia L.
 categories:
-  - "Biomolecular Function Discovery Division "
   - Protein Sequence Analysis
+  - Biomolecular Sequence To Function Division
 ---
 <!--StartFragment-->
 
