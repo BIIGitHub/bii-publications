@@ -70,5 +70,8 @@ module.exports = {
     "Genome & Gene Expression Data Analysis",
     "Spatial & Single-Cell Omics Immunology",
     "Molecular Innovations And AI Integrations",
+    "Biomedical Data Hub Division",
+    "Analysis/HuPo",
+    "Computational Biology & Omics Lab",
   ],
 };
