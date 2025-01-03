@@ -52,10 +52,6 @@ module.exports = async (graphql, actions) => {
               "Biomedical Data Hub Division"
               "Analysis/HuPo"
               "Computational Biology & Omics Lab"
-              "Advanced Spatial Omics with Quantum and Generative AI"
-              "AI-powered Single-cell and Spatial Omics Analysis for Precision Medicine"
-              "Data Management"
-              "Data Science for Population Health"
             ]
           }
         } }
